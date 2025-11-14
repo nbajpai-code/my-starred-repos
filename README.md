@@ -1,10 +1,10 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **700+ starred repositories** spanning AI, Cybersecurity, Cloud, Networking, and Python Development — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **1,250+ starred repositories** spanning AI, Cybersecurity, Cloud, Networking, and Python Development — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-700+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-1,250+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
 ---
 
@@ -161,6 +161,57 @@ Azure Sentinel | DevOpsKit
 Calico | Cilium | Antrea | Flannel | Weave | CNI Plugins
 ```
 
+### Cisco Network Observability Stack (~225 repos)
+
+<details>
+<summary>📡 Cisco Full-Stack Observability Platform</summary>
+
+#### Cisco Open (~98 repos)
+- **OpenTelemetry:** otel-js, otel-java, otel-py, otel-dotnet, otel-webserver-module
+- **FSO Tools:** terraform-provider-observability, fsoc, fso-dashboard-examples
+- **AppDynamics:** appd-client-go, terraform-provider-appd, appdynamics-k8s-webhook-instrumentor
+- **ThousandEyes:** ansible-role-thousandeyes-enterprise-agent-linux
+- **Network:** jalapeno, gnmi-client-examples, network-sketcher
+
+#### Model-Driven Telemetry (4 repos)
+| Platform | Repository | Description |
+|----------|------------|-------------|
+| **IOS XE** | cisco-ios-xe-mdt | YANG-based MDT for IOS XE |
+| **IOS XR** | model-driven-telemetry | IOS XR telemetry protos |
+| **NX-OS** | nx-telemetry-proto | NX-OS GPB/gRPC telemetry |
+| **Multi-Platform** | network-programmability-stream | MDT examples |
+
+#### Cisco Innovation Edge (~59 repos)
+- **Telemetry:** bigmuddy-network-telemetry-pipeline, pipeline-gnmi, cisco-mdt-python
+- **gRPC/gNMI:** ios-xr-grpc-python, cisco-gnmi-python, gnmi, gnmitest
+- **Network Tools:** awesome-network-programmability, telemetry_stacks
+- **Protocols:** cisco-proto, nx-telemetry-proto, yang-json-validator
+
+#### DNA Center (8 repos)
+```
+awesome-cisco-dnac | DNAC-Top5 | DNAC-AURA | DNA_Analyzer
+dnacenter_git_integrations | import-dnac-nso
+```
+
+#### Cisco Public Sector (~48 repos)
+- **Network Automation:** ansible-viptela, viptela-ops, ansible-meraki
+- **Observability:** cisco-splunk-mdt, grafana
+- **Security:** cisco-cyber-vision, cybervisionapi
+
+#### Network Programmability
+- **pyATS/Genie:** CiscoTestAutomation/pyats, genieparser
+- **YANG Models:** YangModels/yang, openconfig/public
+
+</details>
+
+**Cisco FSO Components:**
+- ✅ **ThousandEyes** - Network performance monitoring
+- ✅ **AppDynamics** - APM (Splunk Observability family)
+- ✅ **Intersight** - Infrastructure management
+- ✅ **Model-Driven Telemetry** - Streaming telemetry (IOS XE/XR, NX-OS)
+- ✅ **DNA Center** - Network automation & analytics
+- ✅ **NSO** - Service orchestration
+
 ---
 
 ## 🐍 Python Development
@@ -305,11 +356,16 @@ graph LR
 | 🤖 **AI & ML** | ~238 | LLMs, Infrastructure, Training |
 | 🔐 **Cybersecurity** | ~132 | SAST, DAST, K8s Security, DevSecOps |
 | ☁️ **Cloud** | ~23 | AWS, Azure, IaC |
-| 🌐 **Networking** | ~131 | Observability, Data Center, Cisco |
+| 🌐 **Networking** | ~356 | Observability, Data Center, Cisco FSO |
 | 🐍 **Python** | ~136 | Frameworks, Tools, Best Practices |
 | 🏢 **Broadcom/CA** | ~361 | DxNetOps, APM, API Management |
 | 🌐 **API** | ~13 | Gateways, Security |
-| **TOTAL** | **~1,034** | Comprehensive Tech Stack |
+| **TOTAL** | **~1,259** | Comprehensive Tech Stack |
+
+### Networking Breakdown:
+- General Network Observability: 69 repos
+- Data Center Networking: 62 repos
+- **Cisco Observability Stack: 225 repos** ⭐ NEW!
 
 ---
 
