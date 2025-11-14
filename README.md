@@ -6,6 +6,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
 [![Stars](https://img.shields.io/badge/Starred%20Repos-2,450+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 2,500+ starred repos with direct links!
+
 ---
 
 ## 📋 Table of Contents
