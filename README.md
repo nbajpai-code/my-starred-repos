@@ -1,10 +1,10 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **2,350+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, and Python Development — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **2,450+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), and Python Development — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-2,350+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-2,450+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
 ---
 
@@ -18,6 +18,7 @@
 - [🌐 Networking & Observability](#-networking--observability)
 - [🔀 Networking Protocols](#-networking-protocols)
 - [☸️ Cloud Native & CNCF](#️-cloud-native--cncf)
+- [⚡ Systems Programming (C++, Go, LLVM)](#-systems-programming-c-go-llvm)
 - [🐍 Python Development](#-python-development)
 - [🎤 Conference Resources](#-conference-resources)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
@@ -556,6 +557,169 @@ The CNCF hosts critical components of the global technology infrastructure, prov
 ### KubeCon Presentations
 - KubeCon-CloudNativeCon-Europe-2019 slides
 - KubeCon-North-America-2018 slides
+
+---
+
+## ⚡ Systems Programming (C++, Go, LLVM)
+
+### LLVM & Clang Compiler Infrastructure (~5 repos)
+
+| Project | Description | Key Features |
+|---------|-------------|--------------|
+| **llvm/llvm-project** | Modular compiler & toolchain technologies | C/C++/Objective-C compiler (Clang), LLDB debugger, libc++ |
+| **llvm/circt** | Circuit IR Compilers and Tools | Hardware description language compilation |
+| **ROCm-Developer-Tools/llvm-project** | AMD ROCm LLVM mirror | GPU computing optimizations |
+| **IITH-Compilers/ml-llvm-project** | ML-driven compiler optimizations | gRPC-based ML compiler bridge |
+
+### Top C++ Projects (~29 repos)
+
+<details>
+<summary>🔧 View C++ Categories</summary>
+
+#### Machine Learning & AI
+- **tensorflow/tensorflow** (192K+ ⭐) - Open Source ML Framework
+- **opencv/opencv** (84K+ ⭐) - Computer Vision Library
+- **ggml-org/llama.cpp** (89K+ ⭐) - LLM inference in C/C++
+- **ggml-org/whisper.cpp** (44K+ ⭐) - OpenAI Whisper in C/C++
+- **nomic-ai/gpt4all** (76K+ ⭐) - Run Local LLMs
+- **facebookresearch/faiss** (37K+ ⭐) - Vector similarity search
+- **BVLC/caffe** (34K+ ⭐) - Deep learning framework
+
+#### Systems & Infrastructure
+- **electron/electron** (119K+ ⭐) - Cross-platform desktop apps
+- **godotengine/godot** (103K+ ⭐) - Multi-platform game engine
+- **microsoft/terminal** (100K+ ⭐) - Windows Terminal
+- **bitcoin/bitcoin** (86K+ ⭐) - Bitcoin Core
+- **grpc/grpc** (43K+ ⭐) - High-performance RPC framework
+- **ClickHouse/ClickHouse** (44K+ ⭐) - Real-time analytics DBMS
+
+#### Developer Tools
+- **tesseract-ocr/tesseract** (70K+ ⭐) - OCR Engine
+- **protocolbuffers/protobuf** (69K+ ⭐) - Protocol Buffers
+- **ocornut/imgui** (69K+ ⭐) - Immediate mode GUI
+- **swiftlang/swift** (69K+ ⭐) - Swift Programming Language
+- **LadybirdBrowser/ladybird** (55K+ ⭐) - Independent web browser
+- **WerWolv/ImHex** (51K+ ⭐) - Hex editor
+- **nlohmann/json** (47K+ ⭐) - JSON for Modern C++
+- **x64dbg/x64dbg** (47K+ ⭐) - Windows debugger
+- **google/leveldb** (38K+ ⭐) - Key-value storage
+- **google/googletest** (37K+ ⭐) - Testing framework
+- **aseprite/aseprite** (34K+ ⭐) - Pixel art tool
+- **aria2/aria2** (39K+ ⭐) - Download utility
+
+#### C++ Learning Resources
+- **Light-City/CPlusPlusThings** (42K+ ⭐) - C++ educational resource
+- **huihut/interview** (37K+ ⭐) - C/C++ interview prep
+- **isocpp/CppCoreGuidelines** - Modern C++ best practices
+- **changkun/modern-cpp-tutorial** - Modern C++ tutorial
+
+</details>
+
+### Top Go Projects (~28 repos)
+
+<details>
+<summary>🐹 View Go Categories</summary>
+
+#### Infrastructure & Cloud Native
+- **kubernetes/kubernetes** (118K+ ⭐) - Container orchestration
+- **moby/moby** (71K+ ⭐) - Container ecosystem (Docker)
+- **prometheus/prometheus** (61K+ ⭐) - Monitoring & time series DB
+- **etcd-io/etcd** (50K+ ⭐) - Distributed key-value store
+- **traefik/traefik** (57K+ ⭐) - Cloud Native Application Proxy
+- **minio/minio** (58K+ ⭐) - S3-compatible object store
+- **hashicorp/terraform** (47K+ ⭐) - Infrastructure as Code
+
+#### AI & Machine Learning
+- **ollama/ollama** (155K+ ⭐) - Run LLMs locally (DeepSeek-R1, Gemma 3)
+
+#### Web Frameworks & Tools
+- **gin-gonic/gin** (86K+ ⭐) - HTTP web framework
+- **gohugoio/hugo** (84K+ ⭐) - Static site generator
+- **caddyserver/caddy** (67K+ ⭐) - HTTP/1-2-3 web server
+- **pocketbase/pocketbase** (52K+ ⭐) - Realtime backend in 1 file
+
+#### DevOps & Utilities
+- **fatedier/frp** (100K+ ⭐) - Fast reverse proxy
+- **syncthing/syncthing** (77K+ ⭐) - File synchronization
+- **junegunn/fzf** (75K+ ⭐) - Command-line fuzzy finder
+- **jesseduffield/lazygit** (67K+ ⭐) - Terminal UI for git
+- **nektos/act** (66K+ ⭐) - Run GitHub Actions locally
+- **FiloSottile/mkcert** (57K+ ⭐) - Local development certificates
+- **rclone/rclone** (53K+ ⭐) - Cloud storage sync
+- **wagoodman/dive** (52K+ ⭐) - Docker image explorer
+- **jesseduffield/lazydocker** (47K+ ⭐) - Docker management UI
+
+#### Git Services
+- **go-gitea/gitea** (51K+ ⭐) - Self-hosted Git service
+- **gogs/gogs** (47K+ ⭐) - Painless self-hosted Git
+
+#### Blockchain & Crypto
+- **ethereum/go-ethereum** (50K+ ⭐) - Ethereum protocol (Go)
+
+#### Networking & Proxy
+- **v2ray/v2ray-core** (46K+ ⭐) - Platform for building proxies
+
+#### Productivity
+- **usememos/memos** (45K+ ⭐) - Self-hosted note-taking
+
+#### Learning Resources
+- **avelino/awesome-go** (157K+ ⭐) - Curated list of Go frameworks
+- **golang/go** (130K+ ⭐) - The Go programming language
+
+</details>
+
+### gRPC Ecosystem (~11 repos)
+
+| Project | Description | Language |
+|---------|-------------|----------|
+| **grpc/grpc** | High-performance RPC framework | C++ |
+| **grpc/grpc-go** | gRPC implementation in Go | Go |
+| **grpc/grpc-java** | gRPC implementation in Java | Java |
+| **grpc/grpc-web** | gRPC for browser clients | JavaScript |
+| **grpc/grpc-node** | gRPC implementation in Node.js | JavaScript |
+| **grpc/grpc-swift** | gRPC implementation in Swift | Swift |
+| **grpc/grpc-dotnet** | gRPC implementation in .NET | C# |
+| **grpc-ecosystem/grpc-gateway** | REST to gRPC gateway | Go |
+| **grpc-ecosystem/go-grpc-middleware** | Interceptor chaining | Go |
+| **grpc-ecosystem/awesome-grpc** | Curated gRPC resources | - |
+| **fullstorydev/grpcui** | Interactive web UI for gRPC | Go |
+| **fullstorydev/grpcurl** | cURL-like tool for gRPC | Go |
+
+### Go Infrastructure & Tools (~10 repos)
+
+- **golang/tools** - Go tools (gopls, goimports, gorename)
+- **golang/protobuf** - Go support for Protocol Buffers
+- **uber-go/zap** - Blazing fast, structured logging
+- **spf13/cobra** - CLI framework
+- **spf13/viper** - Configuration solution
+- **stretchr/testify** - Testing toolkit
+- **gorilla/mux** - HTTP router and URL matcher
+- **labstack/echo** - High performance web framework
+- **go-chi/chi** - Lightweight router
+- **dgrijalva/jwt-go** - JWT implementation
+
+### Modern C++ Frameworks (~10 repos)
+
+- **cameron314/concurrentqueue** - Fast multi-producer, multi-consumer queue
+- **google/flatbuffers** - Memory efficient serialization
+- **google/benchmark** - Microbenchmark library
+- **abseil/abseil-cpp** - C++ library supplement to STL
+- **microsoft/vcpkg** - C/C++ package manager
+- **gabime/spdlog** - Fast C++ logging library
+- **fmtlib/fmt** - Modern formatting library
+- **catchorg/Catch2** - Modern C++ testing framework
+- **google/re2** - Regular expression library
+- **libuv/libuv** - Cross-platform async I/O
+
+### Compiler Tools & Utilities (~5 repos)
+
+- **WebAssembly/wabt** - WebAssembly Binary Toolkit
+- **WebAssembly/binaryen** - Compiler and toolchain infrastructure
+- **rui314/mold** - Modern linker (faster than ld)
+- **llvm/llvm-test-suite** - LLVM test suite
+- **include-what-you-use/include-what-you-use** - C/C++ include analyzer
+
+**Total: ~98 repositories**
 
 ---
 
