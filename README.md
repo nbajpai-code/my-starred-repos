@@ -1,10 +1,10 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **2,200+ starred repositories** spanning AI, Cybersecurity, Cloud, Networking, and Python Development — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **2,350+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, and Python Development — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-2,200+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-2,350+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
 ---
 
@@ -12,6 +12,7 @@
 
 - [👤 About](#-about)
 - [🤖 Artificial Intelligence & Machine Learning](#-artificial-intelligence--machine-learning)
+- [🤖 AIOps - AI for IT Operations](#-aiops---ai-for-it-operations)
 - [🔐 Cybersecurity & DevSecOps](#-cybersecurity--devsecops)
 - [☁️ Cloud Infrastructure](#️-cloud-infrastructure)
 - [🌐 Networking & Observability](#-networking--observability)
@@ -20,6 +21,7 @@
 - [🐍 Python Development](#-python-development)
 - [🎤 Conference Resources](#-conference-resources)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
+- [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
 - [🔧 Quick Links](#-quick-links)
 
@@ -59,20 +61,55 @@ This repository serves as a curated index of my starred GitHub projects, organiz
 - **3D Vision:** eg3d, kaolin, nvdiffrast
 - **Frameworks:** tiny-cuda-nn, sionna
 
-### AI Infrastructure & MLOps (~96 repos)
+### AI Infrastructure & MLOps (~115 repos)
 
 <details>
-<summary>📊 View Categories</summary>
+<summary>📊 View MLOps Categories</summary>
 
-| Category | Count | Key Tools |
-|----------|-------|-----------|
-| **Model Serving** | 11 | vLLM, BentoML, TensorRT, TorchServe, KServe |
-| **MLOps Platforms** | 10 | MLflow, DVC, Weights & Biases, ClearML, ZenML |
-| **Distributed Training** | 8 | Ray, DeepSpeed, Horovod, ColossalAI |
-| **Kubernetes ML** | 6 | Kubeflow, Volcano, KubeDL |
-| **Model Fine-tuning** | 7 | LLaMA-Factory, PEFT, LoRA, QLoRA |
-| **RAG & Vector DBs** | 7 | Milvus, Chroma, Qdrant, Weaviate, pgvector |
-| **Model Optimization** | 8 | llama.cpp, GPTQ, ONNX, bitsandbytes |
+#### Core MLOps Platforms (~19 repos)
+| Platform | Purpose | Key Features |
+|----------|---------|--------------|
+| **MLflow** | End-to-end ML lifecycle | Experiment tracking, versioning, deployment |
+| **Kubeflow** | ML workflows on K8s | Pipeline orchestration, scalability |
+| **DVC** | Data Version Control | Git-like versioning for datasets/models |
+| **Metaflow** (Netflix) | Human-centric ML workflows | Real-world use cases focus |
+| **Seldon Core** | K8s ML deployment | Monitoring, scaling, A/B testing |
+| **ClearML** | Auto-Magical CI/CD | ML workflow automation |
+| **CML** | CI/CD for ML | Machine learning project automation |
+| **KitOps** | MLOps handoffs | Data scientists to DevOps integration |
+| **ZenML** | Extensible MLOps | Framework for ML pipelines |
+| **Feast** | Feature store | ML feature management |
+| **BentoML** | Production ML services | Model serving framework |
+
+#### Hyperparameter Optimization (~4 repos)
+- **Optuna** - Hyperparameter optimization framework (TPE, grid search)
+- **scikit-optimize** - Minimize expensive black-box functions
+- **Talos** - Hyperparameter optimization for TensorFlow, Keras, PyTorch
+- **Ray Tune** - Experiment execution and hyperparameter tuning at scale
+
+#### Model Serving & Deployment (~11 repos)
+- vLLM, BentoML, TensorRT, TorchServe, KServe, Seldon Core
+- Model optimization: ONNX, TensorFlow Serving
+
+#### Distributed Training (~8 repos)
+- Ray, DeepSpeed, Horovod, ColossalAI
+
+#### Kubernetes ML (~6 repos)
+- Kubeflow, Volcano, KubeDL
+
+#### Model Fine-tuning (~7 repos)
+- LLaMA-Factory, PEFT, LoRA, QLoRA
+
+#### RAG & Vector DBs (~7 repos)
+- Milvus, Chroma, Qdrant, Weaviate, pgvector
+
+#### Model Optimization (~8 repos)
+- llama.cpp, GPTQ, ONNX, bitsandbytes
+
+#### Learning Resources
+- **awesome-mlops** (kelvins) - Curated list of MLOps tools
+- **awesome-mlops-platforms** - Open source & commercial platforms
+- **Made-With-ML** (GokuMohandas) - Production ML best practices
 
 </details>
 
@@ -80,6 +117,37 @@ This repository serves as a curated index of my starred GitHub projects, organiz
 - **Frameworks:** LangChain, LlamaIndex, Dify, CrewAI, AutoGen
 - **Protocols:** Model Context Protocol (MCP), Agent2Agent (A2A)
 - **Tools:** Awesome LLM Apps, Awesome Agents, Best AI Knowledge Repos
+
+---
+
+## 🤖 AIOps - AI for IT Operations
+
+### Open Source AIOps Platforms (~10 repos)
+
+<details>
+<summary>🎯 View AIOps Tools</summary>
+
+#### Core AIOps Platforms
+| Platform | Description | Key Features |
+|----------|-------------|--------------|
+| **Keep** (keephq/keep) | Open-source AIOps & alert management | GitHub Actions for monitoring, YAML workflows |
+| **AIOpsLab** (microsoft) | Autonomous AIOps agents framework | MLSys'25, microservice environments, fault injection |
+| **awesome-AIOps** (OpsPAI) | Curated academic & industrial materials | Research papers, tools, best practices |
+
+#### Anomaly Detection & Root Cause Analysis
+- **Loglizer** (logpai) - Machine learning toolkit for log-based anomaly detection
+- **SREWorks** (alibaba) - Cloud-native data platform for AIOps
+- **Luminol** (linkedin) - Anomaly detection and correlation library
+- **NuPIC** (numenta) - Numenta Platform for Intelligent Computing
+- **Skyline** (earthgecko) - Real-time anomaly detection system
+
+#### Key Features & Integrations
+- **Observability Integration:** Prometheus, Grafana, Datadog, ELK stack
+- **AI Anomaly Detection:** Direct integration into CI/CD pipelines
+- **Commercial Platforms:** Datadog, Dynatrace (Davis AI), Moogsoft, BigPanda
+- **Use Cases:** Automatic problem detection, root cause analysis, alert correlation
+
+</details>
 
 ---
 
@@ -194,6 +262,17 @@ Azure Sentinel | DevOpsKit
 ```
 Calico | Cilium | Antrea | Flannel | Weave | CNI Plugins
 ```
+
+### ScienceLogic Observability (~20 repos)
+
+**ScienceLogic Organization** (github.com/ScienceLogic)
+- **otel-components** - ScienceLogic's OpenTelemetry Components (Go, Apache-2.0, Updated Dec 2024)
+- **stackconfig** - Render, merge and validate docker-compose files for deploying docker stacks (Python)
+- Infrastructure tools and adapters (lua-resty-session, dex, Casbin adapters)
+
+**Commercial Platform:**
+- Skylar Automated RCA - AI observability solution
+- ScienceLogic AI Platform - Combines monitoring and observability with unsupervised AI
 
 ### Cisco Network Observability Stack (~225 repos)
 
@@ -570,6 +649,54 @@ The CNCF hosts critical components of the global technology infrastructure, prov
 
 </details>
 
+### SciPy Conference (~63 repos)
+
+<details>
+<summary>🔬 View SciPy Conference Resources</summary>
+
+#### SciPy Conference Organization (~33 repos)
+**Conference Infrastructure:**
+- **scipy_proceedings** - Tools for generating SciPy conference proceedings (2024 branch)
+- **scipy2024_sprints_first_PR** - PR onboarding exercise
+- **procbuild** - SciPy proceedings builder
+- **scipy_proceedings_archive** - Historical proceedings
+
+**2024 Conference:** 23rd annual SciPy conference, July 8-14, 2024, Tacoma Convention Center
+
+#### Core Scientific Python Stack (~30 repos)
+| Project | Purpose | Key Features |
+|---------|---------|--------------|
+| **scipy** | Scientific computing | Algorithms, optimization, signal processing |
+| **numpy** | Array computing | NumPy 2.0 released 2024 |
+| **matplotlib** | Visualization | Comprehensive plotting library |
+| **pandas** | Data analysis | DataFrame-based data manipulation |
+| **scikit-learn** | Machine learning | ML algorithms and tools |
+| **jupyter** | Interactive computing | Notebook environments |
+
+#### Python Software Foundation (~40 repos)
+- **requests** - HTTP library for Python
+- **black** - Code formatter
+- **httpbin** - HTTP request & response service
+- **pyperf** - Performance toolkit
+- Advisory database, policies, education working groups
+- PyPI stats, community code of conduct
+
+#### Advanced Scientific Tools
+- **cupy** - NumPy-compatible array library for GPU
+- **sympy** - Symbolic mathematics
+- **xarray** (pydata) - N-D labeled arrays and datasets
+- **dask** - Parallel computing library
+- **zarr-python** - Chunked, compressed, N-dimensional arrays
+- **holoviews** (holoviz) - High-level visualization
+- **pymc** - Probabilistic programming
+- **statsmodels** - Statistical modeling
+- **networkx** - Network analysis
+- **opencv-python** - Computer vision
+
+**Featured 2024 Talk:** "My NumPy year: From no CPython C API experience to shipping a new DType in NumPy 2.0"
+
+</details>
+
 ---
 
 ## 🏢 Enterprise Solutions (Broadcom/CA)
@@ -682,29 +809,36 @@ graph LR
 
 | Category | Repositories | Key Focus |
 |----------|--------------|-----------|
-| 🤖 **AI & ML** | ~504 | LLMs, Infrastructure, META, Google, Capital One |
+| 🤖 **AI & ML** | ~523 | LLMs, MLOps, Infrastructure, META, Google, Capital One |
+| 🤖 **AIOps** | ~10 | AI for IT Operations, Anomaly Detection, Alert Management |
 | 🔐 **Cybersecurity** | ~132 | SAST, DAST, K8s Security, DevSecOps |
 | ☁️ **Cloud** | ~200 | AWS, Azure, Google Cloud, Oracle Cloud, IaC |
-| 🌐 **Networking & Observability** | ~356 | Observability, Data Center, Cisco FSO |
+| 🌐 **Networking & Observability** | ~376 | ScienceLogic, Observability, Data Center, Cisco FSO |
 | 🔀 **Networking Protocols** | ~145 | BGP, OSPF, EVPN, SDN, MPLS, 5G Core, IPsec |
 | ☸️ **Cloud Native & CNCF** | ~162 | Kubernetes, Prometheus, Envoy, Service Mesh, GitOps |
 | 🐍 **Python** | ~136 | Frameworks, Tools, Best Practices |
-| 🎤 **Conference Resources** | ~231 | PyCon, KubeCon, Ray Summit, PyTorch |
+| 🎤 **Conference Resources** | ~294 | PyCon, KubeCon, Ray Summit, PyTorch, SciPy |
 | 🏢 **Broadcom/CA** | ~361 | DxNetOps, APM, API Management |
 | 🌐 **API** | ~13 | Gateways, Security |
-| **TOTAL** | **~2,240** | **Complete Enterprise Tech Stack** ⭐ |
+| **TOTAL** | **~2,352** | **Complete Enterprise Tech Stack** ⭐ |
 
 ### AI & ML Breakdown:
 - Original AI companies (NVIDIA, Anthropic, OpenAI, Perplexity): 94 repos
-- AI Infrastructure & MLOps: 96 repos
+- **AI Infrastructure & MLOps: 115 repos** ⭐ UPDATED!
 - AI Frameworks: 48 repos
 - **META (LLaMA, PyTorch, FacebookResearch): ~66 repos** ⭐ NEW!
 - **Google (GCP, Research, DeepMind, TensorFlow): ~130 repos** ⭐ NEW!
 - **Capital One (Data Science, ML tools): ~49 repos** ⭐ NEW!
 - **Cisco AI Infrastructure: ~9 repos** ⭐ NEW!
 
+### AIOps Breakdown:
+- **Core AIOps Platforms: 3 repos** ⭐ NEW!
+- **Anomaly Detection & Root Cause Analysis: 5 repos** ⭐ NEW!
+- Integration with Prometheus, Grafana, Datadog, ELK
+
 ### Networking Breakdown:
 - General Network Observability: 69 repos
+- **ScienceLogic Observability: 20 repos** ⭐ NEW!
 - Data Center Networking: 62 repos
 - **Cisco Observability Stack: 225 repos**
 - **BGP Routing: 7 repos** ⭐ NEW!
@@ -714,6 +848,13 @@ graph LR
 - **MPLS/VPN: 4 repos** ⭐ NEW!
 - **IPsec VPN: 3 repos** ⭐ NEW!
 - **5G Core: 33 repos** ⭐ NEW!
+
+### Conference Resources Breakdown:
+- PyCon: 101 repos
+- Ray Summit: 80 repos
+- PyTorch Conference: 50 repos
+- **SciPy Conference: 63 repos** ⭐ NEW!
+- KubeCon Presentations
 
 ### Cloud Breakdown:
 - AWS: 9 repos
@@ -726,25 +867,35 @@ graph LR
 
 ## 🎯 Current Focus Areas (2025)
 
-1. **🤖 Agentic AI Development**
+1. **🤖 Agentic AI Development & MLOps**
    - Multi-agent orchestration (MCP, A2A protocols)
    - LLM fine-tuning and deployment
    - RAG architectures
+   - End-to-end MLOps pipelines (MLflow, Kubeflow, DVC)
+   - Hyperparameter optimization and model serving
 
-2. **🔐 Cloud Security Automation**
+2. **🤖 AIOps & Intelligent Operations**
+   - AI-powered IT operations and automation
+   - Anomaly detection and root cause analysis
+   - Alert management and correlation
+   - Integration with observability stacks
+
+3. **🔐 Cloud Security Automation**
    - DevSecOps pipelines
    - Container & K8s security
    - Infrastructure scanning
 
-3. **🌐 Network Observability**
+4. **🌐 Network Observability & ScienceLogic**
    - eBPF-based monitoring
    - Service mesh observability
    - AI-powered analytics
+   - ScienceLogic OpenTelemetry components
 
-4. **🐍 Python Excellence**
+5. **🐍 Python Excellence & Scientific Computing**
    - Clean architecture patterns
    - Modern CLI development
    - Async programming
+   - Scientific Python stack (SciPy, NumPy, Pandas)
 
 ---
 
@@ -758,7 +909,8 @@ graph LR
 
 ## 📝 Notes
 
-- **Last Updated:** November 2025
+- **Last Updated:** November 14, 2025
+- **Latest Additions:** MLOps tools, AIOps platforms, ScienceLogic observability, SciPy Conference resources
 - **Maintenance:** Regularly updated with new discoveries and industry trends
 - **Purpose:** Professional development, continuous learning, and community engagement
 
