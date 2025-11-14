@@ -1,10 +1,10 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **1,250+ starred repositories** spanning AI, Cybersecurity, Cloud, Networking, and Python Development — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **1,650+ starred repositories** spanning AI, Cybersecurity, Cloud, Networking, and Python Development — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-1,250+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-1,650+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
 ---
 
@@ -15,6 +15,7 @@
 - [🔐 Cybersecurity & DevSecOps](#-cybersecurity--devsecops)
 - [☁️ Cloud Infrastructure](#️-cloud-infrastructure)
 - [🌐 Networking & Observability](#-networking--observability)
+- [🔀 Networking Protocols](#-networking-protocols)
 - [🐍 Python Development](#-python-development)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [📚 Learning Resources](#-learning-resources)
@@ -39,7 +40,7 @@ This repository serves as a curated index of my starred GitHub projects, organiz
 
 ## 🤖 Artificial Intelligence & Machine Learning
 
-### Leading AI Companies (~94 repos)
+### Leading AI Companies (~360 repos)
 
 | Company | Focus Areas | Key Repositories |
 |---------|-------------|------------------|
@@ -47,6 +48,9 @@ This repository serves as a curated index of my starred GitHub projects, organiz
 | **🟣 Anthropic** | Claude AI, SDKs, Tools | [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python), [claude-code](https://github.com/anthropics/claude-code), [anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook), [courses](https://github.com/anthropics/courses) |
 | **🔵 OpenAI** | GPT, Whisper, CLIP | [openai-python](https://github.com/openai/openai-python), [whisper](https://github.com/openai/whisper), [CLIP](https://github.com/openai/CLIP), [swarm](https://github.com/openai/swarm) |
 | **🟦 Perplexity** | Search AI, MCP | [api-cookbook](https://github.com/perplexityai/api-cookbook), [modelcontextprotocol](https://github.com/perplexityai/modelcontextprotocol) |
+| **🔵 META** | LLaMA, PyTorch, Research | [llama](https://github.com/meta-llama/llama), [llama3](https://github.com/meta-llama/llama3), [pytorch](https://github.com/pytorch/pytorch), [facebookresearch](https://github.com/facebookresearch) |
+| **🔴 Google** | Gemini, TensorFlow, Research | [generative-ai-docs](https://github.com/google/generative-ai-docs), [tensorflow](https://github.com/tensorflow/tensorflow), [DeepMind](https://github.com/google-deepmind) |
+| **💳 Capital One** | Federated Learning, Data Science | [federated-model-aggregation](https://github.com/capitalone/federated-model-aggregation), [datacompy](https://github.com/capitalone/datacompy), [rubicon-ml](https://github.com/capitalone/rubicon-ml) |
 
 ### NVIDIA Research (~13 repos)
 - **Generative Models:** StyleGAN series, instant-ngp, Neuralangelo, Sana
@@ -105,7 +109,7 @@ This repository serves as a curated index of my starred GitHub projects, organiz
 
 ## ☁️ Cloud Infrastructure
 
-### Multi-Cloud Support (~23 repos)
+### Multi-Cloud Support (~200 repos)
 
 #### AWS Security (~9 repos)
 ```
@@ -118,6 +122,34 @@ aws-security-reference-architecture | CloudSploit
 azure-cli | azure-sdk-for-python | Bicep | azure-policy
 Azure Sentinel | DevOpsKit
 ```
+
+#### Google Cloud Platform (~130 repos)
+<details>
+<summary>☁️ View GCP Categories</summary>
+
+| Category | Description | Notable Repos |
+|----------|-------------|---------------|
+| **GCP Platform** | Core GCP services & tools | gemini-cloud-assist-mcp, gke-mcp, cloud-run-mcp, genai-factory |
+| **Google Research** | AI/ML research projects | timesfm, android_world, omniglue, talk-like-a-graph |
+| **Google DeepMind** | Advanced AI research | alphaevolve, superhuman, formal-imo, gemini-robotics-sdk |
+| **Observability** | Security & monitoring | secops-toolkit, observability-and-security-operations-solution |
+| **Data & Analytics** | BigQuery, Dataplex, Storage | dataplex-business-user-interface, lc-nl2sql, spanner-vector-hybrid-search-samples |
+
+</details>
+
+#### Oracle Cloud Infrastructure (~43 repos)
+<details>
+<summary>🔶 View OCI Categories</summary>
+
+| Category | Tools |
+|----------|-------|
+| **OCI Core** | oci-cli, oci-python-sdk, terraform-provider-oci |
+| **AI & ML** | langchain-oracle, python-select-ai, ai-optimizer, oci-mlflow |
+| **Database** | nosql, adb-extproc, create-database-app, sql-developer-vscode |
+| **Kubernetes** | oci-native-ingress-controller, oci-secrets-store-csi-driver-provider |
+| **Development** | graal-dev-kit, guardian-ai, spring-cloud-oracle |
+
+</details>
 
 #### Infrastructure as Code (~8 repos)
 | Tool | Language | Use Case |
@@ -211,6 +243,141 @@ dnacenter_git_integrations | import-dnac-nso
 - ✅ **Model-Driven Telemetry** - Streaming telemetry (IOS XE/XR, NX-OS)
 - ✅ **DNA Center** - Network automation & analytics
 - ✅ **NSO** - Service orchestration
+
+---
+
+## 🔀 Networking Protocols
+
+### Routing Protocols & Network Infrastructure (~145 repos)
+
+#### BGP (Border Gateway Protocol) (~7 repos)
+<details>
+<summary>🔀 View BGP Implementations</summary>
+
+| Repository | Language | Description |
+|------------|----------|-------------|
+| **GoBGP** | Go | Modern BGP implementation with gRPC APIs |
+| **RustyBGP** | Rust | High-performance, safe BGP implementation |
+| **YABGP** | Python | Python BGP implementation for analysis |
+| **BGP4J** | Java | BGP4 protocol in Java |
+| **NIST BGP-SRx** | C | NIST BGP security extensions (RPKI, BGPsec) |
+
+- **Security:** routing-anomaly-detection (USENIX Security 2024)
+- **Use Cases:** eBGP, iBGP, RPKI validation, BMP monitoring
+
+</details>
+
+#### OSPF & ISIS (~7 repos)
+<details>
+<summary>🌐 View OSPF/ISIS Tools</summary>
+
+| Tool | Description |
+|------|-------------|
+| **FRRouting (FRR)** | Complete routing suite (OSPF, ISIS, BGP, RIP) |
+| **Topolograph** | Visualize OSPF/ISIS topology from LSDB |
+| **OSPF-MDR** | OSPF MANET Designated Routers (RFCs 5614, 5243, 5838) |
+
+**Educational Implementations:**
+- OSPF in Java, C++, Python
+- PWOSPF (simple version of OSPF)
+- OSPF simulation environments
+
+</details>
+
+#### EVPN & VXLAN (~4 repos)
+<details>
+<summary>🏢 View EVPN/VXLAN Projects</summary>
+
+- **evpn-for-ovn** - EVPN VXLAN implementation for OVN (L2VPN between data centers)
+- **evpn** - EVPN-VXLAN Data Center workshop (Juniper QFX)
+- **eveng-lab-evpn-vxlan** - Multi-tenant EVPN/VXLAN lab with Layer3 Leaf/Spine
+- **techfest** - EVPN-VXLAN QFX Data Center workshop
+
+**Technologies:** BGP EVPN, VXLAN overlay, ERB (Edge Routed Bridging)
+
+</details>
+
+#### SDN Controllers (~38 repos)
+<details>
+<summary>🎛️ View SDN Controller Projects</summary>
+
+| Controller | Language | Best For | Repos |
+|------------|----------|----------|-------|
+| **OpenDaylight** | Java | Enterprise, large-scale deployments | ~20 |
+| **ONOS** | Java | Service provider networks, distributed arch | ~15 |
+| **Ryu** | Python | Research, prototyping, education | 1 |
+| **POX** | Python | Academic research | 1 |
+| **Floodlight** | Java | Campus networks | 1 |
+
+**Features:**
+- OpenDaylight: Latest features, best security, largest community
+- ONOS: Clustering, scalability, brown field to green field transition
+- Ryu: Simplicity, Python-based, extensive research use
+
+</details>
+
+#### MPLS, L2VPN, L3VPN (~4 repos)
+<details>
+<summary>🔗 View MPLS VPN Projects</summary>
+
+- **mpls-vpns-all-in-one** - Comprehensive lab with EVPN, VPLS, VPWS, L3VPN, Segment-Routing (IOS-XR/XE)
+- **clab_mpls_frr** - MPLS implementations using FRRouting with VRF and BGP L3 VPN
+- **MPLS_Protocol** - Educational guide for CCNP/CCIE candidates
+- **mpls-networking** - Juniper MPLS Core with L3VPN
+
+**Technologies:** Label distribution, VRF, BGP VPN, Traffic Engineering
+
+</details>
+
+#### IPsec VPN (~3 repos)
+<details>
+<summary>🔐 View IPsec Implementations</summary>
+
+| Implementation | Description |
+|----------------|-------------|
+| **strongSwan** | IPsec-based VPN for Linux, Android, FreeBSD, macOS, Windows |
+| **Libreswan** | IPsec VPN with IKEv1/IKEv2 support |
+| **VPN-IKEv2-LibreSWAN** | Scripts to build IPsec VPN server with IKEv2 |
+
+**Protocols:** IKEv1, IKEv2, IPsec/L2TP, Cisco IPsec
+
+</details>
+
+#### 5G Core Network (~33 repos)
+<details>
+<summary>📡 View 5G Core Projects</summary>
+
+| Project | Language | Compliance | Components |
+|---------|----------|------------|------------|
+| **Open5GS** | C | 3GPP R17 | 5G Core + EPC (4G/5G) |
+| **free5GC** | Go | 3GPP R15+ | 5G-SA with MA-PDU sessions |
+| **5G-Core-Network** | Combined | - | Combines Open5GS + free5GC capabilities |
+
+**free5GC Organization (~30 additional repos):**
+- Network functions: AMF, AUSF, N3IWF, NRF, NSSF, PCF
+- Protocol libraries: NAS, NGAP, PFCP, OpenAPI
+- Utilities: TimeDecode, logger, http_wrapper, fsm
+
+**Use Cases:** Private 5G networks, edge computing, network slicing
+
+</details>
+
+#### Cisco AI Infrastructure (~9 repos)
+<details>
+<summary>🤖 View Cisco AI Projects</summary>
+
+**CiscoAI Organization:**
+- MLAnywhere - ML deployment anywhere
+- Kubeflow/Katib - ML orchestration on Kubernetes
+- MLPerf inference benchmarks
+- AI toolkit for UCS X-series with NVIDIA GPUs (L4, L40S, H100, A100)
+
+**Cisco AI PODs:**
+- UCS C225/C220/C885A M8 servers
+- Support for NVIDIA HGX and MGX platforms
+- Cisco Nexus Hyperfabric AI networking
+
+</details>
 
 ---
 
@@ -353,19 +520,43 @@ graph LR
 
 | Category | Repositories | Key Focus |
 |----------|--------------|-----------|
-| 🤖 **AI & ML** | ~238 | LLMs, Infrastructure, Training |
+| 🤖 **AI & ML** | ~504 | LLMs, Infrastructure, META, Google, Capital One |
 | 🔐 **Cybersecurity** | ~132 | SAST, DAST, K8s Security, DevSecOps |
-| ☁️ **Cloud** | ~23 | AWS, Azure, IaC |
-| 🌐 **Networking** | ~356 | Observability, Data Center, Cisco FSO |
+| ☁️ **Cloud** | ~200 | AWS, Azure, Google Cloud, Oracle Cloud, IaC |
+| 🌐 **Networking & Observability** | ~356 | Observability, Data Center, Cisco FSO |
+| 🔀 **Networking Protocols** | ~145 | BGP, OSPF, EVPN, SDN, MPLS, 5G Core, IPsec |
 | 🐍 **Python** | ~136 | Frameworks, Tools, Best Practices |
 | 🏢 **Broadcom/CA** | ~361 | DxNetOps, APM, API Management |
 | 🌐 **API** | ~13 | Gateways, Security |
-| **TOTAL** | **~1,259** | Comprehensive Tech Stack |
+| **TOTAL** | **~1,847** | **Complete Enterprise Tech Stack** ⭐ |
+
+### AI & ML Breakdown:
+- Original AI companies (NVIDIA, Anthropic, OpenAI, Perplexity): 94 repos
+- AI Infrastructure & MLOps: 96 repos
+- AI Frameworks: 48 repos
+- **META (LLaMA, PyTorch, FacebookResearch): ~66 repos** ⭐ NEW!
+- **Google (GCP, Research, DeepMind, TensorFlow): ~130 repos** ⭐ NEW!
+- **Capital One (Data Science, ML tools): ~49 repos** ⭐ NEW!
+- **Cisco AI Infrastructure: ~9 repos** ⭐ NEW!
 
 ### Networking Breakdown:
 - General Network Observability: 69 repos
 - Data Center Networking: 62 repos
-- **Cisco Observability Stack: 225 repos** ⭐ NEW!
+- **Cisco Observability Stack: 225 repos**
+- **BGP Routing: 7 repos** ⭐ NEW!
+- **OSPF & ISIS: 7 repos** ⭐ NEW!
+- **EVPN & VXLAN: 4 repos** ⭐ NEW!
+- **SDN Controllers: 38 repos** ⭐ NEW!
+- **MPLS/VPN: 4 repos** ⭐ NEW!
+- **IPsec VPN: 3 repos** ⭐ NEW!
+- **5G Core: 33 repos** ⭐ NEW!
+
+### Cloud Breakdown:
+- AWS: 9 repos
+- Azure: 6 repos
+- **Google Cloud Platform: ~130 repos** ⭐ NEW!
+- **Oracle Cloud Infrastructure: ~43 repos** ⭐ NEW!
+- Infrastructure as Code: 8 repos
 
 ---
 
