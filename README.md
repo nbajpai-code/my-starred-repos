@@ -1,10 +1,10 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **1,650+ starred repositories** spanning AI, Cybersecurity, Cloud, Networking, and Python Development — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **2,200+ starred repositories** spanning AI, Cybersecurity, Cloud, Networking, and Python Development — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-1,650+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-2,200+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
 ---
 
@@ -16,7 +16,9 @@
 - [☁️ Cloud Infrastructure](#️-cloud-infrastructure)
 - [🌐 Networking & Observability](#-networking--observability)
 - [🔀 Networking Protocols](#-networking-protocols)
+- [☸️ Cloud Native & CNCF](#️-cloud-native--cncf)
 - [🐍 Python Development](#-python-development)
+- [🎤 Conference Resources](#-conference-resources)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [📚 Learning Resources](#-learning-resources)
 - [🔧 Quick Links](#-quick-links)
@@ -381,6 +383,103 @@ dnacenter_git_integrations | import-dnac-nso
 
 ---
 
+## ☸️ Cloud Native & CNCF
+
+### Cloud Native Computing Foundation (~162 repos)
+
+The CNCF hosts critical components of the global technology infrastructure, providing support for fast-growing cloud-native projects.
+
+<details>
+<summary>🎓 View CNCF Graduated Projects</summary>
+
+| Project | Category | Description |
+|---------|----------|-------------|
+| **Kubernetes** | Orchestration | Container orchestration platform (kubernetes, minikube, dashboard, kubeadm, kops) |
+| **Prometheus** | Monitoring | Metrics collection & alerting (prometheus, alertmanager, node_exporter) |
+| **Envoy** | Networking | Cloud-native proxy (envoy, gateway, go-control-plane) |
+| **CoreDNS** | DNS | DNS server for service discovery |
+| **containerd** | Runtime | Container runtime (containerd, nerdctl) |
+| **Fluentd** | Logging | Log collector & processor (fluentd, fluent-bit) |
+| **Harbor** | Registry | Container image registry with security |
+| **Helm** | Package Mgmt | Kubernetes package manager |
+| **Jaeger** | Tracing | Distributed tracing system |
+| **Argo** | GitOps | Workflows, CD, Rollouts, Events |
+| **Flux** | GitOps | GitOps operator for Kubernetes |
+| **Linkerd** | Service Mesh | Lightweight service mesh |
+| **etcd** | Key-Value | Distributed key-value store |
+| **Rook** | Storage | Cloud-native storage orchestrator |
+| **Vitess** | Database | MySQL horizontal scaling |
+| **TUF** | Security | Secure software update framework |
+
+</details>
+
+<details>
+<summary>🌱 View CNCF Incubating Projects</summary>
+
+| Project | Category | Description |
+|---------|----------|-------------|
+| **Cilium** | Networking | eBPF-based networking, observability & security (cilium, hubble, tetragon) |
+| **Istio** | Service Mesh | Full-featured service mesh (istio, proxy) |
+| **Knative** | Serverless | Kubernetes-based serverless (serving, eventing) |
+| **Dapr** | Runtime | Distributed application runtime |
+| **KubeEdge** | Edge Computing | Kubernetes native edge computing |
+| **Cert-Manager** | Security | X.509 certificate management |
+| **Crossplane** | Multi-cloud | Cloud-native control plane |
+| **Contour** | Ingress | Kubernetes ingress controller |
+| **OPA** | Policy | Open Policy Agent (opa, gatekeeper) |
+| **Falco** | Security | Runtime security & threat detection |
+| **Buildpacks** | Build | Cloud Native Buildpacks (pack, lifecycle) |
+| **KubeVirt** | Virtualization | Virtual machine management |
+| **Longhorn** | Storage | Cloud-native distributed block storage |
+| **NATS** | Messaging | Cloud-native messaging system |
+| **Notary** | Security | Secure content signing & verification |
+| **Operator Framework** | Operators | Kubernetes operator SDK & lifecycle manager |
+| **Thanos** | Monitoring | Highly available Prometheus setup |
+| **Volcano** | Batch | Kubernetes batch scheduling |
+| **KubeVela** | Application | Application delivery platform |
+| **Backstage** | Portal | Developer portal for infrastructure |
+| **Kyverno** | Policy | Kubernetes native policy management |
+
+</details>
+
+<details>
+<summary>🧪 View CNCF Sandbox & Notable Projects</summary>
+
+**Sandbox Projects:**
+- **Kubescape** - Kubernetes security platform
+- **Pixie** - Instant Kubernetes observability
+- **OpenKruise** - Advanced workload management
+- **k3s** - Lightweight Kubernetes distribution
+- **k8sgpt** - AI-powered Kubernetes diagnostics
+- **Paralus** - Zero trust access service
+
+**Kubernetes SIGs:**
+- kustomize, kind, cluster-api
+- external-dns, kubespray, metrics-server
+- gateway-api
+
+**Service Mesh:**
+- servicemeshinterface/smi-spec
+- OpenTelemetry (collector, operator)
+
+</details>
+
+### CNCF Resources (~48 repos)
+- **Landscape** - Cloud Native landscape visualization
+- **Presentations** - Conference presentations archive
+- **Glossary** - Cloud Native terminology
+- **Trailmap** - Cloud Native journey guide
+- **Technical Advisory Groups (TAGs):**
+  - Security, Network, Storage
+  - App Delivery, Runtime, Observability
+  - Contributor Strategy
+
+### KubeCon Presentations
+- KubeCon-CloudNativeCon-Europe-2019 slides
+- KubeCon-North-America-2018 slides
+
+---
+
 ## 🐍 Python Development
 
 ### Well-Architected Python Projects (~136 repos)
@@ -407,6 +506,69 @@ dnacenter_git_integrations | import-dnac-nso
 - TheAlgorithms/Python
 - Awesome Python
 - System Design Primer
+
+---
+
+## 🎤 Conference Resources
+
+### PyCon (~101 repos)
+
+<details>
+<summary>🐍 View PyCon Resources</summary>
+
+**Python Software Foundation (~40 repos):**
+- httpbin, requests, black, pyperf
+- Advisory database, policies, education working groups
+- PyPI stats, community code of conduct
+
+**PyCon Conference (~28 repos):**
+- PyCon.org, symposion, registrasion
+- Slides from 2013-2019 conferences
+- Badge generation, green room ops, progcom tools
+
+**PyCon Tutorial Materials:**
+- rasbt/pycon2024 - PyTorch deep learning fundamentals
+- StefanUlbrich/PyCon2024 - Python & Rust scientific computation
+- amyreese/pycon - Python conference talks archive
+
+**Python India (~30 repos):**
+- in.pycon.org, funnel, wye
+- PyCon India 2012-2016 websites
+- Junction (CfP management), mobile apps
+
+</details>
+
+### Ray Summit (~80 repos)
+
+<details>
+<summary>🚀 View Ray Summit Resources</summary>
+
+**Anyscale (~50 repos):**
+- Academy - Ray tutorials from Anyscale
+- ray-summit-2022-training, ray-summit-2023-training
+- datasets-database, llm-applications
+
+**Ray Project (~30 repos):**
+- ray - Main Ray framework for distributed AI
+- kuberay - Ray on Kubernetes
+- ray-llm, raycluster-operator
+- Tutorial repositories and examples
+
+</details>
+
+### PyTorch Conference (~50 repos)
+
+<details>
+<summary>🔥 View PyTorch Resources</summary>
+
+**PyTorch Organization:**
+- pytorch/pytorch - Main PyTorch framework
+- torchtune, torchchat, executorch
+- vision, audio, text libraries
+- TensorBoard, serve, ignite
+- Examples, tutorials, and educational resources
+
+</details>
 
 ---
 
@@ -525,10 +687,12 @@ graph LR
 | ☁️ **Cloud** | ~200 | AWS, Azure, Google Cloud, Oracle Cloud, IaC |
 | 🌐 **Networking & Observability** | ~356 | Observability, Data Center, Cisco FSO |
 | 🔀 **Networking Protocols** | ~145 | BGP, OSPF, EVPN, SDN, MPLS, 5G Core, IPsec |
+| ☸️ **Cloud Native & CNCF** | ~162 | Kubernetes, Prometheus, Envoy, Service Mesh, GitOps |
 | 🐍 **Python** | ~136 | Frameworks, Tools, Best Practices |
+| 🎤 **Conference Resources** | ~231 | PyCon, KubeCon, Ray Summit, PyTorch |
 | 🏢 **Broadcom/CA** | ~361 | DxNetOps, APM, API Management |
 | 🌐 **API** | ~13 | Gateways, Security |
-| **TOTAL** | **~1,847** | **Complete Enterprise Tech Stack** ⭐ |
+| **TOTAL** | **~2,240** | **Complete Enterprise Tech Stack** ⭐ |
 
 ### AI & ML Breakdown:
 - Original AI companies (NVIDIA, Anthropic, OpenAI, Perplexity): 94 repos
