@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 2,735+ Starred Repositories**
+> **Quick Navigation for 2,780+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -26,6 +26,7 @@
 | 💼 **Tech Conferences** | 76+ | [Jump →](#-tech-conferences) |
 | 🏗️ **Data Center Conferences** | 53+ | [Jump →](#️-data-center-conferences) |
 | 🔒 **Security & Enterprise Conferences** | 55+ | [Jump →](#-security--enterprise-conferences) |
+| 🤖 **AI Coding Agents & Benchmarks** | 45+ | [Jump →](#-ai-coding-agents--benchmarks) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -816,6 +817,84 @@
 
 ---
 
+## 🤖 AI Coding Agents & Benchmarks
+
+### AI Coding Agents - 20 repos
+
+**Top Coding Agents:**
+- [cline/cline](https://github.com/cline/cline) (52K⭐) - Autonomous coding agent in your IDE
+- [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) (51K⭐) - All-in-one AI app with RAG & agents
+- [openai/codex](https://github.com/openai/codex) (50K⭐) - Lightweight terminal coding agent
+- [sst/opencode](https://github.com/sst/opencode) (33K⭐) - AI coding agent for terminal
+- [continuedev/continue](https://github.com/continuedev/continue) (30K⭐) - Continuous AI, TUI/Headless mode
+- [oraios/serena](https://github.com/oraios/serena) (16K⭐) - Semantic retrieval & editing toolkit
+- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) (15K⭐) - Qwen coding agent
+- [charmbracelet/crush](https://github.com/charmbracelet/crush) (15K⭐) - Glamourous AI terminal agent
+- [plandex-ai/plandex](https://github.com/plandex-ai/plandex) (14K⭐) - For large projects & real tasks
+
+**IDE & Tool Integration:**
+- [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) (14K⭐) - Chrome DevTools for agents
+- [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) (11K⭐) - Figma layout for AI agents
+- [kodu-ai/claude-coder](https://github.com/kodu-ai/claude-coder) (5K⭐) - Autonomous agent VSCode extension
+- [github/copilot-cli](https://github.com/github/copilot-cli) (5K⭐) - GitHub Copilot for terminal
+
+**Agent Frameworks:**
+- [openai/agents.md](https://github.com/openai/agents.md) (8K⭐) - Open format for guiding coding agents
+- [shareAI-lab/analysis_claude_code](https://github.com/shareAI-lab/analysis_claude_code) (11K⭐) - Claude Code analysis
+- [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) (6K⭐) - Solve hard problems in complex codebases
+- [stagewise-io/stagewise](https://github.com/stagewise-io/stagewise) (6K⭐) - Frontend coding agent for production apps
+- [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) (5K⭐) - Kanban for AI coding agents
+- [opencode-ai/opencode](https://github.com/opencode-ai/opencode) (9K⭐) - Powerful AI terminal agent
+- [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) (5K⭐) - Open-source async coding agent
+
+### Code Generation Benchmarks - 15 repos
+
+**BigCode Project:**
+- [bigcode-project/bigcodebench](https://github.com/bigcode-project/bigcodebench) - BigCodeBench: Benchmarking towards AGI
+- [bigcode-project/bigcodearena](https://github.com/bigcode-project/bigcodearena) - Human preferences via execution
+- [bigcode-project/bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness) - Evaluation framework
+- [bigcode-project/selfcodealign](https://github.com/bigcode-project/selfcodealign) - Self-alignment for code gen
+- [bigcode-project/octopack](https://github.com/bigcode-project/octopack) - Instruction tuning code LLMs
+- [bigcode-project/starcoder2](https://github.com/bigcode-project/starcoder2) - Home of StarCoder2
+- [bigcode-project/the-stack-v2](https://github.com/bigcode-project/the-stack-v2) - StarCoder2 training data
+- [bigcode-project/bigcode-analysis](https://github.com/bigcode-project/bigcode-analysis) - BigCode analysis
+- [bigcode-project/astraios](https://github.com/bigcode-project/astraios) - Parameter-efficient instruction tuning
+- [bigcode-project/bigcodebench-annotation](https://github.com/bigcode-project/bigcodebench-annotation) - Annotation tools
+- [bigcode-project/bigcode-website](https://github.com/bigcode-project/bigcode-website) - BigCode website
+
+**Benchmark Suites:**
+- [abhaymundhara/llm-benchmark-suite](https://github.com/abhaymundhara/llm-benchmark-suite) - HumanEval, MBPP, SWE-bench suite
+- [openai/human-eval](https://github.com/openai/human-eval) - HumanEval benchmark
+- [google-research/google-research](https://github.com/google-research/google-research) - Google Research repos
+- [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - LM evaluation framework
+
+### GitHub Universe & AI Dev Tools - 3 repos
+
+- [github/copilot-docs](https://github.com/github/copilot-docs) - GitHub Copilot documentation
+- [microsoft/ai-edu](https://github.com/microsoft/ai-edu) - Microsoft AI education
+- [microsoft/vscode-ai-toolkit](https://github.com/microsoft/vscode-ai-toolkit) - VS Code AI toolkit
+
+### Red Hat & Linux Conferences - 7 repos
+
+**Red Hat Summit:**
+- [pslucas0212/Red-Hat-Summit-2025](https://github.com/pslucas0212/Red-Hat-Summit-2025) - Summit 2025 announcements
+
+**Red Hat Developer:**
+- [redhat-developer/vscode-java](https://github.com/redhat-developer/vscode-java) - Java support for VS Code
+- [redhat-developer/vscode-openshift-tools](https://github.com/redhat-developer/vscode-openshift-tools) - OpenShift extension
+
+**Red Hat CoP:**
+- [redhat-cop/openshift-playbooks](https://github.com/redhat-cop/openshift-playbooks) - OpenShift playbooks
+- [redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) - Cloud agnostic deployment
+- [redhat-cop/container-pipelines](https://github.com/redhat-cop/container-pipelines) - Container CI/CD
+
+**Ansible:**
+- [ansible/workshops](https://github.com/ansible/workshops) - Ansible workshops & training
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### CA Technologies (~361 repos)
@@ -855,7 +934,7 @@ On GitHub stars page, you can sort by:
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 2,735+ |
+| **Total Repositories** | 2,780+ |
 | **AI & ML** | 360+ |
 | **MLOps** | 115+ |
 | **Cybersecurity** | 132+ |
@@ -866,6 +945,7 @@ On GitHub stars page, you can sort by:
 | **Tech Conferences** | 76+ |
 | **Data Center Conferences** | 53+ |
 | **Security & Enterprise Conferences** | 55+ |
+| **AI Coding Agents & Benchmarks** | 45+ |
 | **Enterprise** | 361+ |
 
 ---
@@ -879,6 +959,6 @@ On GitHub stars page, you can sort by:
 
 ---
 
-**Last Updated:** 2025-11-16 (Added Security & Enterprise Conferences)
+**Last Updated:** 2025-11-16 (Added AI Coding Agents & Benchmarks)
 
 **Maintained by:** [@nbajpai-code](https://github.com/nbajpai-code)
