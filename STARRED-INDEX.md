@@ -23,6 +23,7 @@
 | 🐍 **Python Development** | 136+ | [Jump →](#-python-development) |
 | 🎤 **Conference Resources** | 63+ | [Jump →](#-conference-resources) |
 | 🐍 **Python Conferences** | 51+ | [Jump →](#-python-conferences) |
+| 💼 **Tech Conferences** | 76+ | [Jump →](#-tech-conferences) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -496,6 +497,128 @@
 
 ---
 
+## 💼 Tech Conferences
+
+### 🌐 Cisco Live & DevNet (30 repos)
+
+**Top Cisco Live Sessions:**
+- [babajung/cisco-live](https://github.com/babajung/cisco-live) - Cisco Live resources
+- [nickrusso42518/ospf_brkrst3310](https://github.com/nickrusso42518/ospf_brkrst3310) - Troubleshooting OSPF (BRKRST-3310)
+- [CiscoTestAutomation/CL-DevNet-2595](https://github.com/CiscoTestAutomation/CL-DevNet-2595) - Cisco Live EUR 2019 DevNet 2595
+- [CiscoDevNet/BRKDEV-1368](https://github.com/CiscoDevNet/BRKDEV-1368) - Code for Cisco Live Session BRKDEV-1368
+
+**Workshops & Labs:**
+- [CiscoSE/LTRPRG-1100](https://github.com/CiscoSE/LTRPRG-1100) - Cisco Live US 2019 LTRPRG-1100
+- [CiscoTestAutomation/CL-DEVWKS-2808](https://github.com/CiscoTestAutomation/CL-DEVWKS-2808) - NetDevOps Programming with pyATS/Genie
+- [hpreston/workshops](https://github.com/hpreston/workshops) - DevNet Workshops at Cisco Live Events
+- [RunSi/DEVWKS-2601](https://github.com/RunSi/DEVWKS-2601) - pyATS/GENIE ops and parsers
+- [zapodeanu/DEVWKS_2840](https://github.com/zapodeanu/DEVWKS_2840) - DevNet Workshop DEVWKS-2840
+- [CiscoSE/DEVWKS-2096-CLUS19](https://github.com/CiscoSE/DEVWKS-2096-CLUS19) - Nexus 9000 switches as Kubernetes cluster
+- [vhosakot/Cisco-Live-Workshop](https://github.com/vhosakot/Cisco-Live-Workshop) - Scripts for Cisco Live Workshops
+- [bluraniec/devnet-2449](https://github.com/bluraniec/devnet-2449) - Python for Enterprise Network Elements
+- [ObjectIsAdvantag/devnetzone-workshop-2074](https://github.com/ObjectIsAdvantag/devnetzone-workshop-2074) - Custom In-Room Controls and Macros
+- [Pradip-Mule/CL-AMS-DEVWKS-2382](https://github.com/Pradip-Mule/CL-AMS-DEVWKS-2382) - Build your own AI Agent for Task Automation
+- [sQu4rks/DEVNET-1970](https://github.com/sQu4rks/DEVNET-1970) - Hands-On Companion DEVNET-1970 (2022)
+- [sQu4rks/DEVNET-1439](https://github.com/sQu4rks/DEVNET-1439) - Hands-On Companion DEVNET-1439 (2022)
+- [palmersample/ciscolive-devwks-2539](https://github.com/palmersample/ciscolive-devwks-2539) - Network Testing with pyATS Level II
+
+**Conference Infrastructure:**
+- [spsharman/CiscoLive2020](https://github.com/spsharman/CiscoLive2020) - Cisco Live 2020 resources
+- [spsharman/CiscoLive2019](https://github.com/spsharman/CiscoLive2019) - Cisco Live 2019 resources
+- [plucena24/cisco_live_downloader](https://github.com/plucena24/cisco_live_downloader) - Download Cisco Live content
+- [jasoncdavis/CiscoLiveNOC2022LV](https://github.com/jasoncdavis/CiscoLiveNOC2022LV) - NOC 2022 Las Vegas
+- [jasoncdavis/CiscoLiveNOC23US](https://github.com/jasoncdavis/CiscoLiveNOC23US) - NOC 2023 US
+
+**Breakout Sessions:**
+- [CiscoTestAutomation/CL-BRKPRG-1798](https://github.com/CiscoTestAutomation/CL-BRKPRG-1798) - Everybody Can Automate Now (BRKPRG-1798)
+- [CiscoTestAutomation/CLUS18-DevNet-2595](https://github.com/CiscoTestAutomation/CLUS18-DevNet-2595) - Cisco Live US 2018 DevNet 2595
+- [cskoglun/BRKOPS-2103](https://github.com/cskoglun/BRKOPS-2103) - BRKOPS-2103 EMEA 2024
+- [RomainCyr/LTRSP-3589](https://github.com/RomainCyr/LTRSP-3589) - From Manual to NetOps (LTRSP-3589)
+
+**Other Resources:**
+- [networktocode/clemea-demo](https://github.com/networktocode/clemea-demo) - Cisco Live Amsterdam workshop
+- [aligarci/CiscoLive_MachineLearningWithPython](https://github.com/aligarci/CiscoLive_MachineLearningWithPython) - ML with Python demo (2019)
+- [shermdog/devnet_bootstrap_clus_19](https://github.com/shermdog/devnet_bootstrap_clus_19) - Cisco Live 2019 DevNet Workshop
+- [annately/nso-netbox-cl](https://github.com/annately/nso-netbox-cl) - Cisco Live EMEA 2023 examples
+
+### ⚛️ Meta/Facebook Conferences (10 repos)
+
+**React Conf:**
+- [aholachek/mobile-first-animation](https://github.com/aholachek/mobile-first-animation) - Gesture-driven animation (React Conf 2019)
+- [expo/react-conf-app](https://github.com/expo/react-conf-app) - React Conf companion app
+- [Thinkmill/react-conf-app](https://github.com/Thinkmill/react-conf-app) - React Conf 2017 App (React Native)
+- [ryanflorence/react-conf-2018](https://github.com/ryanflorence/react-conf-2018) - React Conf 2018 materials
+- [sophiebits/react-dom-mini](https://github.com/sophiebits/react-dom-mini) - Building a Custom React Renderer (2019)
+- [infinitered/ChainReactApp2017](https://github.com/infinitered/ChainReactApp2017) - Official Chain React Conf 2017 App
+- [MaggieAppleton/react-metaphors-slides](https://github.com/MaggieAppleton/react-metaphors-slides) - React Explained in Visual Metaphors (Women of React 2020)
+- [rickhanlonii/async-react](https://github.com/rickhanlonii/async-react) - Async React (React Conf 2025)
+- [jaredpalmer/react-conf-2018](https://github.com/jaredpalmer/react-conf-2018) - Moving to Suspense demo
+- [react-brasil/reactconfbr](https://github.com/react-brasil/reactconfbr) - React Conf Brasil organization
+
+### 🔍 Google Conferences (10 repos)
+
+**Google I/O:**
+- [romainguy/google-io-2014](https://github.com/romainguy/google-io-2014) - Material Witness talk demo
+- [unrarp/google-io-2014-compat](https://github.com/unrarp/google-io-2014-compat) - Material Witness ported to API Level 10+
+- [rmcgibbo/slidedeck](https://github.com/rmcgibbo/slidedeck) - Beautiful HTML5 slides in markdown (fork of google-io-2012)
+- [espressif/esp-google-iot](https://github.com/espressif/esp-google-iot) - Google Cloud IoT SDK as ESP-IDF Component
+- [eneim/Google_io_2016_timer](https://github.com/eneim/Google_io_2016_timer) - Google I/O 2016 Countdown App
+- [Instrument/google-io-2013](https://github.com/Instrument/google-io-2013) - Google I/O 2013 Experiment
+- [Instrument/google-io-2014-experiment](https://github.com/Instrument/google-io-2014-experiment) - Google I/O 2014 Experiment (Codename: Sagan)
+- [karminski/google-io-2025-big-map](https://github.com/karminski/google-io-2025-big-map) - Big map for Google I/O 2025
+- [RolandMostoha/pin-demo-gio-ext-2017](https://github.com/RolandMostoha/pin-demo-gio-ext-2017) - Effective Automated Testing (Google I/O Extended 2017)
+- [argyleink/Google-IO-2021-Workshop_User-Adaptive-Interfaces](https://github.com/argyleink/Google-IO-2021-Workshop_User-Adaptive-Interfaces) - User Adaptive Interfaces Workshop (2021)
+
+### 🪟 Microsoft Conferences (20 repos)
+
+**Microsoft Ignite Learning Paths:**
+- [microsoft/ignite-learning-paths-training](https://github.com/microsoft/ignite-learning-paths-training) - Training materials and demos from Ignite
+- [microsoft/IgniteTheTour](https://github.com/microsoft/IgniteTheTour) - Microsoft Ignite The Tour content
+
+**Microsoft Ignite 2025 Labs (Security & AI):**
+- [microsoft/ignite25-LAB516-safeguard-your-agents-with-ai-red-teaming-agent-in-azure-ai-foundry](https://github.com/microsoft/ignite25-LAB516-safeguard-your-agents-with-ai-red-teaming-agent-in-azure-ai-foundry) - AI Red Teaming
+- [microsoft/ignite25-LAB541-defend-against-threats-with-microsoft-defender](https://github.com/microsoft/ignite25-LAB541-defend-against-threats-with-microsoft-defender) - Threat Defense
+- [microsoft/ignite25-LAB543-perform-threat-hunting-in-microsoft-sentinel](https://github.com/microsoft/ignite25-LAB543-perform-threat-hunting-in-microsoft-sentinel) - Threat Hunting
+- [microsoft/ignite25-LAB540-microsoft-purview-integration-with-microsoft-defender-xdr](https://github.com/microsoft/ignite25-LAB540-microsoft-purview-integration-with-microsoft-defender-xdr) - Purview + Defender XDR
+- [microsoft/ignite25-LAB542-zero-trust-lab-securing-identities-and-devices-with-intune-and-entra](https://github.com/microsoft/ignite25-LAB542-zero-trust-lab-securing-identities-and-devices-with-intune-and-entra) - Zero Trust Security
+- [microsoft/ignite25-LAB546-securing-the-stack-zero-trust-for-data-infra-network-and-soc](https://github.com/microsoft/ignite25-LAB546-securing-the-stack-zero-trust-for-data-infra-network-and-soc) - Zero Trust Stack
+- [microsoft/ignite25-LAB548-prevent-data-exposure-in-copilot-and-ai-apps-with-data-loss-prevention](https://github.com/microsoft/ignite25-LAB548-prevent-data-exposure-in-copilot-and-ai-apps-with-data-loss-prevention) - Data Loss Prevention
+- [microsoft/ignite25-LAB547-implement-insider-risk-management-and-adaptive-protection-for-ai](https://github.com/microsoft/ignite25-LAB547-implement-insider-risk-management-and-adaptive-protection-for-ai) - Insider Risk Management
+- [microsoft/ignite25-LAB545-manage-sensitive-data-using-information-protection-in-the-age-of-ai](https://github.com/microsoft/ignite25-LAB545-manage-sensitive-data-using-information-protection-in-the-age-of-ai) - Information Protection
+
+**Microsoft Ignite 2025 Labs (Data & AI):**
+- [microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action](https://github.com/microsoft/ignite25-LAB532-get-real-with-real-time-intelligence-to-transform-data-into-action) - Real-time Intelligence
+- [microsoft/ignite25-LAB531-accelerate-bi-with-azure-databricks-in-the-era-of-ai](https://github.com/microsoft/ignite25-LAB531-accelerate-bi-with-azure-databricks-in-the-era-of-ai) - Azure Databricks BI
+- [microsoft/ignite25-LAB560-building-declarative-agents-with-typespec-and-m365-agents-toolkit](https://github.com/microsoft/ignite25-LAB560-building-declarative-agents-with-typespec-and-m365-agents-toolkit) - Declarative Agents
+- [microsoft/ignite25-LAB562-jumpstart-ai-powered-hr-and-it-support-with-employee-self-service-agent](https://github.com/microsoft/ignite25-LAB562-jumpstart-ai-powered-hr-and-it-support-with-employee-self-service-agent) - Employee Self-Service Agent
+
+**Microsoft Ignite 2025 Labs (Collaboration):**
+- [microsoft/ignite25-LAB568-deep-dive-into-teams-admin-center-and-security-innovations](https://github.com/microsoft/ignite25-LAB568-deep-dive-into-teams-admin-center-and-security-innovations) - Teams Admin & Security
+
+### 🐧 Linux Foundation / KubeCon (10 repos)
+
+**KubeCon Slide Collections:**
+- [warmchang/KubeCon-North-America-2018](https://github.com/warmchang/KubeCon-North-America-2018) - KubeCon North America 2018 slides
+- [warmchang/KubeCon-CloudNativeCon-Europe-2019](https://github.com/warmchang/KubeCon-CloudNativeCon-Europe-2019) - KubeCon Europe 2019 slides
+- [warmchang/KubeCon-CloudNativeCon-OpenSourceSummit-AI_dev-China-2024](https://github.com/warmchang/KubeCon-CloudNativeCon-OpenSourceSummit-AI_dev-China-2024) - KubeCon China 2024 slides
+
+**KubeCon Keynotes & Talks:**
+- [lizrice/running-with-scissors](https://github.com/lizrice/running-with-scissors) - Resources from KubeCon keynote
+- [lizrice/kubecon-seattle](https://github.com/lizrice/kubecon-seattle) - KubeCon Seattle resources
+
+**KubeCon Workshops & Demos:**
+- [sofastack-guides/kubecon-workshop-demo-2019](https://github.com/sofastack-guides/kubecon-workshop-demo-2019) - SOFAStack Cloud Native Workshop
+- [kingdonb/kccnceu2021](https://github.com/kingdonb/kccnceu2021) - KubeCon CloudNativeCon EU 2021
+- [AEnguerrand/kubecon-cloudnativecon-na-2024-supply-chain-security-lab](https://github.com/AEnguerrand/kubecon-cloudnativecon-na-2024-supply-chain-security-lab) - Supply Chain Security Lab (2024)
+- [christian-roggia/kubecon-europe-2019-demos](https://github.com/christian-roggia/kubecon-europe-2019-demos) - Reproducible development with Bazel and Telepresence
+
+**Tools:**
+- [able8/sched-slides-downloader](https://github.com/able8/sched-slides-downloader) - Download slides from Sched for KubeCon
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### CA Technologies (~361 repos)
@@ -535,7 +658,7 @@ On GitHub stars page, you can sort by:
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 2,551+ |
+| **Total Repositories** | 2,627+ |
 | **AI & ML** | 360+ |
 | **MLOps** | 115+ |
 | **Cybersecurity** | 132+ |
@@ -543,6 +666,7 @@ On GitHub stars page, you can sort by:
 | **Systems Programming** | 98+ |
 | **Python Development** | 136+ |
 | **Python Conferences** | 51+ |
+| **Tech Conferences** | 76+ |
 | **Enterprise** | 361+ |
 
 ---
@@ -556,6 +680,6 @@ On GitHub stars page, you can sort by:
 
 ---
 
-**Last Updated:** 2025-11-16
+**Last Updated:** 2025-11-16 (Added Tech Conferences)
 
 **Maintained by:** [@nbajpai-code](https://github.com/nbajpai-code)
