@@ -1,12 +1,12 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **2,627+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, and Tech Conferences — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **2,680+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, and Conferences (Python, Tech, Data Center) — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-2,627+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-2,680+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
-**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 2,627+ starred repos with direct links!
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 2,680+ starred repos with direct links!
 
 ---
 
@@ -25,6 +25,7 @@
 - [🎤 Conference Resources](#-conference-resources)
 - [🐍 Python Conferences](#-python-conferences)
 - [💼 Tech Conferences](#-tech-conferences)
+- [🏗️ Data Center Conferences](#️-data-center-conferences)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
@@ -940,6 +941,64 @@ See [STARRED-INDEX.md - Tech Conferences](STARRED-INDEX.md#-tech-conferences) fo
 
 ---
 
+## 🏗️ Data Center Conferences
+
+### Data Center Conference Resources (~53 repos)
+
+See [STARRED-INDEX.md - Data Center Conferences](STARRED-INDEX.md#️-data-center-conferences) for the full list.
+
+<details>
+<summary>🏗️ View Data Center Conference Categories</summary>
+
+### Open Compute Project (OCP) - 30 repos
+**Core Infrastructure:**
+- Switch Abstraction Interface (SAI)
+- Open Network Install Environment (ONIE)
+- Test & Validation tools (ocp-diag-core)
+- Hardware management profiles
+- TrinityX HPC/AI platform
+
+**Specialized Areas:**
+- Diagnostics & Testing (autoval, windtunnel, SAI-Challenger)
+- Security (SAFE, FIRM, OpenBMC)
+- Hardware Management (Fast-Verify, GPU management)
+- Networking (optical circuit switching)
+- Server & Cloud (FRU tools, benchmarks)
+- Cooling & Economics (CDU, economics tools)
+- China initiatives (Cloud firmware, fault management)
+
+### NVIDIA GTC (GPU Technology Conference) - 12 repos
+**Conference Materials:**
+- MXNet tutorials (GTC 2016)
+- Compressed Wav2Lip (GTC 2023)
+- AutoGluonCV: HPO to NAS (GTC 2020)
+- Transformers Lab notebooks
+
+**GTC 2025:**
+- Hackathon winners and projects
+- Modern CUDA C++ tutorials
+- Explainable AI sessions
+- Deep learning workshops
+
+### DCIM (Data Center Infrastructure Management) - 10 repos
+**Platforms:**
+- List of DCIM software solutions
+- My-DCIM infrastructure manager
+- Infralinker asset management
+- Custom DCIM implementations
+
+**Integration:**
+- Cisco DevNet DCI code samples
+- NetBox import wizards
+- OpenDCIM implementations
+
+### Open Network Linux - 1 repo
+- Open Network Linux (ONL) - Part of OCP ecosystem
+
+</details>
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### DX NetOps & Performance Management (~361 repos)
@@ -1061,9 +1120,10 @@ graph LR
 | 🎤 **Conference Resources** | ~294 | PyCon, KubeCon, Ray Summit, PyTorch, SciPy |
 | 🐍 **Python Conferences** | ~51 | PyCon US, EuroPython, SciPy, Regional PyCons, Tutorials |
 | 💼 **Tech Conferences** | ~76 | Cisco Live, React Conf, Google I/O, MS Ignite, KubeCon |
+| 🏗️ **Data Center Conferences** | ~53 | Open Compute Project, NVIDIA GTC, DCIM, ONL |
 | 🏢 **Broadcom/CA** | ~361 | DxNetOps, APM, API Management |
 | 🌐 **API** | ~13 | Gateways, Security |
-| **TOTAL** | **~2,627** | **Complete Enterprise Tech Stack** ⭐ |
+| **TOTAL** | **~2,680** | **Complete Enterprise Tech Stack** ⭐ |
 
 ### AI & ML Breakdown:
 - Original AI companies (NVIDIA, Anthropic, OpenAI, Perplexity): 94 repos
@@ -1111,6 +1171,11 @@ graph LR
   - Google I/O: 10 repos
   - Microsoft Ignite: 20 repos
   - Linux Foundation/KubeCon: 10 repos
+- **Data Center Conferences: 53 repos** ⭐ NEW!
+  - Open Compute Project (OCP): 30 repos
+  - NVIDIA GTC: 12 repos
+  - DCIM Tools: 10 repos
+  - Open Network Linux: 1 repo
 
 ### Cloud Breakdown:
 - AWS: 9 repos
@@ -1166,7 +1231,7 @@ graph LR
 ## 📝 Notes
 
 - **Last Updated:** November 16, 2025
-- **Latest Additions:** Python Conferences (51 repos), Tech Conferences (76 repos), MLOps tools, AIOps platforms, ScienceLogic observability
+- **Latest Additions:** Data Center Conferences (53 repos), Python Conferences (51 repos), Tech Conferences (76 repos), MLOps tools, AIOps platforms
 - **Maintenance:** Regularly updated with new discoveries and industry trends
 - **Purpose:** Professional development, continuous learning, and community engagement
 
@@ -1205,6 +1270,7 @@ All repositories can be starred using the automated scripts in `~/`:
 # Conferences
 ~/star_python_conference_repos.sh
 ~/star_tech_conferences_repos.sh
+~/star_datacenter_conferences_repos.sh
 
 # Broadcom/CA
 ~/star_broadcom_repos.sh

@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 2,500+ Starred Repositories**
+> **Quick Navigation for 2,680+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -24,6 +24,7 @@
 | 🎤 **Conference Resources** | 63+ | [Jump →](#-conference-resources) |
 | 🐍 **Python Conferences** | 51+ | [Jump →](#-python-conferences) |
 | 💼 **Tech Conferences** | 76+ | [Jump →](#-tech-conferences) |
+| 🏗️ **Data Center Conferences** | 53+ | [Jump →](#️-data-center-conferences) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -619,6 +620,102 @@
 
 ---
 
+## 🏗️ Data Center Conferences
+
+### Open Compute Project (OCP) - 30 repos
+
+**Core OCP Infrastructure:**
+- [opencomputeproject/SAI](https://github.com/opencomputeproject/SAI) - Switch Abstraction Interface
+- [opencomputeproject/onie](https://github.com/opencomputeproject/onie) - Open Network Install Environment
+- [opencomputeproject/ocp-diag-core](https://github.com/opencomputeproject/ocp-diag-core) - Test & Validation specification and tools
+- [opencomputeproject/Security](https://github.com/opencomputeproject/Security) - Security Project
+- [opencomputeproject/HWMgmt-OCP-Profiles](https://github.com/opencomputeproject/HWMgmt-OCP-Profiles) - OCP hardware management profiles
+- [opencomputeproject/trinityX](https://github.com/opencomputeproject/trinityX) - Open-source HPC, AI and cloudbursting platform
+- [opencomputeproject/OCP-Public](https://github.com/opencomputeproject/OCP-Public) - Public OCP repository
+
+**OCP Diagnostics & Testing:**
+- [opencomputeproject/ocp-diag-autoval](https://github.com/opencomputeproject/ocp-diag-autoval) - Automated validation
+- [opencomputeproject/ocp-diag-autoval-ssd](https://github.com/opencomputeproject/ocp-diag-autoval-ssd) - SSD automated validation
+- [opencomputeproject/ocp-diag-ctam](https://github.com/opencomputeproject/ocp-diag-ctam) - Component Test & Automation
+- [opencomputeproject/ocp-diag-windtunnel](https://github.com/opencomputeproject/ocp-diag-windtunnel) - Building & testing private AI on HPC
+- [opencomputeproject/ocp-diag-cpact](https://github.com/opencomputeproject/ocp-diag-cpact) - Diagnostic tools
+- [opencomputeproject/SAI-Challenger](https://github.com/opencomputeproject/SAI-Challenger) - SAI testing framework
+
+**OCP Security:**
+- [opencomputeproject/OCP-Security-SAFE](https://github.com/opencomputeproject/OCP-Security-SAFE) - Security SAFE framework
+- [opencomputeproject/OCP-Security-FIRM](https://github.com/opencomputeproject/OCP-Security-FIRM) - Firmware security
+- [opencomputeproject/ocp-obmf](https://github.com/opencomputeproject/ocp-obmf) - OpenBMC framework
+
+**OCP Hardware Management:**
+- [opencomputeproject/OCP-HM-Fast-Verify](https://github.com/opencomputeproject/OCP-HM-Fast-Verify) - Fast validation framework for OCP platforms
+- [opencomputeproject/OCP-HM-AMC-Auxiliary_Management_Controller](https://github.com/opencomputeproject/OCP-HM-AMC-Auxiliary_Management_Controller) - Auxiliary Management Controller
+- [opencomputeproject/ocp-hm-system-gpu-management](https://github.com/opencomputeproject/ocp-hm-system-gpu-management) - GPU management
+
+**OCP Networking:**
+- [opencomputeproject/ocp-net-optical-circuit-switching](https://github.com/opencomputeproject/ocp-net-optical-circuit-switching) - Optical circuit switching
+- [opencomputeproject/OCP-NET-UEC-CSIG](https://github.com/opencomputeproject/OCP-NET-UEC-CSIG) - Networking special interest group
+
+**OCP Server & Cloud:**
+- [opencomputeproject/OCP-SVR-MHS-M-PNP_FRUTool](https://github.com/opencomputeproject/OCP-SVR-MHS-M-PNP_FRUTool) - FRU management tool
+- [opencomputeproject/OCP-SVR-CMS-Benchmarks](https://github.com/opencomputeproject/OCP-SVR-CMS-Benchmarks) - Server benchmarks
+
+**OCP Cooling & Economics:**
+- [opencomputeproject/OCP-CE-CDU-Coolant_Distribution_Unit](https://github.com/opencomputeproject/OCP-CE-CDU-Coolant_Distribution_Unit) - Coolant Distribution Unit specs
+- [opencomputeproject/OCP-CE-HR-Economics-Tool](https://github.com/opencomputeproject/OCP-CE-HR-Economics-Tool) - Economics analysis tool
+
+**OCP China Initiatives:**
+- [opencomputeproject/OCP_CHINA_Cloud_Firmware](https://github.com/opencomputeproject/OCP_CHINA_Cloud_Firmware) - Cloud firmware
+- [opencomputeproject/OCP_CHINA_Hardware_Fault_Management](https://github.com/opencomputeproject/OCP_CHINA_Hardware_Fault_Management) - Hardware fault management
+
+**OCP Tools & Registry:**
+- [opencomputeproject/ocp-spec-tools](https://github.com/opencomputeproject/ocp-spec-tools) - Specification tools
+- [opencomputeproject/ocp-registry](https://github.com/opencomputeproject/ocp-registry) - OCP registry
+- [opencomputeproject/opencomputeproject.github.io](https://github.com/opencomputeproject/opencomputeproject.github.io) - OCP website
+
+### NVIDIA GTC (GPU Technology Conference) - 12 repos
+
+**Conference Materials & Tutorials:**
+- [dmlc/mxnet-gtc-tutorial](https://github.com/dmlc/mxnet-gtc-tutorial) - MXNet Tutorial for NVIDIA GTC 2016
+- [Nota-NetsPresso/nota-wav2lip](https://github.com/Nota-NetsPresso/nota-wav2lip) - Compressed Wav2Lip (NVIDIA GTC 2023)
+- [zhreshold/GTC2020-AutoGluonCV](https://github.com/zhreshold/GTC2020-AutoGluonCV) - From HPO to NAS (GTC 2020)
+- [xsankar/GTC_2020_Transformers_Lab](https://github.com/xsankar/GTC_2020_Transformers_Lab) - Transformers Lab notebooks
+- [FanaHOVA/nvidia-gtc-2024-slides](https://github.com/FanaHOVA/nvidia-gtc-2024-slides) - Lightning talk slides GTC 2024
+
+**GTC 2025:**
+- [talbertherndon/doom-monorepo](https://github.com/talbertherndon/doom-monorepo) - Winner NVIDIA GTC 2025 hackathon
+- [sumedhkhodke/hackathon-nvidia-gtc-25](https://github.com/sumedhkhodke/hackathon-nvidia-gtc-25) - GTC 2025 hackathon
+- [michaeldunn99/nvidia_gtc2025_cuda](https://github.com/michaeldunn99/nvidia_gtc2025_cuda) - Accelerated Computing with Modern CUDA C++
+- [asprgchong/nvidiaGTC_2025](https://github.com/asprgchong/nvidiaGTC_2025) - Notes and learnings from GTC 2025
+- [davidvonthenen/2025-nvidia-gtc](https://github.com/davidvonthenen/2025-nvidia-gtc) - Crack the AI Black Box: Explainable AI
+
+**Other GTC Resources:**
+- [sirselim/NvidiaGTC_2021](https://github.com/sirselim/NvidiaGTC_2021) - Portable sequencing tech and NVIDIA GPUs presentation
+- [AndresHG/nvidia-gtc-demo](https://github.com/AndresHG/nvidia-gtc-demo) - GTC demo
+
+### Data Center Infrastructure Management (DCIM) - 10 repos
+
+**DCIM Platforms & Tools:**
+- [little-brother/dcim-list](https://github.com/little-brother/dcim-list) - List of DCIM software solutions
+- [nanego/my-dcim](https://github.com/nanego/my-dcim) - Data Center Infrastructure Manager
+- [Infralinker/Infralinker](https://github.com/Infralinker/Infralinker) - Open source data center assets management
+- [freshprogrammer/DCIM](https://github.com/freshprogrammer/DCIM) - Data Center Infrastructure Management
+- [ubccr/heorot](https://github.com/ubccr/heorot) - Custom DCIM solution
+- [RavenKyu/mdcim](https://github.com/RavenKyu/mdcim) - Mini Data Center Infrastructure Management
+
+**Integration Tools:**
+- [CiscoDevNet/devnet-express-dci-code-samples](https://github.com/CiscoDevNet/devnet-express-dci-code-samples) - DevNet Express Data Center Infrastructure code
+- [scottpeterman/sc_netbox_importer](https://github.com/scottpeterman/sc_netbox_importer) - NetBox DCIM import wizard
+- [Firdauzfan/OpenDCIM_GSPE](https://github.com/Firdauzfan/OpenDCIM_GSPE) - OpenDCIM implementation
+- [letenkov/wiremaps](https://github.com/letenkov/wiremaps) - DCIM tools
+
+### Open Network Linux (ONL) - 1 repo
+
+- [opennetworklinux/ONL](https://github.com/opennetworklinux/ONL) - Open Network Linux (part of OCP)
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### CA Technologies (~361 repos)
@@ -658,7 +755,7 @@ On GitHub stars page, you can sort by:
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 2,627+ |
+| **Total Repositories** | 2,680+ |
 | **AI & ML** | 360+ |
 | **MLOps** | 115+ |
 | **Cybersecurity** | 132+ |
@@ -667,6 +764,7 @@ On GitHub stars page, you can sort by:
 | **Python Development** | 136+ |
 | **Python Conferences** | 51+ |
 | **Tech Conferences** | 76+ |
+| **Data Center Conferences** | 53+ |
 | **Enterprise** | 361+ |
 
 ---
@@ -680,6 +778,6 @@ On GitHub stars page, you can sort by:
 
 ---
 
-**Last Updated:** 2025-11-16 (Added Tech Conferences)
+**Last Updated:** 2025-11-16 (Added Data Center Conferences)
 
 **Maintained by:** [@nbajpai-code](https://github.com/nbajpai-code)
