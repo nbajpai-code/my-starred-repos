@@ -1,12 +1,12 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **2,680+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, and Conferences (Python, Tech, Data Center) — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **2,735+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-2,680+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-2,735+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
-**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 2,680+ starred repos with direct links!
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 2,735+ starred repos with direct links!
 
 ---
 
@@ -26,6 +26,7 @@
 - [🐍 Python Conferences](#-python-conferences)
 - [💼 Tech Conferences](#-tech-conferences)
 - [🏗️ Data Center Conferences](#️-data-center-conferences)
+- [🔒 Security & Enterprise Conferences](#-security--enterprise-conferences)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
@@ -999,6 +1000,76 @@ See [STARRED-INDEX.md - Data Center Conferences](STARRED-INDEX.md#️-data-cente
 
 ---
 
+## 🔒 Security & Enterprise Conferences
+
+### Security & Enterprise Conference Resources (~55 repos)
+
+See [STARRED-INDEX.md - Security & Enterprise Conferences](STARRED-INDEX.md#-security--enterprise-conferences) for the full list.
+
+<details>
+<summary>🔒 View Security & Enterprise Conference Categories</summary>
+
+### CrowdStrike Fal.Con Conference - 25 repos
+**Conference Materials:**
+- Fal.CON 2024 distributable content from sessions
+
+**Core SDKs:**
+- FalconPy (Python SDK)
+- GoFalcon (Golang SDK)
+- Caracara (Developer enhancements)
+- Terraform, Ansible, PowerShell integrations
+
+**Foundry Sample Apps (Workshops):**
+- Charlotte Toolkit, Threat Intel, Insider Risk (Workday, SailPoint)
+- IdP Notifications, MITRE Attack Triage
+- ServiceNow, NG-SIEM, Scalable RTR, Rapid Response
+
+**Cloud Integration:**
+- AWS and Azure tools
+- CloudFormation, LogScale
+
+### Palo Alto Networks Ignite - 10 repos
+**Conference Materials:**
+- Ignite 2019 HOW lab and presentations
+
+**Tools & SDKs:**
+- PAN-OS Python SDK
+- Terraform provider
+- Ansible modules
+
+**Demos:**
+- Local AI HR/IT bot
+- Google Cloud NSI demo
+- Prisma Cloud remediation
+
+**Security:**
+- Safe networking resources
+- Installer hijacking scanner
+
+### Dell Technologies World - 20 repos
+**AI & HPC:**
+- Dell DVD Pro AI Studio Chat
+- Omnia (HPC/AI toolkit)
+- Container automation
+
+**Storage:**
+- Container Storage Modules (PowerStore, PowerFlex)
+- Terraform providers
+- Helm charts
+- PowerMax Performance Collector
+
+**Automation:**
+- OpenManage Ansible modules
+- iDRAC telemetry tools
+- Common GitHub Actions
+
+**Observability:**
+- Karavi metrics for PowerFlex
+
+</details>
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### DX NetOps & Performance Management (~361 repos)
@@ -1121,9 +1192,10 @@ graph LR
 | 🐍 **Python Conferences** | ~51 | PyCon US, EuroPython, SciPy, Regional PyCons, Tutorials |
 | 💼 **Tech Conferences** | ~76 | Cisco Live, React Conf, Google I/O, MS Ignite, KubeCon |
 | 🏗️ **Data Center Conferences** | ~53 | Open Compute Project, NVIDIA GTC, DCIM, ONL |
+| 🔒 **Security & Enterprise Conferences** | ~55 | CrowdStrike Fal.Con, Palo Alto Ignite, Dell Technologies World |
 | 🏢 **Broadcom/CA** | ~361 | DxNetOps, APM, API Management |
 | 🌐 **API** | ~13 | Gateways, Security |
-| **TOTAL** | **~2,680** | **Complete Enterprise Tech Stack** ⭐ |
+| **TOTAL** | **~2,735** | **Complete Enterprise Tech Stack** ⭐ |
 
 ### AI & ML Breakdown:
 - Original AI companies (NVIDIA, Anthropic, OpenAI, Perplexity): 94 repos
@@ -1176,6 +1248,10 @@ graph LR
   - NVIDIA GTC: 12 repos
   - DCIM Tools: 10 repos
   - Open Network Linux: 1 repo
+- **Security & Enterprise Conferences: 55 repos** ⭐ NEW!
+  - CrowdStrike Fal.Con: 25 repos
+  - Palo Alto Networks Ignite: 10 repos
+  - Dell Technologies World: 20 repos
 
 ### Cloud Breakdown:
 - AWS: 9 repos
@@ -1231,7 +1307,7 @@ graph LR
 ## 📝 Notes
 
 - **Last Updated:** November 16, 2025
-- **Latest Additions:** Data Center Conferences (53 repos), Python Conferences (51 repos), Tech Conferences (76 repos), MLOps tools, AIOps platforms
+- **Latest Additions:** Security & Enterprise Conferences (55 repos: CrowdStrike, Palo Alto, Dell), Data Center Conferences (53 repos), Python & Tech Conferences (127 repos)
 - **Maintenance:** Regularly updated with new discoveries and industry trends
 - **Purpose:** Professional development, continuous learning, and community engagement
 
@@ -1271,6 +1347,7 @@ All repositories can be starred using the automated scripts in `~/`:
 ~/star_python_conference_repos.sh
 ~/star_tech_conferences_repos.sh
 ~/star_datacenter_conferences_repos.sh
+~/star_security_dell_conferences_repos.sh
 
 # Broadcom/CA
 ~/star_broadcom_repos.sh

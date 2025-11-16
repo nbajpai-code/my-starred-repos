@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 2,680+ Starred Repositories**
+> **Quick Navigation for 2,735+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -25,6 +25,7 @@
 | 🐍 **Python Conferences** | 51+ | [Jump →](#-python-conferences) |
 | 💼 **Tech Conferences** | 76+ | [Jump →](#-tech-conferences) |
 | 🏗️ **Data Center Conferences** | 53+ | [Jump →](#️-data-center-conferences) |
+| 🔒 **Security & Enterprise Conferences** | 55+ | [Jump →](#-security--enterprise-conferences) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -716,6 +717,105 @@
 
 ---
 
+## 🔒 Security & Enterprise Conferences
+
+### CrowdStrike Fal.Con Conference - 25 repos
+
+**Fal.Con Conference Materials:**
+- [CrowdStrike/fal.con-2024](https://github.com/CrowdStrike/fal.con-2024) - Fal.CON 2024 distributable content
+
+**Core SDKs & Tools:**
+- [CrowdStrike/falconpy](https://github.com/CrowdStrike/falconpy) - CrowdStrike Falcon SDK for Python
+- [CrowdStrike/gofalcon](https://github.com/CrowdStrike/gofalcon) - Golang-based SDK to CrowdStrike's APIs
+- [CrowdStrike/caracara](https://github.com/CrowdStrike/caracara) - Developer enhancements for FalconPy
+- [CrowdStrike/terraform-provider-crowdstrike](https://github.com/CrowdStrike/terraform-provider-crowdstrike) - Terraform provider for Falcon console
+- [CrowdStrike/ansible_collection_falcon](https://github.com/CrowdStrike/ansible_collection_falcon) - Comprehensive toolkit for Falcon platform
+- [CrowdStrike/falcon-scripts](https://github.com/CrowdStrike/falcon-scripts) - Deployment and usage scripts
+- [CrowdStrike/falcon-operator](https://github.com/CrowdStrike/falcon-operator) - Kubernetes operator
+- [CrowdStrike/terraform-aws-cloud-registration](https://github.com/CrowdStrike/terraform-aws-cloud-registration) - AWS account registration
+
+**Foundry Sample Apps (Fal.Con Workshops):**
+- [CrowdStrike/foundry-sample-charlotte-toolkit](https://github.com/CrowdStrike/foundry-sample-charlotte-toolkit) - Charlotte Toolkit sample app
+- [CrowdStrike/foundry-sample-threat-intel](https://github.com/CrowdStrike/foundry-sample-threat-intel) - Threat Intelligence Detections
+- [CrowdStrike/foundry-sample-insider-risk-workday](https://github.com/CrowdStrike/foundry-sample-insider-risk-workday) - Insider Risk Workday integration
+- [CrowdStrike/foundry-sample-insider-risk-sailpoint](https://github.com/CrowdStrike/foundry-sample-insider-risk-sailpoint) - Insider Risk SailPoint integration
+- [CrowdStrike/foundry-sample-idp-notifications](https://github.com/CrowdStrike/foundry-sample-idp-notifications) - Falcon IdP monitoring
+- [CrowdStrike/foundry-sample-mitre](https://github.com/CrowdStrike/foundry-sample-mitre) - Triage with MITRE Attack
+- [CrowdStrike/foundry-sample-servicenow-idp](https://github.com/CrowdStrike/foundry-sample-servicenow-idp) - ServiceNow CMDB Ingest
+- [CrowdStrike/foundry-sample-ngsiem-importer](https://github.com/CrowdStrike/foundry-sample-ngsiem-importer) - Threat Intel Import to NG-SIEM
+- [CrowdStrike/foundry-sample-scalable-rtr](https://github.com/CrowdStrike/foundry-sample-scalable-rtr) - Scalable RTR
+- [CrowdStrike/foundry-sample-rapid-response](https://github.com/CrowdStrike/foundry-sample-rapid-response) - Rapid Response sample
+- [CrowdStrike/foundry-sample-functions-python](https://github.com/CrowdStrike/foundry-sample-functions-python) - Functions with Python
+
+**Cloud Integration:**
+- [CrowdStrike/cfn-abi-crowdstrike-fcs](https://github.com/CrowdStrike/cfn-abi-crowdstrike-fcs) - CloudFormation integration
+- [CrowdStrike/Cloud-AWS](https://github.com/CrowdStrike/Cloud-AWS) - AWS integration tools
+- [CrowdStrike/Cloud-Azure](https://github.com/CrowdStrike/Cloud-Azure) - Azure integration tools
+- [CrowdStrike/logscale-community-content](https://github.com/CrowdStrike/logscale-community-content) - LogScale community content
+- [CrowdStrike/psfalcon](https://github.com/CrowdStrike/psfalcon) - PowerShell for Falcon
+
+### Palo Alto Networks Ignite - 10 repos
+
+**Conference Materials:**
+- [PaloAltoNetworks/ignite2019-how14](https://github.com/PaloAltoNetworks/ignite2019-how14) - Ignite HOW lab 2019
+- [paulpc/Ignite2019](https://github.com/paulpc/Ignite2019) - Ignite 2019 presentation materials
+
+**Core Tools & SDKs:**
+- [PaloAltoNetworks/pan-os-python](https://github.com/PaloAltoNetworks/pan-os-python) - PAN-OS Python SDK
+- [PaloAltoNetworks/terraform-provider-panos](https://github.com/PaloAltoNetworks/terraform-provider-panos) - Terraform provider
+- [PaloAltoNetworks/ansible-pan](https://github.com/PaloAltoNetworks/ansible-pan) - Ansible modules
+
+**Demos & Workshops:**
+- [PaloAltoNetworks/demo-local-ai-hr-it-bot](https://github.com/PaloAltoNetworks/demo-local-ai-hr-it-bot) - Local AI HR/IT bot demo
+- [PaloAltoNetworks/google-cloud-nsi-demo](https://github.com/PaloAltoNetworks/google-cloud-nsi-demo) - Google Cloud NSI demo
+
+**Cloud Security:**
+- [PaloAltoNetworks/Prisma-Enhanced-Remediation](https://github.com/PaloAltoNetworks/Prisma-Enhanced-Remediation) - Prisma Cloud remediation
+
+**Security Tools:**
+- [PaloAltoNetworks/SafeNetworking](https://github.com/PaloAltoNetworks/SafeNetworking) - Safe networking resources
+- [PaloAltoNetworks/InstallerHijackingVulnerabilityScanner](https://github.com/PaloAltoNetworks/InstallerHijackingVulnerabilityScanner) - Security scanner
+
+### Dell Technologies World - 20 repos
+
+**AI & HPC:**
+- [dell/dpais-chat-reference-app](https://github.com/dell/dpais-chat-reference-app) - Dell DVD Pro AI Studio Chat
+- [dell/omnia](https://github.com/dell/omnia) - Open-source toolkit for HPC, AI, and data analytics workloads
+- [dell/omnia-artifactory](https://github.com/dell/omnia-artifactory) - Omnia Container Images & Automation
+
+**Container Storage Modules:**
+- [dell/csm](https://github.com/dell/csm) - Dell Container Storage Modules
+- [dell/csm-docs](https://github.com/dell/csm-docs) - CSM documentation
+- [dell/csi-powerstore](https://github.com/dell/csi-powerstore) - CSI Driver for Dell PowerStore
+- [dell/csi-powerflex](https://github.com/dell/csi-powerflex) - CSI Driver for Dell PowerFlex
+- [dell/helm-charts](https://github.com/dell/helm-charts) - Dell Helm charts
+
+**Terraform Providers:**
+- [dell/terraform-provider-powerstore](https://github.com/dell/terraform-provider-powerstore) - Terraform Provider for PowerStore
+- [dell/terraform-provider-powerflex](https://github.com/dell/terraform-provider-powerflex) - Terraform Provider for PowerFlex
+- [dell/terraform-provider-objectscale](https://github.com/dell/terraform-provider-objectscale) - Terraform Provider for ObjectScale
+
+**Storage & Management:**
+- [dell/python-powerstore](https://github.com/dell/python-powerstore) - Python library for PowerStore
+- [dell/pmaxperfpy](https://github.com/dell/pmaxperfpy) - PowerMax Performance Collector
+- [dell/powerprotect-data-manager](https://github.com/dell/powerprotect-data-manager) - PowerProtect automation
+
+**OpenManage & Automation:**
+- [dell/dellemc-openmanage-ansible-modules](https://github.com/dell/dellemc-openmanage-ansible-modules) - Dell OpenManage Ansible Modules
+- [dell/iDRAC-Telemetry-Reference-Tools](https://github.com/dell/iDRAC-Telemetry-Reference-Tools) - PowerEdge telemetry tools
+- [dell/common-github-actions](https://github.com/dell/common-github-actions) - Common GitHub Actions
+
+**Observability:**
+- [dell/karavi-metrics-powerflex](https://github.com/dell/karavi-metrics-powerflex) - Metrics for PowerFlex
+
+**Documentation:**
+- [dell/azurestack-docs](https://github.com/dell/azurestack-docs) - Azure Stack documentation
+- [dell/dell-openstack-ci-logs](https://github.com/dell/dell-openstack-ci-logs) - OpenStack CI logs
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### CA Technologies (~361 repos)
@@ -755,7 +855,7 @@ On GitHub stars page, you can sort by:
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 2,680+ |
+| **Total Repositories** | 2,735+ |
 | **AI & ML** | 360+ |
 | **MLOps** | 115+ |
 | **Cybersecurity** | 132+ |
@@ -765,6 +865,7 @@ On GitHub stars page, you can sort by:
 | **Python Conferences** | 51+ |
 | **Tech Conferences** | 76+ |
 | **Data Center Conferences** | 53+ |
+| **Security & Enterprise Conferences** | 55+ |
 | **Enterprise** | 361+ |
 
 ---
@@ -778,6 +879,6 @@ On GitHub stars page, you can sort by:
 
 ---
 
-**Last Updated:** 2025-11-16 (Added Data Center Conferences)
+**Last Updated:** 2025-11-16 (Added Security & Enterprise Conferences)
 
 **Maintained by:** [@nbajpai-code](https://github.com/nbajpai-code)
