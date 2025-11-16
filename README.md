@@ -1,12 +1,12 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **2,450+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), and Python Development — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **2,627+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, and Tech Conferences — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-2,450+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-2,627+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
-**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 2,500+ starred repos with direct links!
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 2,627+ starred repos with direct links!
 
 ---
 
@@ -23,6 +23,8 @@
 - [⚡ Systems Programming (C++, Go, LLVM)](#-systems-programming-c-go-llvm)
 - [🐍 Python Development](#-python-development)
 - [🎤 Conference Resources](#-conference-resources)
+- [🐍 Python Conferences](#-python-conferences)
+- [💼 Tech Conferences](#-tech-conferences)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
@@ -865,6 +867,79 @@ The CNCF hosts critical components of the global technology infrastructure, prov
 
 ---
 
+## 🐍 Python Conferences
+
+### Comprehensive Python Conference Resources (~51 repos)
+
+See [STARRED-INDEX.md - Python Conferences](STARRED-INDEX.md#-python-conferences) for the full list.
+
+**Coverage:**
+- **PyCon US** (12 repos) - Main website, archives, symposion, slides from 2013-2019
+- **EuroPython** (9 repos) - Website, program API, Discord bot, conference stats
+- **SciPy Conference** (8 repos) - Proceedings, sprint exercises, build tools
+- **Python Organizers** (2 repos) - Global conference list and resources
+- **Regional PyCons** (3 repos) - Italy, Greece, Taiwan
+- **Tutorial Content** (17 repos) - Flask, data science, design patterns, ML, Airflow
+
+---
+
+## 💼 Tech Conferences
+
+### Industry Conference Resources (~76 repos)
+
+See [STARRED-INDEX.md - Tech Conferences](STARRED-INDEX.md#-tech-conferences) for the full list.
+
+<details>
+<summary>🌐 View Tech Conference Categories</summary>
+
+### Cisco Live & DevNet (30 repos)
+**Top Sessions & Workshops:**
+- OSPF troubleshooting (BRKRST-3310)
+- pyATS/Genie automation workshops
+- NetDevOps Programming (DEVWKS series)
+- Network Testing and AI Agent automation
+- Nexus 9000 as Kubernetes cluster
+
+**Infrastructure:**
+- NOC repositories (2022-2023)
+- Conference content downloaders
+- DevNet workshop materials
+
+### Meta/Facebook Conferences (10 repos)
+**React Conf:**
+- Mobile-first animation (React Conf 2019)
+- Official companion apps
+- Custom React renderer talks
+- Async React (React Conf 2025)
+- Women of React Conference materials
+
+### Google Conferences (10 repos)
+**Google I/O:**
+- Material Design demos (2014)
+- I/O experiments (2013-2014)
+- Cloud IoT SDK integrations
+- User-adaptive interfaces workshops
+- Big map for Google I/O 2025
+
+### Microsoft Conferences (20 repos)
+**Microsoft Ignite:**
+- Learning paths and tour materials
+- **Security Labs:** AI red teaming, Zero Trust, Threat Defense, Sentinel
+- **Data/AI Labs:** Real-time intelligence, Azure Databricks, Declarative agents
+- **Collaboration:** Teams admin center and security innovations
+
+### Linux Foundation / KubeCon (10 repos)
+**KubeCon Resources:**
+- Slide collections (NA 2018, EU 2019, China 2024)
+- Conference keynotes and workshops
+- Supply chain security labs
+- SOFAStack Cloud Native demos
+- Slide downloader tools
+
+</details>
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### DX NetOps & Performance Management (~361 repos)
@@ -984,9 +1059,11 @@ graph LR
 | ☸️ **Cloud Native & CNCF** | ~162 | Kubernetes, Prometheus, Envoy, Service Mesh, GitOps |
 | 🐍 **Python** | ~136 | Frameworks, Tools, Best Practices |
 | 🎤 **Conference Resources** | ~294 | PyCon, KubeCon, Ray Summit, PyTorch, SciPy |
+| 🐍 **Python Conferences** | ~51 | PyCon US, EuroPython, SciPy, Regional PyCons, Tutorials |
+| 💼 **Tech Conferences** | ~76 | Cisco Live, React Conf, Google I/O, MS Ignite, KubeCon |
 | 🏢 **Broadcom/CA** | ~361 | DxNetOps, APM, API Management |
 | 🌐 **API** | ~13 | Gateways, Security |
-| **TOTAL** | **~2,352** | **Complete Enterprise Tech Stack** ⭐ |
+| **TOTAL** | **~2,627** | **Complete Enterprise Tech Stack** ⭐ |
 
 ### AI & ML Breakdown:
 - Original AI companies (NVIDIA, Anthropic, OpenAI, Perplexity): 94 repos
@@ -1021,6 +1098,19 @@ graph LR
 - PyTorch Conference: 50 repos
 - **SciPy Conference: 63 repos** ⭐ NEW!
 - KubeCon Presentations
+- **Python Conferences: 51 repos** ⭐ NEW!
+  - PyCon US: 12 repos
+  - EuroPython: 9 repos
+  - SciPy: 8 repos
+  - Python Organizers: 2 repos
+  - Regional PyCons: 3 repos
+  - Tutorials: 17 repos
+- **Tech Conferences: 76 repos** ⭐ NEW!
+  - Cisco Live & DevNet: 30 repos
+  - Meta/Facebook (React Conf): 10 repos
+  - Google I/O: 10 repos
+  - Microsoft Ignite: 20 repos
+  - Linux Foundation/KubeCon: 10 repos
 
 ### Cloud Breakdown:
 - AWS: 9 repos
@@ -1075,8 +1165,8 @@ graph LR
 
 ## 📝 Notes
 
-- **Last Updated:** November 14, 2025
-- **Latest Additions:** MLOps tools, AIOps platforms, ScienceLogic observability, SciPy Conference resources
+- **Last Updated:** November 16, 2025
+- **Latest Additions:** Python Conferences (51 repos), Tech Conferences (76 repos), MLOps tools, AIOps platforms, ScienceLogic observability
 - **Maintenance:** Regularly updated with new discoveries and industry trends
 - **Purpose:** Professional development, continuous learning, and community engagement
 
@@ -1111,6 +1201,10 @@ All repositories can be starred using the automated scripts in `~/`:
 
 # Python
 ~/star_python_projects_repos.sh
+
+# Conferences
+~/star_python_conference_repos.sh
+~/star_tech_conferences_repos.sh
 
 # Broadcom/CA
 ~/star_broadcom_repos.sh
