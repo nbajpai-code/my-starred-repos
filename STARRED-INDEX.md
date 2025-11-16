@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 3,100+ Starred Repositories**
+> **Quick Navigation for 3,200+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -30,6 +30,7 @@
 | 🧪 **Quality Engineering & Testing** | 65+ | [Jump →](#-quality-engineering--testing) |
 | 🗄️ **Database Technologies** | 120+ | [Jump →](#️-database-technologies) |
 | 🔬 **Quantum & Emerging Technologies** | 100+ | [Jump →](#-quantum--emerging-technologies) |
+| 🔵 **OpenAI Resources (Hiring & Tech)** | 100+ | [Jump →](#-openai-resources-hiring--tech) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -1317,6 +1318,179 @@
 
 ---
 
+## 🔵 OpenAI Resources (Hiring & Tech)
+
+### OpenAI Core & API - 10 repos
+
+- [openai/openai-python](https://github.com/openai/openai-python) (29.3K⭐) - Official Python library for OpenAI API
+- [openai/openai-node](https://github.com/openai/openai-node) (10.4K⭐) - Official JavaScript/TypeScript library
+- [openai/openai-go](https://github.com/openai/openai-go) (2.7K⭐) - Official Go library
+- [openai/openai-dotnet](https://github.com/openai/openai-dotnet) (2.4K⭐) - Official .NET library
+- [openai/openai-java](https://github.com/openai/openai-java) (1.2K⭐) - Official Java library
+- [openai/openai-cookbook](https://github.com/openai/openai-cookbook) (69.2K⭐) - Examples and guides for using OpenAI API
+- [openai/openai-openapi](https://github.com/openai/openai-openapi) (2.2K⭐) - OpenAPI specification for OpenAI API
+- [openai/tiktoken](https://github.com/openai/tiktoken) (16.6K⭐) - Fast BPE tokeniser for OpenAI models
+- [openai/evals](https://github.com/openai/evals) (17.3K⭐) - Framework for evaluating LLMs
+- [openai/swarm](https://github.com/openai/swarm) (20.6K⭐) - Educational multi-agent orchestration
+
+### OpenAI Models & Research - 15 repos
+
+- [openai/whisper](https://github.com/openai/whisper) (90.9K⭐) - Robust speech recognition via large-scale weak supervision
+- [openai/CLIP](https://github.com/openai/CLIP) (31.6K⭐) - Contrastive Language-Image Pretraining
+- [openai/gpt-2](https://github.com/openai/gpt-2) (24.4K⭐) - Language Models are Unsupervised Multitask Learners
+- [openai/gpt-3](https://github.com/openai/gpt-3) (15.8K⭐) - GPT-3: Language Models are Few-Shot Learners
+- [openai/gpt-oss](https://github.com/openai/gpt-oss) (19.2K⭐) - gpt-oss-120b and gpt-oss-20b open-weight models
+- [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) (21.2K⭐) - Find documents by asking questions
+- [openai/DALL-E](https://github.com/openai/DALL-E) (10.9K⭐) - PyTorch package for discrete VAE used for DALL·E
+- [openai/jukebox](https://github.com/openai/jukebox) (8.0K⭐) - Generative Model for Music
+- [openai/shap-e](https://github.com/openai/shap-e) (12.1K⭐) - Generate 3D objects from text or images
+- [openai/point-e](https://github.com/openai/point-e) (6.8K⭐) - Point cloud diffusion for 3D model synthesis
+- [openai/consistency_models](https://github.com/openai/consistency_models) (6.4K⭐) - Official repo for consistency models
+- [openai/guided-diffusion](https://github.com/openai/guided-diffusion) (7.1K⭐) - Guided diffusion models
+- [openai/improved-diffusion](https://github.com/openai/improved-diffusion) (3.7K⭐) - Improved Denoising Diffusion Probabilistic Models
+- [openai/glide-text2im](https://github.com/openai/glide-text2im) (3.7K⭐) - GLIDE: text-conditional image synthesis
+- [openai/glow](https://github.com/openai/glow) (3.2K⭐) - Glow: Generative Flow with Invertible 1x1 Convolutions
+
+### OpenAI Agents & Tools - 10 repos
+
+- [openai/openai-agents-python](https://github.com/openai/openai-agents-python) (17.3K⭐) - Lightweight framework for multi-agent workflows
+- [openai/openai-agents-js](https://github.com/openai/openai-agents-js) (1.9K⭐) - Multi-agent workflows in JavaScript
+- [openai/agents.md](https://github.com/openai/agents.md) (8.2K⭐) - Simple, open format for guiding coding agents
+- [openai/openai-realtime-agents](https://github.com/openai/openai-realtime-agents) (6.6K⭐) - Advanced agentic patterns on Realtime API
+- [openai/openai-realtime-console](https://github.com/openai/openai-realtime-console) (3.5K⭐) - React app for Realtime API inspection
+- [openai/openai-realtime-api-beta](https://github.com/openai/openai-realtime-api-beta) (1.0K⭐) - Node.js reference client for Realtime API
+- [openai/openai-realtime-embedded](https://github.com/openai/openai-realtime-embedded) (1.6K⭐) - Realtime API on microcontrollers
+- [openai/openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo) (5.8K⭐) - Customer service use case demo
+- [openai/openai-cua-sample-app](https://github.com/openai/openai-cua-sample-app) (1.2K⭐) - Learn Computer Using Agent (CUA) via API
+- [openai/codex](https://github.com/openai/codex) (50.6K⭐) - Lightweight coding agent for terminal
+
+### OpenAI Reinforcement Learning - 10 repos
+
+- [openai/gym](https://github.com/openai/gym) (36.8K⭐) - Toolkit for developing and comparing RL algorithms
+- [openai/baselines](https://github.com/openai/baselines) (16.6K⭐) - High-quality implementations of RL algorithms
+- [openai/spinningup](https://github.com/openai/spinningup) (11.4K⭐) - Educational resource to learn deep RL
+- [openai/universe](https://github.com/openai/universe) (7.5K⭐) - Platform for measuring AI's general intelligence
+- [openai/retro](https://github.com/openai/retro) (3.5K⭐) - Retro Games in Gym
+- [openai/roboschool](https://github.com/openai/roboschool) (2.2K⭐) - Open-source software for robot simulation (deprecated)
+- [openai/mujoco-py](https://github.com/openai/mujoco-py) (3.1K⭐) - MuJoCo physics engine for Python 3
+- [openai/evolution-strategies-starter](https://github.com/openai/evolution-strategies-starter) (1.6K⭐) - Evolution Strategies as scalable alternative to RL
+- [openai/procgen](https://github.com/openai/procgen) (1.1K⭐) - Procgen Benchmark: Procedurally-Generated Game-Like Gym Environments
+- [openai/universe-starter-agent](https://github.com/openai/universe-starter-agent) (1.1K⭐) - Starter agent that can solve universe environments
+
+### OpenAI Quickstarts & Examples - 10 repos
+
+- [openai/openai-quickstart-node](https://github.com/openai/openai-quickstart-node) (2.6K⭐) - Node.js example app from quickstart tutorial
+- [openai/openai-quickstart-python](https://github.com/openai/openai-quickstart-python) (1.8K⭐) - Python example app from quickstart
+- [openai/openai-assistants-quickstart](https://github.com/openai/openai-assistants-quickstart) (2.0K⭐) - Assistants API quickstart with Next.js
+- [openai/plugins-quickstart](https://github.com/openai/plugins-quickstart) (4.2K⭐) - ChatGPT plugin up and running in under 5 minutes
+- [openai/gpt-discord-bot](https://github.com/openai/gpt-discord-bot) (1.8K⭐) - Example Discord bot using completions API
+- [openai/openai-apps-sdk-examples](https://github.com/openai/openai-apps-sdk-examples) (1.7K⭐) - Example apps for the Apps SDK
+- [openai/openai-chatkit-starter-app](https://github.com/openai/openai-chatkit-starter-app) (657⭐) - Build with OpenAI ChatKit + Agent Builder
+- [openai/openai-responses-starter-app](https://github.com/openai/openai-responses-starter-app) (712⭐) - Starter app for Responses API
+- [openai/openai-structured-outputs-samples](https://github.com/openai/openai-structured-outputs-samples) (661⭐) - Sample apps for Structured Outputs
+- [openai/openai-testing-agent-demo](https://github.com/openai/openai-testing-agent-demo) (723⭐) - UI testing agent using CUA model
+
+### OpenAI Research Code - 15 repos
+
+- [openai/human-eval](https://github.com/openai/human-eval) (3.0K⭐) - Evaluating Large Language Models Trained on Code
+- [openai/prm800k](https://github.com/openai/prm800k) (2.1K⭐) - 800,000 step-level correctness labels on MATH problems
+- [openai/weak-to-strong](https://github.com/openai/weak-to-strong) (2.5K⭐) - Weak-to-strong generalization research
+- [openai/simple-evals](https://github.com/openai/simple-evals) (4.2K⭐) - Simple evaluation suite
+- [openai/transformer-debugger](https://github.com/openai/transformer-debugger) (4.1K⭐) - Debug transformers
+- [openai/grok](https://github.com/openai/grok) (4.2K⭐) - Grok research
+- [openai/image-gpt](https://github.com/openai/image-gpt) (2.1K⭐) - Image GPT research
+- [openai/grade-school-math](https://github.com/openai/grade-school-math) (1.4K⭐) - Grade school math dataset
+- [openai/following-instructions-human-feedback](https://github.com/openai/following-instructions-human-feedback) (1.2K⭐) - Following instructions from human feedback
+- [openai/automated-interpretability](https://github.com/openai/automated-interpretability) (1.1K⭐) - Automated interpretability research
+- [openai/frontier-evals](https://github.com/openai/frontier-evals) (941⭐) - OpenAI Frontier Evals
+- [openai/mle-bench](https://github.com/openai/mle-bench) (1.2K⭐) - MLE-bench: Benchmark for ML engineering agents
+- [openai/SWELancer-Benchmark](https://github.com/openai/SWELancer-Benchmark) (1.4K⭐) - Can Frontier LLMs Earn $1 Million from Freelance SWE?
+- [openai/model_spec](https://github.com/openai/model_spec) (679⭐) - The OpenAI Model Spec
+- [openai/gpt-5-coding-examples](https://github.com/openai/gpt-5-coding-examples) (1.7K⭐) - GPT-5 coding examples
+
+### OpenAI Multi-Agent & Competition - 10 repos
+
+- [openai/multiagent-particle-envs](https://github.com/openai/multiagent-particle-envs) (2.7K⭐) - Multi-agent particle environment
+- [openai/maddpg](https://github.com/openai/maddpg) (1.9K⭐) - Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
+- [openai/multi-agent-emergence-environments](https://github.com/openai/multi-agent-emergence-environments) (1.8K⭐) - Emergent Tool Use From Multi-Agent Autocurricula
+- [openai/neural-mmo](https://github.com/openai/neural-mmo) (1.6K⭐) - Neural MMO: Massively Multiagent Game Environment
+- [openai/multiagent-competition](https://github.com/openai/multiagent-competition) (825⭐) - Emergent Complexity via Multi-agent Competition
+- [openai/imitation](https://github.com/openai/imitation) (725⭐) - Generative Adversarial Imitation Learning
+- [openai/large-scale-curiosity](https://github.com/openai/large-scale-curiosity) (830⭐) - Large-Scale Study of Curiosity-Driven Learning
+- [openai/random-network-distillation](https://github.com/openai/random-network-distillation) (918⭐) - Exploration by Random Network Distillation
+- [openai/Video-Pre-Training](https://github.com/openai/Video-Pre-Training) (1.6K⭐) - Learning to Act by Watching Unlabeled Online Videos
+- [openai/requests-for-research](https://github.com/openai/requests-for-research) (1.7K⭐) - A living collection of deep learning problems
+
+### OpenAI Generative Models - 10 repos
+
+- [openai/improved-gan](https://github.com/openai/improved-gan) (2.3K⭐) - Improved Techniques for Training GANs
+- [openai/InfoGAN](https://github.com/openai/InfoGAN) (1.1K⭐) - Interpretable Representation Learning by Information Maximizing GANs
+- [openai/pixel-cnn](https://github.com/openai/pixel-cnn) (2.0K⭐) - PixelCNN++ Implementation
+- [openai/gpt-2-output-dataset](https://github.com/openai/gpt-2-output-dataset) (2.0K⭐) - Dataset of GPT-2 outputs for research
+- [openai/finetune-transformer-lm](https://github.com/openai/finetune-transformer-lm) (2.3K⭐) - Improving Language Understanding by Generative Pre-Training
+- [openai/lm-human-preferences](https://github.com/openai/lm-human-preferences) (1.4K⭐) - Fine-Tuning Language Models from Human Preferences
+- [openai/summarize-from-feedback](https://github.com/openai/summarize-from-feedback) (1.1K⭐) - Learning to summarize from human feedback
+- [openai/generating-reviews-discovering-sentiment](https://github.com/openai/generating-reviews-discovering-sentiment) (1.5K⭐) - Learning to Generate Reviews and Discovering Sentiment
+- [openai/dalle-2-preview](https://github.com/openai/dalle-2-preview) (1.0K⭐) - DALL·E 2 preview
+- [openai/consistencydecoder](https://github.com/openai/consistencydecoder) (2.2K⭐) - Consistency Distilled Diff VAE
+
+### OpenAI Utilities & Infrastructure - 10 repos
+
+- [openai/chatkit-js](https://github.com/openai/chatkit-js) (1.6K⭐) - ChatKit JavaScript library
+- [openai/harmony](https://github.com/openai/harmony) (4.0K⭐) - Renderer for harmony response format for gpt-oss
+- [openai/sparse_attention](https://github.com/openai/sparse_attention) (1.6K⭐) - Examples of using sparse attention
+- [openai/blocksparse](https://github.com/openai/blocksparse) (1.1K⭐) - Efficient GPU kernels for block-sparse matrix multiplication
+- [openai/supervised-reptile](https://github.com/openai/supervised-reptile) (1.0K⭐) - On First-Order Meta-Learning Algorithms
+- [openai/kubernetes-ec2-autoscaler](https://github.com/openai/kubernetes-ec2-autoscaler) (871⭐) - Batch-optimized scaling manager for Kubernetes
+- [openai/codex-universal](https://github.com/openai/codex-universal) (704⭐) - Base docker image used in Codex environments
+- [openai/codex-action](https://github.com/openai/codex-action) (675⭐) - Codex GitHub Action
+- [openai/deeptype](https://github.com/openai/deeptype) (651⭐) - DeepType: Multilingual Entity Linking by Neural Type System Evolution
+- [openai/build-hours](https://github.com/openai/build-hours) (626⭐) - Build hours code to share
+
+### 🎯 OpenAI Hiring & Careers Resources
+
+**Careers & Opportunities:**
+- [OpenAI Careers](https://openai.com/careers/) - Main careers page
+- [OpenAI Residency Program](https://openai.com/residency/) - Six-month program with pathway to full-time role
+- [Interview Guide](https://openai.com/interview-guide/) - OpenAI interview preparation
+- [Emerging Talent](https://openai.com/careers/emerging-talent/) - Roles for 0-3 years experience
+
+**Current Job Categories:**
+- Research Engineers - Building AI systems with unprecedented performance
+- Software Engineers (Backend, Observability, Full-stack)
+- Applied Engineering - Customer-facing AI products
+- Product Roles - AI product development
+
+### 📚 OpenAI Documentation & Learning
+
+**Technical Documentation:**
+- [OpenAI Platform Docs](https://platform.openai.com/docs/) - Main developer documentation
+- [API Reference](https://platform.openai.com/docs/api-reference/) - Complete API reference
+- [Developer Quickstart](https://platform.openai.com/docs/quickstart) - Get started quickly
+- [Key Concepts](https://platform.openai.com/docs/concepts) - Core concepts explained
+
+**Learning Resources:**
+- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) (69K⭐) - Examples and guides
+- [OpenAI Examples](https://platform.openai.com/examples) - Interactive examples
+
+### 🔬 OpenAI Research & Publications
+
+**Research Resources:**
+- [OpenAI Research](https://openai.com/research/) - Main research page
+- [Publications Index](https://openai.com/research/index/publication/) - All publications
+- [Research News](https://openai.com/news/research/) - Latest research updates
+- [OpenAI News](https://openai.com/news/) - Company news and announcements
+
+**Recent Research (2024-2025):**
+- GPT-5.1 System Card (Nov 2025)
+- gpt-oss-safeguard models - Open-weight reasoning models (Oct 2025)
+- Political bias in LLMs research (Oct 2025)
+- Detecting and reducing scheming in AI (Sep 2025)
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### CA Technologies (~361 repos)
@@ -1356,7 +1530,7 @@ On GitHub stars page, you can sort by:
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 3,100+ |
+| **Total Repositories** | 3,200+ |
 | **AI & ML** | 360+ |
 | **MLOps** | 115+ |
 | **Cybersecurity** | 132+ |
@@ -1371,6 +1545,7 @@ On GitHub stars page, you can sort by:
 | **Quality Engineering & Testing** | 65+ |
 | **Database Technologies** | 120+ |
 | **Quantum & Emerging Technologies** | 100+ |
+| **OpenAI Resources (Hiring & Tech)** | 100+ |
 | **Enterprise** | 361+ |
 
 ---

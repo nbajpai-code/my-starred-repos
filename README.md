@@ -1,12 +1,12 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **3,100+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, Quantum & Emerging Technologies, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **3,200+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, Quantum & Emerging Technologies, OpenAI (Hiring & Tech), and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-3,100+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-3,200+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
-**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,100+ starred repos with direct links!
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,200+ starred repos with direct links!
 
 ---
 
@@ -31,6 +31,7 @@
 - [🧪 Quality Engineering & Testing](#-quality-engineering--testing)
 - [🗄️ Database Technologies](#️-database-technologies)
 - [🔬 Quantum & Emerging Technologies](#-quantum--emerging-technologies)
+- [🔵 OpenAI Resources (Hiring & Tech)](#-openai-resources-hiring--tech)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
@@ -1364,6 +1365,126 @@ See [STARRED-INDEX.md - Quantum & Emerging Technologies](STARRED-INDEX.md#-quant
 - Human Brain Project client
 
 </details>
+
+---
+
+## 🔵 OpenAI Resources (Hiring & Tech)
+
+### OpenAI Repositories & Resources (~100 repos)
+
+See [STARRED-INDEX.md - OpenAI Resources](STARRED-INDEX.md#-openai-resources-hiring--tech) for the full list.
+
+<details>
+<summary>🔵 View OpenAI Categories</summary>
+
+### OpenAI Core & API - 10 repos
+- openai-python (29.3K⭐) - Official Python library
+- openai-cookbook (69.2K⭐) - Examples and guides
+- openai-node (10.4K⭐) - Official JavaScript/TypeScript library
+- openai-go, openai-dotnet, openai-java
+- tiktoken (16.6K⭐) - Fast BPE tokeniser
+- evals (17.3K⭐) - Framework for evaluating LLMs
+- swarm (20.6K⭐) - Multi-agent orchestration
+
+### OpenAI Models & Research - 15 repos
+- Whisper (90.9K⭐) - Speech recognition
+- CLIP (31.6K⭐) - Contrastive Language-Image Pretraining
+- GPT-2 (24.4K⭐), GPT-3 (15.8K⭐), gpt-oss (19.2K⭐)
+- ChatGPT Retrieval Plugin (21.2K⭐)
+- DALL-E (10.9K⭐), Jukebox (8.0K⭐)
+- Shap-E (12.1K⭐) - 3D object generation
+- Point-E (6.8K⭐) - Point cloud diffusion
+- Consistency Models, Guided Diffusion, GLIDE
+
+### OpenAI Agents & Tools - 10 repos
+- openai-agents-python (17.3K⭐) - Multi-agent workflows
+- Codex (50.6K⭐) - Lightweight coding agent
+- agents.md (8.2K⭐) - Open format for guiding agents
+- Realtime API tools (console, embedded, agents)
+- Customer service demo, CUA sample app
+
+### OpenAI Reinforcement Learning - 10 repos
+- Gym (36.8K⭐) - RL toolkit
+- Baselines (16.6K⭐) - RL algorithm implementations
+- Spinning Up (11.4K⭐) - Educational deep RL
+- Universe (7.5K⭐) - AI general intelligence platform
+- Retro, Roboschool, MuJoCo-py, Procgen
+
+### OpenAI Quickstarts & Examples - 10 repos
+- Quickstart apps (Node.js, Python, Next.js)
+- ChatGPT plugins quickstart (4.2K⭐)
+- GPT Discord bot, Apps SDK examples
+- Structured Outputs samples, Testing agent demo
+
+### OpenAI Research Code - 15 repos
+- human-eval (3.0K⭐) - Evaluating LLMs trained on code
+- prm800k (2.1K⭐) - 800K step-level correctness labels
+- weak-to-strong (2.5K⭐), simple-evals (4.2K⭐)
+- transformer-debugger (4.1K⭐), grok (4.2K⭐)
+- grade-school-math, frontier-evals
+- mle-bench (1.2K⭐) - ML engineering agent benchmark
+- SWELancer-Benchmark (1.4K⭐)
+- gpt-5-coding-examples (1.7K⭐)
+
+### OpenAI Multi-Agent & Competition - 10 repos
+- Multi-agent particle environments (2.7K⭐)
+- MADDPG (1.9K⭐), Neural MMO (1.6K⭐)
+- Multi-agent emergence, competition
+- Imitation learning, curiosity-driven learning
+- Video Pre-Training (1.6K⭐)
+
+### OpenAI Generative Models - 10 repos
+- Improved GAN (2.3K⭐), InfoGAN (1.1K⭐)
+- PixelCNN++ (2.0K⭐)
+- GPT-2 output dataset
+- Fine-tuning from human preferences
+- Summarization from feedback
+- DALL·E 2 preview, Consistency Decoder (2.2K⭐)
+
+### OpenAI Utilities & Infrastructure - 10 repos
+- ChatKit-js, Harmony (4.0K⭐)
+- Sparse attention, Blocksparse (1.1K⭐)
+- Supervised Reptile, Kubernetes EC2 autoscaler
+- Codex Universal, DeepType
+
+</details>
+
+### 🎯 OpenAI Hiring & Careers
+
+**Career Opportunities:**
+- [OpenAI Careers](https://openai.com/careers/) - Explore current openings
+- [Residency Program](https://openai.com/residency/) - Six-month program → full-time pathway
+- [Interview Guide](https://openai.com/interview-guide/) - Preparation resources
+- [Emerging Talent](https://openai.com/careers/emerging-talent/) - Early career roles (0-3 years)
+
+**Current Positions:**
+- Research Engineers - Building unprecedented AI systems
+- Software Engineers - Backend, Observability, Full-stack
+- Applied Engineering - Customer-facing AI products
+- Product Roles - AI product development & strategy
+
+### 📚 OpenAI Documentation & Learning
+
+**Technical Resources:**
+- [Platform Docs](https://platform.openai.com/docs/) - Complete developer documentation
+- [API Reference](https://platform.openai.com/docs/api-reference/) - Comprehensive API reference
+- [Quickstart Guide](https://platform.openai.com/docs/quickstart) - Get started in minutes
+- [Key Concepts](https://platform.openai.com/docs/concepts) - Core concepts explained
+- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) (69K⭐) - Practical examples
+
+### 🔬 OpenAI Research & Publications
+
+**Research Hub:**
+- [Research Portal](https://openai.com/research/) - Latest research projects
+- [Publications Index](https://openai.com/research/index/publication/) - All published papers
+- [Research News](https://openai.com/news/research/) - Recent announcements
+- [Company News](https://openai.com/news/) - OpenAI updates
+
+**Recent Highlights (2024-2025):**
+- GPT-5.1 System Card (Nov 2025)
+- gpt-oss-safeguard open-weight models (Oct 2025)
+- Political bias in LLMs research (Oct 2025)
+- AI scheming detection & reduction (Sep 2025)
 
 ---
 
