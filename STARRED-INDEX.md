@@ -24,7 +24,7 @@
 | 🎤 **Conference Resources** | 63+ | [Jump →](#-conference-resources) |
 | 🐍 **Python Conferences** | 51+ | [Jump →](#-python-conferences) |
 | 💼 **Tech Conferences** | 76+ | [Jump →](#-tech-conferences) |
-| 🏗️ **Data Center Conferences** | 53+ | [Jump →](#️-data-center-conferences) |
+| 🏗️ **Data Center Conferences** | 85+ | [Jump →](#️-data-center-conferences) |
 | 🔒 **Security & Enterprise Conferences** | 55+ | [Jump →](#-security--enterprise-conferences) |
 | 🤖 **AI Coding Agents & Benchmarks** | 45+ | [Jump →](#-ai-coding-agents--benchmarks) |
 | 🧪 **Quality Engineering & Testing** | 65+ | [Jump →](#-quality-engineering--testing) |
@@ -626,55 +626,87 @@
 
 ## 🏗️ Data Center Conferences
 
-### Open Compute Project (OCP) - 30 repos
+### Open Compute Project (OCP) - 62 repos
 
-**Core OCP Infrastructure:**
-- [opencomputeproject/SAI](https://github.com/opencomputeproject/SAI) - Switch Abstraction Interface
-- [opencomputeproject/onie](https://github.com/opencomputeproject/onie) - Open Network Install Environment
-- [opencomputeproject/ocp-diag-core](https://github.com/opencomputeproject/ocp-diag-core) - Test & Validation specification and tools
-- [opencomputeproject/Security](https://github.com/opencomputeproject/Security) - Security Project
-- [opencomputeproject/HWMgmt-OCP-Profiles](https://github.com/opencomputeproject/HWMgmt-OCP-Profiles) - OCP hardware management profiles
-- [opencomputeproject/trinityX](https://github.com/opencomputeproject/trinityX) - Open-source HPC, AI and cloudbursting platform
-- [opencomputeproject/OCP-Public](https://github.com/opencomputeproject/OCP-Public) - Public OCP repository
+**Core OCP Infrastructure - 10 repos:**
+- [opencomputeproject/onie](https://github.com/opencomputeproject/onie) (651⭐) - Open Network Install Environment
+- [opencomputeproject/OpenNetworkLinux](https://github.com/opencomputeproject/OpenNetworkLinux) (587⭐) - Network operating system
+- [opencomputeproject/SAI](https://github.com/opencomputeproject/SAI) (558⭐) - Switch Abstraction Interface
+- [opencomputeproject/Project_Olympus](https://github.com/opencomputeproject/Project_Olympus) (319⭐) - Cloud hardware platform
+- [opencomputeproject/Project-Zipline](https://github.com/opencomputeproject/Project-Zipline) (287⭐) - Data compression accelerator
+- [opencomputeproject/Security](https://github.com/opencomputeproject/Security) (99⭐) - OCP Security Project
+- [opencomputeproject/OpenSystemFirmware](https://github.com/opencomputeproject/OpenSystemFirmware) (76⭐) - Open system firmware
+- [opencomputeproject/CADCloud](https://github.com/opencomputeproject/CADCloud) (102⭐) - CAD in the cloud
+- [opencomputeproject/trinityX](https://github.com/opencomputeproject/trinityX) (4⭐) - HPC/AI cloudbursting platform
+- [opencomputeproject/oom](https://github.com/opencomputeproject/oom) (72⭐) - Onboard opticals management
 
-**OCP Diagnostics & Testing:**
-- [opencomputeproject/ocp-diag-autoval](https://github.com/opencomputeproject/ocp-diag-autoval) - Automated validation
-- [opencomputeproject/ocp-diag-autoval-ssd](https://github.com/opencomputeproject/ocp-diag-autoval-ssd) - SSD automated validation
-- [opencomputeproject/ocp-diag-ctam](https://github.com/opencomputeproject/ocp-diag-ctam) - Component Test & Automation
-- [opencomputeproject/ocp-diag-windtunnel](https://github.com/opencomputeproject/ocp-diag-windtunnel) - Building & testing private AI on HPC
-- [opencomputeproject/ocp-diag-cpact](https://github.com/opencomputeproject/ocp-diag-cpact) - Diagnostic tools
-- [opencomputeproject/SAI-Challenger](https://github.com/opencomputeproject/SAI-Challenger) - SAI testing framework
+**OCP Diagnostics & Testing - 10 repos:**
+- [opencomputeproject/ocp-diag-pcicrawler](https://github.com/opencomputeproject/ocp-diag-pcicrawler) (208⭐) - PCI device diagnostics
+- [opencomputeproject/ocp-diag-core](https://github.com/opencomputeproject/ocp-diag-core) (33⭐) - Core diagnostics framework
+- [opencomputeproject/ocp-diag-autoval](https://github.com/opencomputeproject/ocp-diag-autoval) (17⭐) - Automated validation
+- [opencomputeproject/ocp-diag-autoval-ssd](https://github.com/opencomputeproject/ocp-diag-autoval-ssd) (23⭐) - SSD validation
+- [opencomputeproject/ocp-diag-ctam](https://github.com/opencomputeproject/ocp-diag-ctam) (11⭐) - Component Test & Automation
+- [opencomputeproject/ocp-diag-pci_lmt](https://github.com/opencomputeproject/ocp-diag-pci_lmt) (25⭐) - PCI lane margining tool
+- [opencomputeproject/ocp-diag-core-python](https://github.com/opencomputeproject/ocp-diag-core-python) (15⭐) - Python diagnostics
+- [opencomputeproject/ocp-diag-core-cpp](https://github.com/opencomputeproject/ocp-diag-core-cpp) (4⭐) - C++ diagnostics
+- [opencomputeproject/ocp-diag-memtester](https://github.com/opencomputeproject/ocp-diag-memtester) (4⭐) - Memory testing
+- [opencomputeproject/ocp-diag-quickstart](https://github.com/opencomputeproject/ocp-diag-quickstart) (4⭐) - Diagnostics quickstart
 
-**OCP Security:**
-- [opencomputeproject/OCP-Security-SAFE](https://github.com/opencomputeproject/OCP-Security-SAFE) - Security SAFE framework
+**OCP Hardware Management - 10 repos:**
+- [opencomputeproject/HWMgmt-OCP-Profiles](https://github.com/opencomputeproject/HWMgmt-OCP-Profiles) (23⭐) - Hardware management profiles
+- [opencomputeproject/HWMgmt-DeviceMgr-DeviceManager](https://github.com/opencomputeproject/HWMgmt-DeviceMgr-DeviceManager) (25⭐) - Device manager
+- [opencomputeproject/HWMgmt-DeviceMgr-PSME](https://github.com/opencomputeproject/HWMgmt-DeviceMgr-PSME) (15⭐) - Pooled System Management Engine
+- [opencomputeproject/HWMgmt-Module-DCSCM-LTPI](https://github.com/opencomputeproject/HWMgmt-Module-DCSCM-LTPI) (13⭐) - Low-latency peripheral interface
+- [opencomputeproject/OCP-HM-MegaRAC_Community_Edition](https://github.com/opencomputeproject/OCP-HM-MegaRAC_Community_Edition) (113⭐) - MegaRAC BMC
+- [opencomputeproject/Rack-Manager](https://github.com/opencomputeproject/Rack-Manager) (23⭐) - Rack management
+- [opencomputeproject/Project_Olympus_rack_manager](https://github.com/opencomputeproject/Project_Olympus_rack_manager) (4⭐) - Olympus rack manager
+- [opencomputeproject/RunBMC](https://github.com/opencomputeproject/RunBMC) (10⭐) - BMC runtime environment
+- [opencomputeproject/ocp-obmf](https://github.com/opencomputeproject/ocp-obmf) (4⭐) - OpenBMC framework
+- [opencomputeproject/Discovery](https://github.com/opencomputeproject/Discovery) (5⭐) - Hardware discovery
+
+**OCP Firmware & BIOS - 10 repos:**
+- [opencomputeproject/OCP-OSF-Aptio_Community_Edition](https://github.com/opencomputeproject/OCP-OSF-Aptio_Community_Edition) (159⭐) - Aptio firmware
+- [opencomputeproject/OCP-OSF-Tektagon_Community_Edition](https://github.com/opencomputeproject/OCP-OSF-Tektagon_Community_Edition) (25⭐) - Tektagon firmware
+- [opencomputeproject/OSF-OSFCI](https://github.com/opencomputeproject/OSF-OSFCI) (26⭐) - Open System Firmware CI
+- [opencomputeproject/zaius-barreleye-g2](https://github.com/opencomputeproject/zaius-barreleye-g2) (31⭐) - Barreleye G2 firmware
+- [opencomputeproject/mion](https://github.com/opencomputeproject/mion) (8⭐) - Switch software distribution
+- [opencomputeproject/OCP-Accepted-Ampere-Computing](https://github.com/opencomputeproject/OCP-Accepted-Ampere-Computing) (4⭐) - Ampere Computing platform
+- [opencomputeproject/OCP-Ready-Facility-Recognition-Program](https://github.com/opencomputeproject/OCP-Ready-Facility-Recognition-Program) (4⭐) - Facility recognition
+- [opencomputeproject/PowerAPI](https://github.com/opencomputeproject/PowerAPI) (4⭐) - Power management API
+- [opencomputeproject/OCP-Software-GitHub-Process](https://github.com/opencomputeproject/OCP-Software-GitHub-Process) (4⭐) - GitHub processes
+- [opencomputeproject/FP8](https://github.com/opencomputeproject/FP8) (14⭐) - 8-bit floating point specification
+
+**OCP Networking - 5 repos:**
+- [opencomputeproject/SAI-Challenger](https://github.com/opencomputeproject/SAI-Challenger) (19⭐) - SAI testing framework
+- [opencomputeproject/OCP-NET-Falcon](https://github.com/opencomputeproject/OCP-NET-Falcon) (48⭐) - Falcon networking platform
+- [opencomputeproject/OCP-Telco-Open_3GPP_RU](https://github.com/opencomputeproject/OCP-Telco-Open_3GPP_RU) (4⭐) - 3GPP Radio Unit
+- [opennetworklinux/ONL](https://github.com/opennetworklinux/ONL) - Open Network Linux
+- [opencomputeproject/ODSA-Link-Layer](https://github.com/opencomputeproject/ODSA-Link-Layer) (9⭐) - Link layer specification
+
+**OCP Security - 5 repos:**
+- [opencomputeproject/OCP-Security-SAFE](https://github.com/opencomputeproject/OCP-Security-SAFE) (18⭐) - Security SAFE framework
 - [opencomputeproject/OCP-Security-FIRM](https://github.com/opencomputeproject/OCP-Security-FIRM) - Firmware security
-- [opencomputeproject/ocp-obmf](https://github.com/opencomputeproject/ocp-obmf) - OpenBMC framework
+- [opencomputeproject/Security](https://github.com/opencomputeproject/Security) (99⭐) - Security project
+- [opencomputeproject/ocp-obmf](https://github.com/opencomputeproject/ocp-obmf) (4⭐) - OpenBMC framework
+- [opencomputeproject/OCP-Software-GitHub-Process](https://github.com/opencomputeproject/OCP-Software-GitHub-Process) (4⭐) - Development processes
 
-**OCP Hardware Management:**
-- [opencomputeproject/OCP-HM-Fast-Verify](https://github.com/opencomputeproject/OCP-HM-Fast-Verify) - Fast validation framework for OCP platforms
-- [opencomputeproject/OCP-HM-AMC-Auxiliary_Management_Controller](https://github.com/opencomputeproject/OCP-HM-AMC-Auxiliary_Management_Controller) - Auxiliary Management Controller
-- [opencomputeproject/ocp-hm-system-gpu-management](https://github.com/opencomputeproject/ocp-hm-system-gpu-management) - GPU management
+**OCP Storage & Data - 5 repos:**
+- [opencomputeproject/ODSA-BoW](https://github.com/opencomputeproject/ODSA-BoW) (26⭐) - Bunch of Wires specification
+- [opencomputeproject/ODSA-CDXML](https://github.com/opencomputeproject/ODSA-CDXML) (13⭐) - Computational Storage
+- [opencomputeproject/ODSA-Link-Layer](https://github.com/opencomputeproject/ODSA-Link-Layer) (9⭐) - Data storage link layer
+- [opencomputeproject/OCP-STO-HDD-NVMe_Telematics](https://github.com/opencomputeproject/OCP-STO-HDD-NVMe_Telematics) (4⭐) - Storage telemetry
+- [opencomputeproject/Project-Zipline](https://github.com/opencomputeproject/Project-Zipline) (287⭐) - Compression accelerator
 
-**OCP Networking:**
-- [opencomputeproject/ocp-net-optical-circuit-switching](https://github.com/opencomputeproject/ocp-net-optical-circuit-switching) - Optical circuit switching
-- [opencomputeproject/OCP-NET-UEC-CSIG](https://github.com/opencomputeproject/OCP-NET-UEC-CSIG) - Networking special interest group
+**OCP Server & Cloud - 5 repos:**
+- [opencomputeproject/OCP-SVR-CMS-Benchmarks](https://github.com/opencomputeproject/OCP-SVR-CMS-Benchmarks) (14⭐) - Server benchmarks
+- [opencomputeproject/Project_Olympus](https://github.com/opencomputeproject/Project_Olympus) (319⭐) - Cloud hardware platform
+- [opencomputeproject/Project-Zipline](https://github.com/opencomputeproject/Project-Zipline) (287⭐) - Data compression
+- [opencomputeproject/CADCloud](https://github.com/opencomputeproject/CADCloud) (102⭐) - CAD in the cloud
+- [opencomputeproject/trinityX](https://github.com/opencomputeproject/trinityX) (4⭐) - HPC/AI platform
 
-**OCP Server & Cloud:**
-- [opencomputeproject/OCP-SVR-MHS-M-PNP_FRUTool](https://github.com/opencomputeproject/OCP-SVR-MHS-M-PNP_FRUTool) - FRU management tool
-- [opencomputeproject/OCP-SVR-CMS-Benchmarks](https://github.com/opencomputeproject/OCP-SVR-CMS-Benchmarks) - Server benchmarks
-
-**OCP Cooling & Economics:**
-- [opencomputeproject/OCP-CE-CDU-Coolant_Distribution_Unit](https://github.com/opencomputeproject/OCP-CE-CDU-Coolant_Distribution_Unit) - Coolant Distribution Unit specs
-- [opencomputeproject/OCP-CE-HR-Economics-Tool](https://github.com/opencomputeproject/OCP-CE-HR-Economics-Tool) - Economics analysis tool
-
-**OCP China Initiatives:**
-- [opencomputeproject/OCP_CHINA_Cloud_Firmware](https://github.com/opencomputeproject/OCP_CHINA_Cloud_Firmware) - Cloud firmware
-- [opencomputeproject/OCP_CHINA_Hardware_Fault_Management](https://github.com/opencomputeproject/OCP_CHINA_Hardware_Fault_Management) - Hardware fault management
-
-**OCP Tools & Registry:**
-- [opencomputeproject/ocp-spec-tools](https://github.com/opencomputeproject/ocp-spec-tools) - Specification tools
-- [opencomputeproject/ocp-registry](https://github.com/opencomputeproject/ocp-registry) - OCP registry
-- [opencomputeproject/opencomputeproject.github.io](https://github.com/opencomputeproject/opencomputeproject.github.io) - OCP website
+**OCP Cooling & Economics - 2 repos:**
+- [opencomputeproject/OCP-CE-HR-Economics-Tool](https://github.com/opencomputeproject/OCP-CE-HR-Economics-Tool) (5⭐) - Economics analysis
+- [opencomputeproject/OCP-Ready-Facility-Recognition-Program](https://github.com/opencomputeproject/OCP-Ready-Facility-Recognition-Program) (4⭐) - Facility program
 
 ### NVIDIA GTC (GPU Technology Conference) - 12 repos
 

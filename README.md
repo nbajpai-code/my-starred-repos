@@ -947,29 +947,42 @@ See [STARRED-INDEX.md - Tech Conferences](STARRED-INDEX.md#-tech-conferences) fo
 
 ## 🏗️ Data Center Conferences
 
-### Data Center Conference Resources (~53 repos)
+### Data Center Conference Resources (~85 repos)
 
 See [STARRED-INDEX.md - Data Center Conferences](STARRED-INDEX.md#️-data-center-conferences) for the full list.
 
 <details>
 <summary>🏗️ View Data Center Conference Categories</summary>
 
-### Open Compute Project (OCP) - 30 repos
-**Core Infrastructure:**
-- Switch Abstraction Interface (SAI)
-- Open Network Install Environment (ONIE)
-- Test & Validation tools (ocp-diag-core)
-- Hardware management profiles
-- TrinityX HPC/AI platform
+### Open Compute Project (OCP) - 62 repos
+**Core Infrastructure (10):**
+- ONIE (651⭐) - Open Network Install Environment
+- OpenNetworkLinux (587⭐) - Network OS
+- SAI (558⭐) - Switch Abstraction Interface
+- Project Olympus (319⭐) - Cloud hardware
+- Project Zipline (287⭐) - Compression accelerator
+
+**Diagnostics & Testing (10):**
+- PCI diagnostics, automated validation
+- SSD testing, memory testing
+- Python/C++ diagnostic frameworks
+
+**Hardware Management (10):**
+- OCP Profiles, Device Manager
+- MegaRAC BMC, Rack Manager
+- RunBMC, OpenBMC framework
+
+**Firmware & BIOS (10):**
+- Aptio/Tektagon firmware
+- Open System Firmware CI
+- Power management API
 
 **Specialized Areas:**
-- Diagnostics & Testing (autoval, windtunnel, SAI-Challenger)
-- Security (SAFE, FIRM, OpenBMC)
-- Hardware Management (Fast-Verify, GPU management)
-- Networking (optical circuit switching)
-- Server & Cloud (FRU tools, benchmarks)
-- Cooling & Economics (CDU, economics tools)
-- China initiatives (Cloud firmware, fault management)
+- Networking (5): SAI-Challenger, Falcon, ONL
+- Security (5): SAFE, FIRM frameworks
+- Storage & Data (5): ODSA specifications
+- Server & Cloud (5): Benchmarks, platforms
+- Cooling & Economics (2): Tools & programs
 
 ### NVIDIA GTC (GPU Technology Conference) - 12 repos
 **Conference Materials:**
