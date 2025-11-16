@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 3,000+ Starred Repositories**
+> **Quick Navigation for 3,100+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -29,6 +29,7 @@
 | 🤖 **AI Coding Agents & Benchmarks** | 45+ | [Jump →](#-ai-coding-agents--benchmarks) |
 | 🧪 **Quality Engineering & Testing** | 65+ | [Jump →](#-quality-engineering--testing) |
 | 🗄️ **Database Technologies** | 120+ | [Jump →](#️-database-technologies) |
+| 🔬 **Quantum & Emerging Technologies** | 100+ | [Jump →](#-quantum--emerging-technologies) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -1183,6 +1184,139 @@
 
 ---
 
+## 🔬 Quantum & Emerging Technologies
+
+### IBM Qiskit - 15 repos
+
+- [Qiskit/qiskit](https://github.com/Qiskit/qiskit) (5.4K⭐) - Open-source quantum computing SDK
+- [Qiskit/qiskit-metapackage](https://github.com/Qiskit/qiskit-metapackage) (2.6K⭐) - Metapackage for Qiskit
+- [Qiskit/qiskit-tutorials](https://github.com/Qiskit/qiskit-tutorials) (2.3K⭐) - Tutorials for quantum computing
+- [Qiskit/rustworkx](https://github.com/Qiskit/rustworkx) (1.1K⭐) - High-performance graph library in Rust
+- [Qiskit/textbook](https://github.com/Qiskit/textbook) (3.2K⭐) - Learn quantum computing online
+- [Qiskit/qiskit-aer](https://github.com/Qiskit/qiskit-aer) (487⭐) - High-performance quantum simulators
+- [Qiskit/qiskit-ibmq-provider](https://github.com/Qiskit/qiskit-ibmq-provider) (349⭐) - IBM Quantum provider
+- [Qiskit/qiskit-ibm-runtime](https://github.com/Qiskit/qiskit-ibm-runtime) (172⭐) - IBM Quantum runtime service
+- [Qiskit/platypus](https://github.com/Qiskit/platypus) (131⭐) - Quantum experiments platform
+- [Qiskit/ecosystem](https://github.com/Qiskit/ecosystem) (105⭐) - Ecosystem of quantum tools
+- [Qiskit/benchpress](https://github.com/Qiskit/benchpress) (43⭐) - Quantum benchmarking framework
+- [Qiskit/qiskit.org](https://github.com/Qiskit/qiskit.org) (278⭐) - Qiskit website
+- [Qiskit/qiskit-serverless](https://github.com/Qiskit/qiskit-serverless) (149⭐) - Serverless quantum computing
+- [Qiskit/qiskit-addon-cutting](https://github.com/Qiskit/qiskit-addon-cutting) (71⭐) - Circuit cutting techniques
+- [Qiskit/qiskit-code-assistant-vscode](https://github.com/Qiskit/qiskit-code-assistant-vscode) (44⭐) - VS Code extension
+
+### Google Quantum (Cirq & OpenFermion) - 10 repos
+
+- [quantumlib/Cirq](https://github.com/quantumlib/Cirq) (4.4K⭐) - Quantum circuits framework
+- [quantumlib/OpenFermion](https://github.com/quantumlib/OpenFermion) (1.9K⭐) - Quantum chemistry simulations
+- [quantumlib/qsim](https://github.com/quantumlib/qsim) (503⭐) - Quantum circuit simulator
+- [quantumlib/Stim](https://github.com/quantumlib/Stim) (348⭐) - Fast stabilizer circuit simulator
+- [quantumlib/ReCirq](https://github.com/quantumlib/ReCirq) (264⭐) - Research with Cirq
+- [quantumlib/OpenFermion-Cirq](https://github.com/quantumlib/OpenFermion-Cirq) (153⭐) - OpenFermion plugin for Cirq
+- [quantumlib/Qualtran](https://github.com/quantumlib/Qualtran) (236⭐) - Quantum algorithms library
+- [quantumlib/OpenFermion-PySCF](https://github.com/quantumlib/OpenFermion-PySCF) (82⭐) - PySCF plugin
+- [quantumlib/OpenFermion-Psi4](https://github.com/quantumlib/OpenFermion-Psi4) (39⭐) - Psi4 plugin
+- [quantumlib/tesseract-decoder](https://github.com/quantumlib/tesseract-decoder) (13⭐) - Quantum error correction
+
+### Amazon Braket - 10 repos
+
+- [amazon-braket/amazon-braket-examples](https://github.com/amazon-braket/amazon-braket-examples) (406⭐) - Example notebooks
+- [amazon-braket/amazon-braket-sdk-python](https://github.com/amazon-braket/amazon-braket-sdk-python) (303⭐) - Python SDK
+- [amazon-braket/Braket.jl](https://github.com/amazon-braket/Braket.jl) (72⭐) - Julia SDK
+- [amazon-braket/amazon-braket-algorithm-library](https://github.com/amazon-braket/amazon-braket-algorithm-library) (102⭐) - Quantum algorithms
+- [amazon-braket/amazon-braket-default-simulator-python](https://github.com/amazon-braket/amazon-braket-default-simulator-python) (89⭐) - Local simulator
+- [amazon-braket/amazon-braket-schemas-python](https://github.com/amazon-braket/amazon-braket-schemas-python) (40⭐) - Braket schemas
+- [amazon-braket/amazon-braket-pennylane-plugin-python](https://github.com/amazon-braket/amazon-braket-pennylane-plugin-python) (61⭐) - PennyLane plugin
+- [amazon-braket/amazon-braket-ocean-plugin-python](https://github.com/amazon-braket/amazon-braket-ocean-plugin-python) (18⭐) - D-Wave Ocean plugin
+- [amazon-braket/BraketAHS.jl](https://github.com/amazon-braket/BraketAHS.jl) (6⭐) - Analog Hamiltonian simulation
+- [amazon-braket/autoqasm](https://github.com/amazon-braket/autoqasm) (31⭐) - Quantum assembly language
+
+### Quantum Computing Frameworks - 15 repos
+
+- [microsoft/QuantumKatas](https://github.com/microsoft/QuantumKatas) (4.6K⭐) - Learn quantum computing with Q#
+- [desireevl/awesome-quantum-computing](https://github.com/desireevl/awesome-quantum-computing) (2.4K⭐) - Awesome quantum resources
+- [PennyLaneAI/pennylane](https://github.com/PennyLaneAI/pennylane) (2.4K⭐) - Quantum machine learning
+- [Classiq/classiq-library](https://github.com/Classiq/classiq-library) (415⭐) - Quantum algorithm library
+- [OriginQ/QPanda-2](https://github.com/OriginQ/QPanda-2) (1.1K⭐) - Quantum programming framework
+- [ProjectQ-Framework/ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ) (906⭐) - Quantum computing framework
+- [JackHidary/quantumcomputingbook](https://github.com/JackHidary/quantumcomputingbook) (822⭐) - Quantum computing book code
+- [AgnostiqHQ/covalent](https://github.com/AgnostiqHQ/covalent) (860⭐) - Workflows for quantum & HPC
+- [PennyLaneAI/qml](https://github.com/PennyLaneAI/qml) (1.3K⭐) - Quantum machine learning demos
+- [softwareQinc/qpp](https://github.com/softwareQinc/qpp) (551⭐) - Quantum++ library
+- [corbett/QuantumComputing](https://github.com/corbett/QuantumComputing) (1.1K⭐) - Quantum computing resources
+- [gitkarma/quantum_computing_course2025](https://github.com/gitkarma/quantum_computing_course2025) (124⭐) - 2025 quantum course
+- [Entanglion/entanglion](https://github.com/Entanglion/entanglion) (214⭐) - Quantum computing board game
+- [microsoft/Reference-Guide-For-Quantum-Computing-A-Microsoft-Garage-Project](https://github.com/microsoft/Reference-Guide-For-Quantum-Computing-A-Microsoft-Garage-Project) (185⭐) - Quantum reference guide
+- [qiskit-community/qiskit-nature](https://github.com/qiskit-community/qiskit-nature) (317⭐) - Quantum algorithms for chemistry
+
+### WebAssembly (WASM) - 15 repos
+
+- [tinygo-org/tinygo](https://github.com/tinygo-org/tinygo) (15.6K⭐) - Go compiler for small places
+- [mbasso/awesome-wasm](https://github.com/mbasso/awesome-wasm) (8.8K⭐) - Awesome WebAssembly
+- [extism/extism](https://github.com/extism/extism) (4.5K⭐) - Universal plugin system
+- [shamadee/web-dsp](https://github.com/shamadee/web-dsp) (2.8K⭐) - WebAssembly DSP library
+- [wasmlang/awesome-wasm-zh](https://github.com/wasmlang/awesome-wasm-zh) (652⭐) - Awesome WASM (Chinese)
+- [joelseverin/linux-wasm](https://github.com/joelseverin/linux-wasm) (12⭐) - Linux in WebAssembly
+- [RyanLamansky/dotnet-webassembly](https://github.com/RyanLamansky/dotnet-webassembly) (383⭐) - .NET WebAssembly
+- [torch2424/wasm-by-example](https://github.com/torch2424/wasm-by-example) (1.3K⭐) - Learn WASM by example
+- [niutech/jxl.js](https://github.com/niutech/jxl.js) (238⭐) - JPEG XL decoder in WASM
+- [anderejd/electron-wasm-rust-example](https://github.com/anderejd/electron-wasm-rust-example) (135⭐) - Electron + WASM + Rust
+- [tangledgroup/llama-cpp-wasm](https://github.com/tangledgroup/llama-cpp-wasm) (57⭐) - LLaMA.cpp in WebAssembly
+- [torch2424/made-with-webassembly](https://github.com/torch2424/made-with-webassembly) (840⭐) - Showcase of WASM apps
+- [RingsNetwork/rings](https://github.com/RingsNetwork/rings) (262⭐) - P2P network in WASM
+- [thlorenz/wasm2js](https://github.com/thlorenz/wasm2js) (83⭐) - Convert WASM to JS
+- [ibero-data/duck-ui](https://github.com/ibero-data/duck-ui) (14⭐) - DuckDB UI in WASM
+
+### Bytecode Alliance (WASM Runtime) - 10 repos
+
+- [bytecodealliance/wasmtime](https://github.com/bytecodealliance/wasmtime) (15.8K⭐) - Fast WASM runtime
+- [bytecodealliance/wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime) (5.0K⭐) - Lightweight WASM runtime
+- [bytecodealliance/lucet](https://github.com/bytecodealliance/lucet) (4.1K⭐) - Native WASM compiler (archived)
+- [bytecodealliance/javy](https://github.com/bytecodealliance/javy) (2.3K⭐) - JavaScript to WASM toolchain
+- [bytecodealliance/cranelift](https://github.com/bytecodealliance/cranelift) (1.5K⭐) - Code generator
+- [bytecodealliance/rustix](https://github.com/bytecodealliance/rustix) (1.5K⭐) - Safe Rust bindings to POSIX
+- [bytecodealliance/wasm-tools](https://github.com/bytecodealliance/wasm-tools) (1.3K⭐) - Low-level tooling
+- [bytecodealliance/wit-bindgen](https://github.com/bytecodealliance/wit-bindgen) (864⭐) - Language bindings generator
+- [bytecodealliance/wizer](https://github.com/bytecodealliance/wizer) (976⭐) - Pre-initialize WASM modules
+- [bytecodealliance/wasmtime-go](https://github.com/bytecodealliance/wasmtime-go) (964⭐) - Go bindings
+
+### WasmEdge - 10 repos
+
+- [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) (8.7K⭐) - Lightweight WASM runtime
+- [WasmEdge/mediapipe-rs](https://github.com/WasmEdge/mediapipe-rs) (286⭐) - MediaPipe in Rust
+- [WasmEdge/wasmedge_hyper_demo](https://github.com/WasmEdge/wasmedge_hyper_demo) (184⭐) - Hyper HTTP server demo
+- [WasmEdge/wasmedge-db-examples](https://github.com/WasmEdge/wasmedge-db-examples) (139⭐) - Database examples
+- [WasmEdge/wasmedge-rust-sdk](https://github.com/WasmEdge/wasmedge-rust-sdk) (180⭐) - Rust SDK
+- [WasmEdge/docs](https://github.com/WasmEdge/docs) (115⭐) - Documentation
+- [WasmEdge/wasm-log-flex](https://github.com/WasmEdge/wasm-log-flex) (2⭐) - Flexible logging
+- [WasmEdge/wasmedge-stable-diffusion](https://github.com/WasmEdge/wasmedge-stable-diffusion) (200⭐) - Stable Diffusion in WASM
+- [WasmEdge/wasmedge_reqwest_demo](https://github.com/WasmEdge/wasmedge_reqwest_demo) (63⭐) - HTTP client demo
+- [WasmEdge/wasmedge-async](https://github.com/WasmEdge/wasmedge-async) (28⭐) - Async runtime support
+
+### Edge Computing - 10 repos
+
+- [kubeedge/kubeedge](https://github.com/kubeedge/kubeedge) (7.0K⭐) - Kubernetes native edge computing
+- [OpenNebula/one](https://github.com/OpenNebula/one) (1.3K⭐) - Cloud & edge computing platform
+- [good-lly/s3mini](https://github.com/good-lly/s3mini) (104⭐) - Minimal S3-compatible storage
+- [superedge/superedge](https://github.com/superedge/superedge) (1.1K⭐) - Kubernetes-native edge orchestrator
+- [openshift/microshift](https://github.com/openshift/microshift) (3.6K⭐) - OpenShift for edge devices
+- [revenol/DROO](https://github.com/revenol/DROO) (194⭐) - Deep reinforcement learning for offloading
+- [fangvv/UAV-DDPG](https://github.com/fangvv/UAV-DDPG) (77⭐) - UAV edge computing with DDPG
+- [PhuLai/eua-dataset](https://github.com/PhuLai/eua-dataset) (38⭐) - Edge-user association dataset
+- [qijianpeng/awesome-edge-computing](https://github.com/qijianpeng/awesome-edge-computing) (653⭐) - Awesome edge computing
+- [CagataySonmez/EdgeCloudSim](https://github.com/CagataySonmez/EdgeCloudSim) (283⭐) - Edge & cloud simulator
+
+### Neuromorphic Computing - 5 repos
+
+- [lava-nc/lava](https://github.com/lava-nc/lava) (698⭐) - Neuromorphic computing framework
+- [mikeroyal/Neuromorphic-Computing-Guide](https://github.com/mikeroyal/Neuromorphic-Computing-Guide) (254⭐) - Learning guide
+- [thu-nics/MNSIM-2.0](https://github.com/thu-nics/MNSIM-2.0) (182⭐) - Neuromorphic architecture simulator
+- [HumanBrainProject/hbp-neuromorphic-client](https://github.com/HumanBrainProject/hbp-neuromorphic-client) (5⭐) - Human Brain Project client
+- [hisrg/Neural-Network-Compression-and-Accelerator-on-Hardware](https://github.com/hisrg/Neural-Network-Compression-and-Accelerator-on-Hardware) (84⭐) - NN hardware acceleration
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### CA Technologies (~361 repos)
@@ -1222,7 +1356,7 @@ On GitHub stars page, you can sort by:
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 2,780+ |
+| **Total Repositories** | 3,100+ |
 | **AI & ML** | 360+ |
 | **MLOps** | 115+ |
 | **Cybersecurity** | 132+ |
@@ -1231,9 +1365,12 @@ On GitHub stars page, you can sort by:
 | **Python Development** | 136+ |
 | **Python Conferences** | 51+ |
 | **Tech Conferences** | 76+ |
-| **Data Center Conferences** | 53+ |
+| **Data Center Conferences** | 85+ |
 | **Security & Enterprise Conferences** | 55+ |
 | **AI Coding Agents & Benchmarks** | 45+ |
+| **Quality Engineering & Testing** | 65+ |
+| **Database Technologies** | 120+ |
+| **Quantum & Emerging Technologies** | 100+ |
 | **Enterprise** | 361+ |
 
 ---

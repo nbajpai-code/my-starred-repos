@@ -1,12 +1,12 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **3,000+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **3,100+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, Quantum & Emerging Technologies, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-3,000+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-3,100+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
-**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,000+ starred repos with direct links!
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,100+ starred repos with direct links!
 
 ---
 
@@ -30,6 +30,7 @@
 - [🤖 AI Coding Agents & Benchmarks](#-ai-coding-agents--benchmarks)
 - [🧪 Quality Engineering & Testing](#-quality-engineering--testing)
 - [🗄️ Database Technologies](#️-database-technologies)
+- [🔬 Quantum & Emerging Technologies](#-quantum--emerging-technologies)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
@@ -1274,6 +1275,93 @@ See [STARRED-INDEX.md - Database Technologies](STARRED-INDEX.md#️-database-tec
 - Kubernetes operators
 - Migration tools
 - Sample apps
+
+</details>
+
+---
+
+## 🔬 Quantum & Emerging Technologies
+
+### Quantum Computing & Emerging Tech (~100 repos)
+
+See [STARRED-INDEX.md - Quantum & Emerging Technologies](STARRED-INDEX.md#-quantum--emerging-technologies) for the full list.
+
+<details>
+<summary>🔬 View Quantum & Emerging Tech Categories</summary>
+
+### IBM Qiskit - 15 repos
+- Qiskit (5.4K⭐) - Open-source quantum computing SDK
+- Qiskit Metapackage, Tutorials, Textbook
+- Rustworkx (1.1K⭐) - High-performance graph library
+- Qiskit Aer - Quantum simulators
+- IBM Quantum Runtime, Provider
+- Serverless, Ecosystem tools
+
+### Google Quantum (Cirq & OpenFermion) - 10 repos
+- Cirq (4.4K⭐) - Quantum circuits framework
+- OpenFermion (1.9K⭐) - Quantum chemistry simulations
+- qsim (503⭐) - Circuit simulator
+- Stim (348⭐) - Stabilizer circuit simulator
+- ReCirq, Qualtran
+- OpenFermion plugins (Cirq, PySCF, Psi4)
+
+### Amazon Braket - 10 repos
+- Amazon Braket SDK (Python, Julia)
+- Example notebooks (406⭐)
+- Algorithm library (102⭐)
+- Default simulator, Schemas
+- PennyLane plugin, Ocean plugin
+- AutoQASM - Quantum assembly
+
+### Quantum Computing Frameworks - 15 repos
+- Microsoft QuantumKatas (4.6K⭐) - Learn Q#
+- PennyLane (2.4K⭐) - Quantum ML
+- awesome-quantum-computing (2.4K⭐)
+- Classiq, QPanda-2, ProjectQ
+- Quantum computing book code
+- Covalent - Workflows for quantum & HPC
+- Qiskit Nature - Chemistry algorithms
+
+### WebAssembly (WASM) - 15 repos
+- TinyGo (15.6K⭐) - Go compiler for small places
+- awesome-wasm (8.8K⭐)
+- Extism (4.5K⭐) - Universal plugin system
+- web-dsp (2.8K⭐) - DSP library
+- wasm-by-example, made-with-webassembly
+- .NET WebAssembly, Electron+WASM+Rust
+- LLaMA.cpp in WASM
+
+### Bytecode Alliance - 10 repos
+- Wasmtime (15.8K⭐) - Fast WASM runtime
+- wasm-micro-runtime (5.0K⭐)
+- Lucet (4.1K⭐) - Native compiler (archived)
+- Javy (2.3K⭐) - JavaScript to WASM
+- Cranelift - Code generator
+- Rustix, wasm-tools, wit-bindgen
+
+### WasmEdge - 10 repos
+- WasmEdge (8.7K⭐) - Lightweight runtime
+- MediaPipe in Rust
+- Stable Diffusion in WASM (200⭐)
+- Database examples, Rust SDK
+- HTTP server demos
+- Async runtime support
+
+### Edge Computing - 10 repos
+- KubeEdge (7.0K⭐) - Kubernetes edge computing
+- MicroShift (3.6K⭐) - OpenShift for edge
+- SuperEdge (1.1K⭐) - Edge orchestrator
+- OpenNebula - Cloud & edge platform
+- awesome-edge-computing (653⭐)
+- EdgeCloudSim - Edge simulator
+- DROO - Deep RL for offloading
+
+### Neuromorphic Computing - 5 repos
+- Lava (698⭐) - Neuromorphic framework
+- Neuromorphic Computing Guide (254⭐)
+- MNSIM-2.0 (182⭐) - Architecture simulator
+- NN hardware acceleration (84⭐)
+- Human Brain Project client
 
 </details>
 
