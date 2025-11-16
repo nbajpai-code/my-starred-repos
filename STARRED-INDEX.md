@@ -22,6 +22,7 @@
 | ⚡ **Systems Programming** | 98+ | [Jump →](#-systems-programming-c-go-llvm) |
 | 🐍 **Python Development** | 136+ | [Jump →](#-python-development) |
 | 🎤 **Conference Resources** | 63+ | [Jump →](#-conference-resources) |
+| 🐍 **Python Conferences** | 51+ | [Jump →](#-python-conferences) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -408,6 +409,93 @@
 
 ---
 
+## 🐍 Python Conferences
+
+### PyCon US (12 repos)
+**Main Conference Infrastructure:**
+- [PyCon/pycon.org](https://github.com/PyCon/pycon.org) - Main PyCon website
+- [PyCon/pycon-archive](https://github.com/PyCon/pycon-archive) - Archive of past PyCon websites
+- [PyCon/symposion](https://github.com/PyCon/symposion) - Django project for conference websites
+- [PyCon/pretalx](https://github.com/PyCon/pretalx) - Conference planning tool: CfP, scheduling, speaker management
+- [PyCon/registrasion](https://github.com/PyCon/registrasion) - Conference registration app
+
+**PyCon Slides & Materials:**
+- [PyCon/pycon2019](https://github.com/PyCon/pycon2019) - PyCon 2019 website
+- [PyCon/2018-slides](https://github.com/PyCon/2018-slides) - PyCon 2018 slides
+- [PyCon/2017-slides](https://github.com/PyCon/2017-slides) - PyCon 2017 slides and talk assets
+- [PyCon/2016-slides](https://github.com/PyCon/2016-slides) - PyCon 2016 slides and talk assets
+- [PyCon/2015-slides](https://github.com/PyCon/2015-slides) - PyCon 2015 slides and talk assets
+- [PyCon/2014-slides](https://github.com/PyCon/2014-slides) - PyCon 2014 slides
+- [PyCon/2013-slides](https://github.com/PyCon/2013-slides) - PyCon 2013 slides
+
+### EuroPython (9 repos)
+**Conference Infrastructure:**
+- [EuroPython/website](https://github.com/EuroPython/website) - EuroPython 2022+ website
+- [EuroPython/programapi](https://github.com/EuroPython/programapi) - Program API for conference schedule
+- [EuroPython/discord](https://github.com/EuroPython/discord) - Helpful conference Discord bot
+- [EuroPython/conference-stats](https://github.com/EuroPython/conference-stats) - Public data from previous conferences
+- [EuroPython/docs](https://github.com/EuroPython/docs) - Documentation repository
+- [EuroPython/tools](https://github.com/EuroPython/tools) - Random collection of tools used for 2022+
+- [EuroPython/previous.europython.eu](https://github.com/EuroPython/previous.europython.eu) - Previous EuroPython websites
+- [EuroPython/EuroPython-Society-Knowledge-Base](https://github.com/EuroPython/EuroPython-Society-Knowledge-Base) - EuroPython Society documentation
+- [EuroPython/epcon](https://github.com/EuroPython/epcon) - EuroPython Conference Website (archived)
+
+### SciPy Conference (8 repos)
+**Conference Materials:**
+- [scipy-conference/scipy-conference](https://github.com/scipy-conference/scipy-conference) - SciPy Conference Materials
+- [scipy-conference/scipy_proceedings](https://github.com/scipy-conference/scipy_proceedings) - Tools for SciPy conference proceedings
+- [scipy-conference/scipy_proceedings_archive](https://github.com/scipy-conference/scipy_proceedings_archive) - Archive of proceedings
+- [scipy-conference/conference.scipy.org](https://github.com/scipy-conference/conference.scipy.org) - Landing page and blog
+- [scipy-conference/scipy2025_sprints_first_PR](https://github.com/scipy-conference/scipy2025_sprints_first_PR) - PR onboarding exercise 2025
+- [scipy-conference/scipy2024_sprints_first_PR](https://github.com/scipy-conference/scipy2024_sprints_first_PR) - PR onboarding exercise 2024
+- [scipy-conference/procbuild](https://github.com/scipy-conference/procbuild) - SciPy proceedings builder
+- [scipy-conference/jhepc](https://github.com/scipy-conference/jhepc) - John Hunter Excellence in Plotting Contest
+
+### Python Organizers (2 repos)
+- [python-organizers/conferences](https://github.com/python-organizers/conferences) - List of Python Conferences around the World
+- [python-organizers/resources](https://github.com/python-organizers/resources) - Docs, tools, lists for organizing Python conferences
+
+### Regional PyCons (3 repos)
+- [pythonitalia/pycon](https://github.com/pythonitalia/pycon) - PyCon Italia
+- [Aherontas/Pycon_Greece_2025_Presentation_Agents](https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents) - PyCon Greece 2025 AI Agents
+- [JustinSDK/PyConTW2013Tutorial](https://github.com/JustinSDK/PyConTW2013Tutorial) - PyCon Taiwan 2013 Tutorial
+
+### PyCon Tutorials & Educational Content (17 repos)
+**Flask & Web Development:**
+- [miguelgrinberg/flack](https://github.com/miguelgrinberg/flack) - Flask at Scale tutorial (PyCon 2016)
+- [miguelgrinberg/api-pycon2015](https://github.com/miguelgrinberg/api-pycon2015) - Is Your REST API RESTful?
+- [miguelgrinberg/flask-pycon2014](https://github.com/miguelgrinberg/flask-pycon2014) - Flask By Example (PyCon 2014)
+- [miguelgrinberg/api-pycon2014](https://github.com/miguelgrinberg/api-pycon2014) - Writing RESTful Web Services with Flask
+- [miguelgrinberg/flask-pycon2015](https://github.com/miguelgrinberg/flask-pycon2015) - Flask Workshop (PyCon 2015)
+
+**Advanced Python Topics:**
+- [brandon-rhodes/sphinx-tutorial](https://github.com/brandon-rhodes/sphinx-tutorial) - Sphinx tutorial from PyCon
+- [dabeaz/concurrencylive](https://github.com/dabeaz/concurrencylive) - Concurrency Live - PyCon 2015
+- [fluentpython/decorators-descriptors](https://github.com/fluentpython/decorators-descriptors) - Decorators and Descriptors Decoded (PyCon US 2017)
+
+**Data Science & ML:**
+- [sarguido/hands-on-analysis-python](https://github.com/sarguido/hands-on-analysis-python) - Hands-on data analysis (PyCon 2015)
+- [kastnerkyle/PyCon2015](https://github.com/kastnerkyle/PyCon2015) - Machine Learning 101
+- [julieqiu/pycon-2018-pyelasticsearch](https://github.com/julieqiu/pycon-2018-pyelasticsearch) - Build a Search Engine with Python + Elasticsearch
+
+**Infrastructure & Tools:**
+- [trallard/airflow-tutorial](https://github.com/trallard/airflow-tutorial) - Airflow tutorial for PyCon 2019
+- [asvetlov/us-pycon-2019-tutorial](https://github.com/asvetlov/us-pycon-2019-tutorial) - aiohttp tutorial for US PyCon 2019
+
+**Design Patterns & Best Practices:**
+- [PJUllrich/Design-Patterns](https://github.com/PJUllrich/Design-Patterns) - Design Patterns in Python (PyCon Sweden 2017)
+- [mechanicalgirl/young-coders-tutorial](https://github.com/mechanicalgirl/young-coders-tutorial) - Young Coders tutorial (PyCon 2013-2017)
+
+**Curated Resources:**
+- [wiseaidev/awesome-python](https://github.com/wiseaidev/awesome-python) - Awesome Python Resources (mostly PyCon)
+
+**Historical:**
+- [github/pycon2011](https://github.com/github/pycon2011) - GitHub's PyCon 2011 materials
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### CA Technologies (~361 repos)
@@ -447,13 +535,14 @@ On GitHub stars page, you can sort by:
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 2,500+ |
+| **Total Repositories** | 2,551+ |
 | **AI & ML** | 360+ |
 | **MLOps** | 115+ |
 | **Cybersecurity** | 132+ |
 | **Networking** | 131+ |
 | **Systems Programming** | 98+ |
-| **Python** | 136+ |
+| **Python Development** | 136+ |
+| **Python Conferences** | 51+ |
 | **Enterprise** | 361+ |
 
 ---
@@ -467,6 +556,6 @@ On GitHub stars page, you can sort by:
 
 ---
 
-**Last Updated:** 2025-01-14
+**Last Updated:** 2025-11-16
 
 **Maintained by:** [@nbajpai-code](https://github.com/nbajpai-code)
