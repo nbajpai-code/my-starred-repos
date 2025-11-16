@@ -1,12 +1,12 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **2,735+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **3,000+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-2,735+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-3,000+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
-**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 2,735+ starred repos with direct links!
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,000+ starred repos with direct links!
 
 ---
 
@@ -27,6 +27,9 @@
 - [💼 Tech Conferences](#-tech-conferences)
 - [🏗️ Data Center Conferences](#️-data-center-conferences)
 - [🔒 Security & Enterprise Conferences](#-security--enterprise-conferences)
+- [🤖 AI Coding Agents & Benchmarks](#-ai-coding-agents--benchmarks)
+- [🧪 Quality Engineering & Testing](#-quality-engineering--testing)
+- [🗄️ Database Technologies](#️-database-technologies)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
@@ -1065,6 +1068,199 @@ See [STARRED-INDEX.md - Security & Enterprise Conferences](STARRED-INDEX.md#-sec
 
 **Observability:**
 - Karavi metrics for PowerFlex
+
+</details>
+
+---
+
+## 🤖 AI Coding Agents & Benchmarks
+
+### AI Coding Agents & Code Generation (~45 repos)
+
+See [STARRED-INDEX.md - AI Coding Agents & Benchmarks](STARRED-INDEX.md#-ai-coding-agents--benchmarks) for the full list.
+
+<details>
+<summary>🤖 View AI Coding Agents Categories</summary>
+
+### AI Coding Agents - 20 repos
+**Top Coding Agents:**
+- Cline (52K⭐) - Autonomous coding agent
+- Anything-LLM (51K⭐) - All-in-one AI app
+- OpenAI Codex (50K⭐) - Terminal coding agent
+- Continue (30K⭐) - Continuous AI
+- Plandex (14K⭐) - Large project coding
+
+**IDE Integration:**
+- Chrome DevTools MCP
+- Figma Context MCP
+- Claude Coder VSCode extension
+- GitHub Copilot CLI
+
+### Code Generation Benchmarks - 15 repos
+**BigCode Project:**
+- BigCodeBench, BigCodeArena
+- StarCoder2, The Stack v2
+- Self-alignment, Octopack
+- Evaluation harness
+
+**Benchmark Suites:**
+- HumanEval, MBPP, SWE-bench
+- LM Evaluation Harness
+- Google Research repos
+
+### GitHub Universe & Dev Tools - 5 repos
+- GitHub Copilot docs
+- Microsoft AI Education
+- VS Code AI Toolkit
+
+### Red Hat & Linux Conferences - 10 repos
+- Red Hat Summit 2025
+- OpenShift tools & playbooks
+- Ansible workshops
+
+</details>
+
+---
+
+## 🧪 Quality Engineering & Testing
+
+### Testing Frameworks & Tools (~65 repos)
+
+See [STARRED-INDEX.md - Quality Engineering & Testing](STARRED-INDEX.md#-quality-engineering--testing) for the full list.
+
+<details>
+<summary>🧪 View Testing Categories</summary>
+
+### Testing Awesome Lists - 10 repos
+- awesome-test-automation (6.9K⭐)
+- awesome-testing (2.1K⭐)
+- awesome-testing-courses
+- awesome-testing-tools
+- Poco - Cross-platform UI automation
+
+### Selenium - 10 repos
+- Selenium (33.6K⭐) - Browser automation
+- Docker-Selenium (8.5K⭐)
+- Selenium IDE
+- WebDriver clients (PHP, Go, Rust, Ruby)
+- WebDriverManager
+
+### Appium - 10 repos
+- Appium (20.8K⭐) - Mobile automation
+- Appium Desktop & Inspector
+- Client libraries (Python, Java, .NET)
+- Drivers (XCUITest, UIAutomator2)
+- Docker Android images
+
+### Cypress - 10 repos
+- Cypress (49.4K⭐) - E2E testing
+- Realworld App
+- Example recipes
+- GitHub Action
+- Docker images
+
+### Playwright - 5 repos
+- Playwright (79.4K⭐) - E2E framework
+- Language bindings (Python, .NET, Java)
+- Test runner
+
+### Testing Library - 10 repos
+- React Testing Library (19.4K⭐)
+- React Hooks, Jest-DOM
+- DOM Testing Library
+- User Event simulation
+- Framework-specific versions (Vue, Angular, Cypress)
+
+</details>
+
+---
+
+## 🗄️ Database Technologies
+
+### Database Systems & Tools (~120 repos)
+
+See [STARRED-INDEX.md - Database Technologies](STARRED-INDEX.md#️-database-technologies) for the full list.
+
+<details>
+<summary>🗄️ View Database Categories</summary>
+
+### MongoDB - 15 repos
+- MongoDB Server (27.7K⭐)
+- Drivers (Node.js, Go, Python, Java, C#, Ruby, Rust)
+- Laravel integration
+- Kubernetes operator
+
+### PostgreSQL & TimescaleDB - 5 repos
+- PostgreSQL (19.1K⭐)
+- TimescaleDB (20.7K⭐) - Time-series extension
+- pgweb, pgarchives
+
+### Redis - 10 repos
+- Redis (71.7K⭐) - In-memory store
+- RedisDesktopManager (23.2K⭐)
+- Clients (Go, Node.js, Python, Java)
+- RedisInsight
+
+### MySQL - 10 repos
+- MySQL Server (11.8K⭐)
+- Connectors (Java, Python, C++, .NET)
+- MySQL Workbench
+- Kubernetes operator
+
+### Elasticsearch & Elastic Stack - 10 repos
+- Elasticsearch (75.5K⭐)
+- Kibana (20.8K⭐)
+- Logstash (14.7K⭐)
+- Beats (12.6K⭐)
+- Client libraries (Go, PHP, JS, Python)
+
+### Apache Cassandra & ScyllaDB - 10 repos
+- Apache Cassandra (9.5K⭐)
+- ScyllaDB (15.1K⭐) - Cassandra-compatible
+- Seastar framework (9.0K⭐)
+- Drivers & operators
+
+### DataStax - 10 repos
+- JVector - Vector search
+- Cassandra drivers (Python, Node.js, C#, PHP, C++, Ruby)
+- Kubernetes operator
+- Astra Assistants API
+
+### CockroachDB - 10 repos
+- CockroachDB (31.5K⭐) - Distributed SQL
+- Pebble (5.6K⭐) - Key-value store
+- Error library, utilities
+- Kubernetes operator
+
+### InfluxDB - 10 repos
+- InfluxDB (30.8K⭐) - Time-series
+- Telegraf (16.5K⭐) - Agent
+- Kapacitor, Chronograf
+- Client libraries
+
+### Neo4j - 10 repos
+- Neo4j (15.4K⭐) - Graph database
+- NaLLM - Natural language to Cypher
+- Drivers (Python, JavaScript, Go)
+- GraphRAG, Browser
+
+### TimescaleDB - 10 repos
+- TimescaleDB extensions
+- pgai - AI for PostgreSQL (5.5K⭐)
+- pgvectorscale (2.4K⭐)
+- Toolkit, tuning tools
+
+### Couchbase - 10 repos
+- Couchbase Lite (iOS, Android)
+- ForestDB, Moss
+- Client libraries
+- Sync Gateway
+
+### YugabyteDB - 10 repos
+- YugabyteDB (9.9K⭐) - Distributed SQL
+- Kubernetes operators
+- Migration tools
+- Sample apps
 
 </details>
 

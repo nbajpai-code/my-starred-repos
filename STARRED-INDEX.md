@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 2,780+ Starred Repositories**
+> **Quick Navigation for 3,000+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -27,6 +27,8 @@
 | 🏗️ **Data Center Conferences** | 53+ | [Jump →](#️-data-center-conferences) |
 | 🔒 **Security & Enterprise Conferences** | 55+ | [Jump →](#-security--enterprise-conferences) |
 | 🤖 **AI Coding Agents & Benchmarks** | 45+ | [Jump →](#-ai-coding-agents--benchmarks) |
+| 🧪 **Quality Engineering & Testing** | 65+ | [Jump →](#-quality-engineering--testing) |
+| 🗄️ **Database Technologies** | 120+ | [Jump →](#️-database-technologies) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -890,6 +892,260 @@
 
 **Ansible:**
 - [ansible/workshops](https://github.com/ansible/workshops) - Ansible workshops & training
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
+## 🧪 Quality Engineering & Testing
+
+### Testing Awesome Lists & Resources - 10 repos
+
+- [atinfo/awesome-test-automation](https://github.com/atinfo/awesome-test-automation) (6.9K⭐) - Comprehensive test automation resources
+- [TheJambo/awesome-testing](https://github.com/TheJambo/awesome-testing) (2.1K⭐) - Testing best practices & tools
+- [upgundecha/awesome-testing-courses](https://github.com/upgundecha/awesome-testing-courses) (454⭐) - Testing courses & tutorials
+- [ZoranPandovski/awesome-testing-tools](https://github.com/ZoranPandovski/awesome-testing-tools) (331⭐) - Testing tools collection
+- [ChristoWolf/awesome-testing-blogs](https://github.com/ChristoWolf/awesome-testing-blogs) (103⭐) - Testing blogs & articles
+- [AirtestProject/Poco](https://github.com/AirtestProject/Poco) (1.9K⭐) - Cross-platform UI automation framework
+- [maester365/maester](https://github.com/maester365/maester) (697⭐) - Microsoft 365 security testing
+- [reqnroll/Reqnroll](https://github.com/reqnroll/Reqnroll) (687⭐) - BDD test automation framework
+- [atata-framework/atata](https://github.com/atata-framework/atata) (501⭐) - C#/.NET web UI test automation
+- [qxf2/qxf2-page-object-model](https://github.com/qxf2/qxf2-page-object-model) (286⭐) - Page Object Model framework
+
+### Selenium - 10 repos
+
+- [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) (33.6K⭐) - Browser automation framework
+- [SeleniumHQ/docker-selenium](https://github.com/SeleniumHQ/docker-selenium) (8.5K⭐) - Docker images for Selenium Grid
+- [SeleniumHQ/selenium-ide](https://github.com/SeleniumHQ/selenium-ide) (3.1K⭐) - Record and playback tool
+- [SeleniumHQ/seleniumhq.github.io](https://github.com/SeleniumHQ/seleniumhq.github.io) (1.3K⭐) - Official Selenium docs
+- [php-webdriver/php-webdriver](https://github.com/php-webdriver/php-webdriver) (5.2K⭐) - PHP client for Selenium WebDriver
+- [bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager) (2.7K⭐) - Automated driver management
+- [tebeka/selenium](https://github.com/tebeka/selenium) (2.6K⭐) - Selenium client for Go
+- [vrtgs/thirtyfour](https://github.com/vrtgs/thirtyfour) (1.3K⭐) - Selenium WebDriver for Rust
+- [cheezy/page-object](https://github.com/cheezy/page-object) (653⭐) - Page Object DSL for Ruby
+- [titusfortner/webdrivers](https://github.com/titusfortner/webdrivers) (599⭐) - Keep WebDriver binaries updated
+
+### Appium - 10 repos
+
+- [appium/appium](https://github.com/appium/appium) (20.8K⭐) - Mobile test automation framework
+- [appium/appium-desktop](https://github.com/appium/appium-desktop) (4.8K⭐) - Desktop GUI for Appium Server
+- [appium/python-client](https://github.com/appium/python-client) (1.8K⭐) - Python client bindings
+- [appium/appium-inspector](https://github.com/appium/appium-inspector) (1.6K⭐) - UI inspector for mobile apps
+- [appium/java-client](https://github.com/appium/java-client) (1.3K⭐) - Java client bindings
+- [appium/appium-xcuitest-driver](https://github.com/appium/appium-xcuitest-driver) (819⭐) - iOS XCUITest driver
+- [appium/appium-uiautomator2-driver](https://github.com/appium/appium-uiautomator2-driver) (775⭐) - Android UIAutomator2 driver
+- [appium/appium-docker-android](https://github.com/appium/appium-docker-android) (659⭐) - Docker images for Android testing
+- [appium/appium-flutter-driver](https://github.com/appium/appium-flutter-driver) (520⭐) - Flutter app automation
+- [appium/dotnet-client](https://github.com/appium/dotnet-client) (396⭐) - .NET client bindings
+
+### Cypress - 10 repos
+
+- [cypress-io/cypress](https://github.com/cypress-io/cypress) (49.4K⭐) - Fast, easy end-to-end testing
+- [cypress-io/cypress-realworld-app](https://github.com/cypress-io/cypress-realworld-app) (5.8K⭐) - Real-world payment app
+- [cypress-io/cypress-example-recipes](https://github.com/cypress-io/cypress-example-recipes) (3.5K⭐) - Testing recipes & examples
+- [cypress-io/github-action](https://github.com/cypress-io/github-action) (1.4K⭐) - GitHub Action for Cypress
+- [cypress-io/cypress-example-kitchensink](https://github.com/cypress-io/cypress-example-kitchensink) (1.2K⭐) - Kitchen sink example
+- [cypress-io/cypress-docker-images](https://github.com/cypress-io/cypress-docker-images) (1.1K⭐) - Docker images for Cypress
+- [cypress-io/cypress-documentation](https://github.com/cypress-io/cypress-documentation) (1.0K⭐) - Official documentation
+- [cypress-io/eslint-plugin-cypress](https://github.com/cypress-io/eslint-plugin-cypress) (719⭐) - ESLint plugin
+- [cypress-io/testing-workshop-cypress](https://github.com/cypress-io/testing-workshop-cypress) (483⭐) - Workshop materials
+- [testing-library/cypress-testing-library](https://github.com/testing-library/cypress-testing-library) (1.8K⭐) - Testing Library for Cypress
+
+### Playwright (Microsoft) - 5 repos
+
+- [microsoft/playwright](https://github.com/microsoft/playwright) (79.4K⭐) - Modern end-to-end testing framework
+- [microsoft/playwright-python](https://github.com/microsoft/playwright-python) (13.9K⭐) - Python version of Playwright
+- [microsoft/playwright-dotnet](https://github.com/microsoft/playwright-dotnet) (2.8K⭐) - .NET version of Playwright
+- [microsoft/playwright-java](https://github.com/microsoft/playwright-java) (1.4K⭐) - Java version of Playwright
+- [microsoft/playwright-test](https://github.com/microsoft/playwright-test) (786⭐) - Playwright Test runner
+
+### Testing Library - 10 repos
+
+- [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) (19.4K⭐) - React DOM testing utilities
+- [testing-library/react-hooks-testing-library](https://github.com/testing-library/react-hooks-testing-library) (5.3K⭐) - React Hooks testing
+- [testing-library/jest-dom](https://github.com/testing-library/jest-dom) (4.6K⭐) - Custom jest matchers
+- [testing-library/dom-testing-library](https://github.com/testing-library/dom-testing-library) (3.3K⭐) - DOM testing utilities
+- [testing-library/user-event](https://github.com/testing-library/user-event) (2.3K⭐) - User interaction simulation
+- [testing-library/vue-testing-library](https://github.com/testing-library/vue-testing-library) (1.1K⭐) - Vue testing utilities
+- [testing-library/eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library) (1.0K⭐) - ESLint rules
+- [testing-library/testing-playground](https://github.com/testing-library/testing-playground) (815⭐) - Interactive testing playground
+- [testing-library/angular-testing-library](https://github.com/testing-library/angular-testing-library) (768⭐) - Angular testing utilities
+- [testing-library/cypress-testing-library](https://github.com/testing-library/cypress-testing-library) (1.8K⭐) - Cypress testing utilities
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
+## 🗄️ Database Technologies
+
+### MongoDB - 15 repos
+
+- [mongodb/mongo](https://github.com/mongodb/mongo) (27.7K⭐) - MongoDB database server
+- [mongodb/node-mongodb-native](https://github.com/mongodb/node-mongodb-native) (10.2K⭐) - Node.js driver
+- [mongodb/mongo-go-driver](https://github.com/mongodb/mongo-go-driver) (8.5K⭐) - Go driver
+- [mongodb/laravel-mongodb](https://github.com/mongodb/laravel-mongodb) (7.1K⭐) - Laravel MongoDB package
+- [mongodb/mongo-python-driver](https://github.com/mongodb/mongo-python-driver) (4.3K⭐) - Python driver (PyMongo)
+- [mongodb/mongoid](https://github.com/mongodb/mongoid) (3.9K⭐) - Ruby ODM framework
+- [mongodb/mongo-csharp-driver](https://github.com/mongodb/mongo-csharp-driver) (3.2K⭐) - C# driver
+- [mongodb/mongo-java-driver](https://github.com/mongodb/mongo-java-driver) (2.7K⭐) - Java driver
+- [mongodb/motor](https://github.com/mongodb/motor) (2.5K⭐) - Async Python driver
+- [mongodb/mongo-php-library](https://github.com/mongodb/mongo-php-library) (1.6K⭐) - PHP library
+- [mongodb/mongo-hadoop](https://github.com/mongodb/mongo-hadoop) (1.6K⭐) - Hadoop connector
+- [mongodb/mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver) (1.5K⭐) - Rust driver
+- [mongodb/mongo-ruby-driver](https://github.com/mongodb/mongo-ruby-driver) (1.4K⭐) - Ruby driver
+- [mongodb/mongodb-kubernetes-operator](https://github.com/mongodb/mongodb-kubernetes-operator) (1.4K⭐) - Kubernetes operator
+- [mongodb/js-bson](https://github.com/mongodb/js-bson) (1.2K⭐) - JavaScript BSON library
+
+### PostgreSQL & TimescaleDB - 5 repos
+
+- [postgres/postgres](https://github.com/postgres/postgres) (19.1K⭐) - PostgreSQL database mirror
+- [postgres/pgweb](https://github.com/postgres/pgweb) (77⭐) - PostgreSQL web interface
+- [postgres/pgarchives](https://github.com/postgres/pgarchives) (17⭐) - Mailing list archives
+- [postgres/pgcommitfest](https://github.com/postgres/pgcommitfest) (9⭐) - Commitfest application
+- [timescale/timescaledb](https://github.com/timescale/timescaledb) (20.7K⭐) - Time-series PostgreSQL extension
+
+### Redis - 10 repos
+
+- [redis/redis](https://github.com/redis/redis) (71.7K⭐) - In-memory data structure store
+- [redis/RedisDesktopManager](https://github.com/redis/RedisDesktopManager) (23.2K⭐) - Cross-platform Redis GUI
+- [redis/go-redis](https://github.com/redis/go-redis) (21.7K⭐) - Type-safe Redis client for Go
+- [redis/node-redis](https://github.com/redis/node-redis) (17.4K⭐) - Node.js Redis client
+- [redis/ioredis](https://github.com/redis/ioredis) (15.1K⭐) - Robust Node.js Redis client
+- [redis/redis-py](https://github.com/redis/redis-py) (13.3K⭐) - Python Redis client
+- [redis/jedis](https://github.com/redis/jedis) (12.2K⭐) - Java Redis client
+- [redis/RedisInsight](https://github.com/redis/RedisInsight) (7.8K⭐) - Redis GUI & visualization tool
+- [redis/hiredis](https://github.com/redis/hiredis) (6.6K⭐) - Minimalistic C client
+- [redis/lettuce](https://github.com/redis/lettuce) (5.7K⭐) - Advanced Java Redis client
+
+### MySQL - 10 repos
+
+- [mysql/mysql-server](https://github.com/mysql/mysql-server) (11.8K⭐) - MySQL database server
+- [mysql/mysql-connector-j](https://github.com/mysql/mysql-connector-j) (980⭐) - Java connector
+- [mysql/mysql-workbench](https://github.com/mysql/mysql-workbench) (969⭐) - Visual database design tool
+- [mysql/mysql-connector-python](https://github.com/mysql/mysql-connector-python) (939⭐) - Python connector
+- [mysql/mysql-operator](https://github.com/mysql/mysql-operator) (897⭐) - Kubernetes operator
+- [mysql/mysql-sys](https://github.com/mysql/mysql-sys) (829⭐) - Performance schema views
+- [mysql/mysql-connector-cpp](https://github.com/mysql/mysql-connector-cpp) (693⭐) - C++ connector
+- [mysql/mysql-proxy](https://github.com/mysql/mysql-proxy) (427⭐) - Simple program between client and server
+- [mysql/mysql-connector-net](https://github.com/mysql/mysql-connector-net) (312⭐) - .NET connector
+- [mysql/mysql-utilities](https://github.com/mysql/mysql-utilities) (275⭐) - Collection of utilities
+
+### Elasticsearch & Elastic Stack - 10 repos
+
+- [elastic/elasticsearch](https://github.com/elastic/elasticsearch) (75.5K⭐) - Distributed search and analytics engine
+- [elastic/kibana](https://github.com/elastic/kibana) (20.8K⭐) - Analytics and visualization platform
+- [elastic/logstash](https://github.com/elastic/logstash) (14.7K⭐) - Server-side data processing pipeline
+- [elastic/beats](https://github.com/elastic/beats) (12.6K⭐) - Data shippers (Filebeat, Metricbeat, etc.)
+- [elastic/eui](https://github.com/elastic/eui) (6.2K⭐) - Elastic UI framework
+- [elastic/go-elasticsearch](https://github.com/elastic/go-elasticsearch) (6.0K⭐) - Official Go client
+- [elastic/elasticsearch-php](https://github.com/elastic/elasticsearch-php) (5.3K⭐) - Official PHP client
+- [elastic/elasticsearch-js](https://github.com/elastic/elasticsearch-js) (5.3K⭐) - Official JavaScript client
+- [elastic/elasticsearch-py](https://github.com/elastic/elasticsearch-py) (4.4K⭐) - Official Python client
+- [elastic/elasticsearch-dsl-py](https://github.com/elastic/elasticsearch-dsl-py) (3.9K⭐) - High-level library for Python
+
+### Apache Cassandra & ScyllaDB - 10 repos
+
+- [apache/cassandra](https://github.com/apache/cassandra) (9.5K⭐) - Highly-scalable partitioned row store
+- [apache/cassandra-gocql-driver](https://github.com/apache/cassandra-gocql-driver) (2.7K⭐) - Go driver for Cassandra
+- [apache/cassandra-spark-connector](https://github.com/apache/cassandra-spark-connector) (1.9K⭐) - Spark Cassandra connector
+- [scylladb/scylladb](https://github.com/scylladb/scylladb) (15.1K⭐) - NoSQL database compatible with Cassandra
+- [scylladb/seastar](https://github.com/scylladb/seastar) (9.0K⭐) - High-performance server-side framework
+- [scylladb/gocqlx](https://github.com/scylladb/gocqlx) (996⭐) - Extension for gocql
+- [scylladb/scylla-rust-driver](https://github.com/scylladb/scylla-rust-driver) (650⭐) - Async CQL driver for Rust
+- [scylladb/scylla-operator](https://github.com/scylladb/scylla-operator) (386⭐) - Kubernetes operator
+- [scylladb/scylla-monitoring](https://github.com/scylladb/scylla-monitoring) (253⭐) - Monitoring stack
+- [scylladb/scylla-code-samples](https://github.com/scylladb/scylla-code-samples) (253⭐) - Code samples & examples
+
+### DataStax (Cassandra) - 10 repos
+
+- [datastax/jvector](https://github.com/datastax/jvector) (1.7K⭐) - Vector search for Java
+- [datastax/python-driver](https://github.com/datastax/python-driver) (1.4K⭐) - Python driver for Cassandra
+- [datastax/nodejs-driver](https://github.com/datastax/nodejs-driver) (1.3K⭐) - Node.js driver for Cassandra
+- [datastax/csharp-driver](https://github.com/datastax/csharp-driver) (662⭐) - C# driver for Cassandra
+- [datastax/php-driver](https://github.com/datastax/php-driver) (437⭐) - PHP driver for Cassandra
+- [datastax/cpp-driver](https://github.com/datastax/cpp-driver) (417⭐) - C/C++ driver for Cassandra
+- [datastax/cass-operator](https://github.com/datastax/cass-operator) (255⭐) - Kubernetes operator
+- [datastax/ruby-driver](https://github.com/datastax/ruby-driver) (235⭐) - Ruby driver for Cassandra
+- [datastax/astra-assistants-api](https://github.com/datastax/astra-assistants-api) (204⭐) - Assistants API implementation
+- [datastax/graph-book](https://github.com/datastax/graph-book) (193⭐) - Graph database guide
+
+### CockroachDB - 10 repos
+
+- [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) (31.5K⭐) - Cloud-native distributed SQL database
+- [cockroachdb/pebble](https://github.com/cockroachdb/pebble) (5.6K⭐) - RocksDB/LevelDB inspired key-value store
+- [cockroachdb/errors](https://github.com/cockroachdb/errors) (2.3K⭐) - Go error library
+- [cockroachdb/copyist](https://github.com/cockroachdb/copyist) (853⭐) - Mocking SQL database driver
+- [cockroachdb/apd](https://github.com/cockroachdb/apd) (764⭐) - Arbitrary-precision decimals
+- [cockroachdb/swiss](https://github.com/cockroachdb/swiss) (459⭐) - Go port of Swiss Tables
+- [cockroachdb/cockroach-operator](https://github.com/cockroachdb/cockroach-operator) (310⭐) - Kubernetes operator
+- [cockroachdb/docs](https://github.com/cockroachdb/docs) (202⭐) - CockroachDB documentation
+- [cockroachdb/django-cockroachdb](https://github.com/cockroachdb/django-cockroachdb) (170⭐) - Django backend
+- [cockroachdb/cockroach-go](https://github.com/cockroachdb/cockroach-go) (164⭐) - Go packages for CockroachDB
+
+### InfluxData (InfluxDB) - 10 repos
+
+- [influxdata/influxdb](https://github.com/influxdata/influxdb) (30.8K⭐) - Scalable time-series database
+- [influxdata/telegraf](https://github.com/influxdata/telegraf) (16.5K⭐) - Plugin-driven server agent
+- [influxdata/kapacitor](https://github.com/influxdata/kapacitor) (2.4K⭐) - Real-time streaming data processing
+- [influxdata/influxdb-python](https://github.com/influxdata/influxdb-python) (1.7K⭐) - Python client library
+- [influxdata/chronograf](https://github.com/influxdata/chronograf) (1.6K⭐) - UI for the InfluxData platform
+- [influxdata/influxdb-java](https://github.com/influxdata/influxdb-java) (1.2K⭐) - Java client library
+- [influxdata/influxdb-relay](https://github.com/influxdata/influxdb-relay) (853⭐) - InfluxDB relay service
+- [influxdata/flux](https://github.com/influxdata/flux) (785⭐) - Data scripting language
+- [influxdata/influxdb-client-python](https://github.com/influxdata/influxdb-client-python) (783⭐) - Python client for 2.x
+- [influxdata/influxdb-client-go](https://github.com/influxdata/influxdb-client-go) (647⭐) - Go client for 2.x
+
+### Neo4j - 10 repos
+
+- [neo4j/neo4j](https://github.com/neo4j/neo4j) (15.4K⭐) - Graph database management system
+- [neo4j/NaLLM](https://github.com/neo4j/NaLLM) (1.4K⭐) - Natural language to Cypher with LLMs
+- [neo4j/neo4j-python-driver](https://github.com/neo4j/neo4j-python-driver) (1.0K⭐) - Official Python driver
+- [neo4j/neo4j-javascript-driver](https://github.com/neo4j/neo4j-javascript-driver) (902⭐) - Official JavaScript driver
+- [neo4j/neo4j-graphrag-python](https://github.com/neo4j/neo4j-graphrag-python) (885⭐) - GraphRAG for Python
+- [neo4j/neo4j-browser](https://github.com/neo4j/neo4j-browser) (780⭐) - Web-based Neo4j UI
+- [neo4j/graph-data-science](https://github.com/neo4j/graph-data-science) (737⭐) - Graph algorithms library
+- [neo4j/graphql](https://github.com/neo4j/graphql) (542⭐) - GraphQL to Cypher translation
+- [neo4j/neo4j-go-driver](https://github.com/neo4j/neo4j-go-driver) (532⭐) - Official Go driver
+- [neo4j/docker-neo4j](https://github.com/neo4j/docker-neo4j) (367⭐) - Docker images for Neo4j
+
+### TimescaleDB - 10 repos
+
+- [timescale/timescaledb](https://github.com/timescale/timescaledb) (20.7K⭐) - Time-series PostgreSQL extension
+- [timescale/pgai](https://github.com/timescale/pgai) (5.5K⭐) - AI capabilities for PostgreSQL
+- [timescale/pgvectorscale](https://github.com/timescale/pgvectorscale) (2.4K⭐) - Vector database for PostgreSQL
+- [timescale/tsbs](https://github.com/timescale/tsbs) (1.4K⭐) - Time Series Benchmark Suite
+- [timescale/promscale](https://github.com/timescale/promscale) (1.3K⭐) - Prometheus long-term storage
+- [timescale/tobs](https://github.com/timescale/tobs) (574⭐) - Observability stack for Kubernetes
+- [timescale/timescaledb-tune](https://github.com/timescale/timescaledb-tune) (483⭐) - TimescaleDB tuning tool
+- [timescale/timescaledb-toolkit](https://github.com/timescale/timescaledb-toolkit) (445⭐) - Advanced analytics functions
+- [timescale/timescaledb-parallel-copy](https://github.com/timescale/timescaledb-parallel-copy) (422⭐) - Parallel data import
+- [timescale/prometheus-postgresql-adapter](https://github.com/timescale/prometheus-postgresql-adapter) (337⭐) - Prometheus adapter
+
+### Couchbase - 10 repos
+
+- [couchbase/couchbase-lite-ios](https://github.com/couchbase/couchbase-lite-ios) (1.7K⭐) - Lightweight NoSQL database for iOS
+- [couchbase/forestdb](https://github.com/couchbase/forestdb) (1.3K⭐) - Fast key-value storage engine
+- [couchbase/couchbase-lite-android](https://github.com/couchbase/couchbase-lite-android) (1.2K⭐) - Lightweight database for Android
+- [couchbase/moss](https://github.com/couchbase/moss) (1.0K⭐) - Simple, fast, ordered key-value store
+- [couchbase/geocouch](https://github.com/couchbase/geocouch) (516⭐) - Spatial indexing extension
+- [couchbase/vellum](https://github.com/couchbase/vellum) (512⭐) - Go library for FSTs
+- [couchbase/couchnode](https://github.com/couchbase/couchnode) (462⭐) - Node.js client library
+- [couchbase/sync_gateway](https://github.com/couchbase/sync_gateway) (451⭐) - Synchronization server
+- [couchbase/couchbase-lite-net](https://github.com/couchbase/couchbase-lite-net) (439⭐) - .NET implementation
+- [couchbase/go-slab](https://github.com/couchbase/go-slab) (385⭐) - Slab allocator for Go
+
+### YugabyteDB - 10 repos
+
+- [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) (9.9K⭐) - Distributed SQL database
+- [yugabyte/yugabyte-operator](https://github.com/yugabyte/yugabyte-operator) (64⭐) - Kubernetes operator
+- [yugabyte/yugastore](https://github.com/yugabyte/yugastore) (51⭐) - E-commerce app demo
+- [yugabyte/yb-voyager](https://github.com/yugabyte/yb-voyager) (47⭐) - Database migration tool
+- [yugabyte/charts](https://github.com/yugabyte/charts) (42⭐) - Helm charts for Kubernetes
+- [yugabyte/yugabyte-k8s-operator](https://github.com/yugabyte/yugabyte-k8s-operator) (37⭐) - Kubernetes operator v2
+- [yugabyte/yb-sample-apps](https://github.com/yugabyte/yb-sample-apps) (31⭐) - Sample applications
+- [yugabyte/tpcc](https://github.com/yugabyte/tpcc) (24⭐) - TPC-C benchmark
+- [yugabyte/terraform-aws-yugabyte](https://github.com/yugabyte/terraform-aws-yugabyte) (21⭐) - Terraform for AWS
+- [yugabyte/yb-tools](https://github.com/yugabyte/yb-tools) (20⭐) - Operational tools
 
 [↑ Back to top](#-quick-jump-menu)
 
