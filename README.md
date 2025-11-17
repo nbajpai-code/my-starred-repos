@@ -1,12 +1,13 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **3,500+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, Quantum & Emerging Technologies, OpenAI (Hiring & Tech), Product Management & University Conferences, IT/Tech Certifications, Prompt Engineering & Linting, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **3,635+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, Quantum & Emerging Technologies, OpenAI (Hiring & Tech), Product Management & University Conferences, IT/Tech Certifications (including DP-600 Fabric Analytics), Prompt Engineering & Linting, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-3,500+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-3,635+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
-**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,500+ starred repos with direct links!
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,635+ starred repos with direct links!
+**🎓 NEW:** [**DP-600 Exam Prep →**](star_dp600_exam_prep_repos.sh) - Microsoft Fabric Analytics Engineer certification resources (35 repos)!
 **🔍 NEW:** [**Prompt Linting Guide →**](PROMPT_LINTING_GUIDE.md) - Comprehensive guide to prompt engineering, validation & best practices!
 **📚 NEW:** [**arXiv Research Guide →**](ARXIV_RESEARCH_GUIDE.md) - Track top research papers in AI/ML/RL/MLOps/AIOps from arXiv (93 repos)!
 
@@ -1542,7 +1543,7 @@ See [STARRED-INDEX.md - Product Management & University Conferences](STARRED-IND
 
 ## 🎓 IT/Tech Certifications
 
-### IT/Tech Certification Resources (~96 repos)
+### IT/Tech Certification Resources (~131 repos)
 
 See [STARRED-INDEX.md - IT/Tech Certifications](STARRED-INDEX.md#-ittech-certifications) for the full list.
 
@@ -1570,6 +1571,15 @@ See [STARRED-INDEX.md - IT/Tech Certifications](STARRED-INDEX.md#-ittech-certifi
 - AI-900 (AI Fundamentals)
 - DP-900 (Data), SC-900 (Security/Compliance)
 - (2 repos not found: AZ-900, AZ-400)
+
+### Microsoft Fabric Analytics (DP-600) - 35 repos
+- **Official Study Guides:** PacktPublishing DP-600, SubhMSFT certification material
+- **Microsoft Resources:** fabric-samples, fabric-toolbox, mslearn-fabric
+- **Community Materials:** azure-dp600 study guide, hands-on labs
+- **Power BI Tools:** Tabular Editor, Bravo, fabric_cat_tools
+- **Data Engineering:** Synapse analytics, semantic-link-labs
+- **Analytics & ML:** ML-For-Beginners, Data-Science-For-Beginners
+- See [star_dp600_exam_prep_repos.sh](star_dp600_exam_prep_repos.sh) for full list
 
 ### Google Cloud Certifications - 9 repos
 - GCP certification resources
@@ -1628,6 +1638,7 @@ See [STARRED-INDEX.md - IT/Tech Certifications](STARRED-INDEX.md#-ittech-certifi
 - Fundamentals (AZ-900, AI-900, DP-900, SC-900)
 - Administrator (AZ-104), Developer (AZ-204)
 - Solutions Architect (AZ-305), Security (AZ-500)
+- **DP-600: Fabric Analytics Engineer** (35 repos) ⭐ NEW!
 
 **🔴 Google Cloud:**
 - Associate Cloud Engineer

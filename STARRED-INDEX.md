@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 3,600+ Starred Repositories**
+> **Quick Navigation for 3,635+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -32,7 +32,7 @@
 | 🔬 **Quantum & Emerging Technologies** | 100+ | [Jump →](#-quantum--emerging-technologies) |
 | 🔵 **OpenAI Resources (Hiring & Tech)** | 100+ | [Jump →](#-openai-resources-hiring--tech) |
 | 💼 **Product Management & University** | 38+ | [Jump →](#-product-management--university-conferences) |
-| 🎓 **IT/Tech Certifications** | 96+ | [Jump →](#-ittech-certifications) |
+| 🎓 **IT/Tech Certifications** | 131+ | [Jump →](#-ittech-certifications) |
 | 🎯 **Prompt Engineering & Linting** | 90+ | [Jump →](#-prompt-engineering--linting) |
 | 📚 **arXiv Research Papers** | 84+ | [Jump →](#-arxiv-research-papers--tracking) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
@@ -1616,6 +1616,65 @@
 - [MicrosoftLearning/AZ-500-AzureSecurityTechnologies](https://github.com/MicrosoftLearning/AZ-500-AzureSecurityTechnologies) - AZ-500 Security
 - (2 repos not found: AZ-900, AZ-400)
 
+### Microsoft Fabric Analytics Engineer (DP-600) - 35 repos
+
+#### Official Study Guides & Exam Prep - 5 repos
+- [PacktPublishing/Implementing-Analytics-Solutions-Using-Microsoft-Fabric-DP-600-Exam-Study-Guide](https://github.com/PacktPublishing/Implementing-Analytics-Solutions-Using-Microsoft-Fabric-DP-600-Exam-Study-Guide) - Official Packt study guide
+- [SubhMSFT/DP600-CertificationMaterial](https://github.com/SubhMSFT/DP600-CertificationMaterial) - Certification materials
+- [ndamulelonemakh/azure-dp600-fabrics-analytics-engineer-study-guide](https://github.com/ndamulelonemakh/azure-dp600-fabrics-analytics-engineer-study-guide) - Study guide & tips
+- [DonFrancis1/DP-600-and-DP-700-Exam-Preparation-Materials](https://github.com/DonFrancis1/DP-600-and-DP-700-Exam-Preparation-Materials) - DP-600 & DP-700 materials
+- [DidaCloud/dp-600](https://github.com/DidaCloud/dp-600) - Hands-on labs
+
+#### Microsoft Official Resources - 4 repos
+- [microsoft/fabric-samples](https://github.com/microsoft/fabric-samples) - Official Fabric samples
+- [microsoft/fabric-toolbox](https://github.com/microsoft/fabric-toolbox) - Fabric CAT tools & accelerators
+- [MicrosoftLearning/mslearn-fabric](https://github.com/MicrosoftLearning/mslearn-fabric) - Microsoft Learn labs
+- [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) - Semantic Kernel
+
+#### Community Study Materials - 3 repos
+- [Akbarsait/powertools-data](https://github.com/Akbarsait/powertools-data) - Data engineering notes
+- [weslbo/dp-600](https://github.com/weslbo/dp-600) - Study guide with docs links
+- [MicrosoftCloudEssentials-LearningHub/Fabric-EnterpriseFramework](https://github.com/MicrosoftCloudEssentials-LearningHub/Fabric-EnterpriseFramework) - Enterprise framework
+
+#### Fabric Deployment & Architecture - 2 repos
+- [datahai/microsoft-fabric-deployment-guide](https://github.com/datahai/microsoft-fabric-deployment-guide) - Deployment guide
+- [Azure-Samples/modern-data-warehouse-dataops](https://github.com/Azure-Samples/modern-data-warehouse-dataops) - Modern data warehouse
+
+#### Synapse & Data Engineering - 3 repos
+- [Azure/azure-synapse-analytics-end2end](https://github.com/Azure/azure-synapse-analytics-end2end) - Synapse end-to-end
+- [Azure/Azure-DataFactory](https://github.com/Azure/Azure-DataFactory) - Data Factory
+- [Azure-Samples/Synapse](https://github.com/Azure-Samples/Synapse) - Synapse samples
+
+#### Power BI & Semantic Models - 7 repos
+- [microsoft/powerbi-client-react](https://github.com/microsoft/powerbi-client-react) - Power BI React client
+- [microsoft/powerbi-visuals-tools](https://github.com/microsoft/powerbi-visuals-tools) - Visual development tools
+- [microsoft/powerbi-visuals-api](https://github.com/microsoft/powerbi-visuals-api) - Visuals API
+- [microsoft/DataConnectors](https://github.com/microsoft/DataConnectors) - Data connectors
+- [m-kovalsky/fabric_cat_tools](https://github.com/m-kovalsky/fabric_cat_tools) - Fabric CAT tools
+- [sql-bi/Bravo](https://github.com/sql-bi/Bravo) - Power BI helper tool
+- [TabularEditor/TabularEditor](https://github.com/TabularEditor/TabularEditor) - Tabular Editor 2
+
+#### Semantic Link & Analytics - 1 repo
+- [microsoft/semantic-link-labs](https://github.com/microsoft/semantic-link-labs) - Semantic link experiments
+
+#### DevOps & CI/CD - 1 repo
+- [microsoft/azure-pipelines-tasks](https://github.com/microsoft/azure-pipelines-tasks) - Azure Pipelines tasks
+
+#### Analytics & ML Resources - 3 repos
+- [Azure/MachineLearningNotebooks](https://github.com/Azure/MachineLearningNotebooks) - ML notebooks
+- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - ML for beginners
+- [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) - Data science basics
+
+#### Reference Architectures - 2 repos
+- [Azure/AnalyticsinaBox](https://github.com/Azure/AnalyticsinaBox) - Analytics in a box
+- [Azure/data-landing-zone](https://github.com/Azure/data-landing-zone) - Data landing zone
+
+#### Development Tools - 4 repos
+- [TabularEditor/TabularEditor3](https://github.com/TabularEditor/TabularEditor3) - Tabular Editor 3
+- [microsoft/Analysis-Services](https://github.com/microsoft/Analysis-Services) - Analysis Services
+- [microsoft/powerquery-parser](https://github.com/microsoft/powerquery-parser) - Power Query parser
+- [microsoft/powerquery-language-services](https://github.com/microsoft/powerquery-language-services) - PQ language services
+
 ### Google Cloud Certifications - 9 repos
 
 - [sathishvj/awesome-gcp-certifications](https://github.com/sathishvj/awesome-gcp-certifications) - GCP certification resources
@@ -1988,7 +2047,7 @@ On GitHub stars page, you can sort by:
 | **Quantum & Emerging Technologies** | 100+ |
 | **OpenAI Resources (Hiring & Tech)** | 100+ |
 | **Product Management & University** | 38+ |
-| **IT/Tech Certifications** | 96+ |
+| **IT/Tech Certifications** | 131+ |
 | **Prompt Engineering & Linting** | 90+ |
 | **Enterprise** | 361+ |
 
