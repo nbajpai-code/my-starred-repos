@@ -1,12 +1,12 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **3,200+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, Quantum & Emerging Technologies, OpenAI (Hiring & Tech), and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **3,400+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, Quantum & Emerging Technologies, OpenAI (Hiring & Tech), Product Management & University Conferences, IT/Tech Certifications, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-3,200+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-3,400+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
-**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,200+ starred repos with direct links!
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,400+ starred repos with direct links!
 
 ---
 
@@ -32,6 +32,8 @@
 - [🗄️ Database Technologies](#️-database-technologies)
 - [🔬 Quantum & Emerging Technologies](#-quantum--emerging-technologies)
 - [🔵 OpenAI Resources (Hiring & Tech)](#-openai-resources-hiring--tech)
+- [💼 Product Management & University Conferences](#-product-management--university-conferences)
+- [🎓 IT/Tech Certifications](#-ittech-certifications)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
@@ -1485,6 +1487,157 @@ See [STARRED-INDEX.md - OpenAI Resources](STARRED-INDEX.md#-openai-resources-hir
 - gpt-oss-safeguard open-weight models (Oct 2025)
 - Political bias in LLMs research (Oct 2025)
 - AI scheming detection & reduction (Sep 2025)
+
+---
+
+## 💼 Product Management & University Conferences
+
+### Product Management & University Research (~38 repos)
+
+See [STARRED-INDEX.md - Product Management & University Conferences](STARRED-INDEX.md#-product-management--university-conferences) for the full list.
+
+<details>
+<summary>💼 View PM & University Categories</summary>
+
+### Product Management Resources - 10 repos
+- awesome-product-management collections
+- Open product management resources
+- PM learning materials, tools & frameworks
+- Best practices, knowledge bases
+- PM resources (English & Chinese)
+
+### CMU ML/AI Conferences & Courses - 10 repos
+- CMU Software Engineering for AI-Enabled Systems
+- Machine Learning & Signal Processing courses
+- Large Scale Multimedia Analysis
+- Deep Learning course materials
+- MLSP research projects
+
+### Top ML/AI Conference Papers - 10 repos
+- Top AI conference papers with code
+- Reinforcement Learning paper collections
+- ICML/NeurIPS/ICLR datasets
+- Annotated deep learning implementations
+- GAN zoo, DL papers roadmap
+
+### Stanford AI/ML Systems - 5 repos
+- FrugalGPT: Cost-efficient LLM usage
+- HELM: Holistic LLM evaluation
+- WikiChat, DSPy
+- (1 repo not found)
+
+### MIT CSAIL & Research - 5 repos
+- Streaming LLM inference
+- Efficient vision transformers
+- Sparse tensor libraries
+- (1 repo not found)
+
+</details>
+
+---
+
+## 🎓 IT/Tech Certifications
+
+### IT/Tech Certification Resources (~96 repos)
+
+See [STARRED-INDEX.md - IT/Tech Certifications](STARRED-INDEX.md#-ittech-certifications) for the full list.
+
+<details>
+<summary>🎓 View Certification Categories</summary>
+
+### Kubernetes Certifications (CKA/CKAD/CKS) - 20 repos
+- CKAD exercises (9.7K⭐), CKA resources (4.4K⭐)
+- Linux Foundation coupons & discounts
+- Practice environments, crash courses
+- Study guides (O'Reilly books)
+- Exam prep notes, bookmarks, exercises
+
+### AWS Certifications - 20 repos
+- Cloud Practitioner, Solutions Architect, Developer
+- AWS certification notes, mindmaps, flashcards
+- Practice tests, study guides
+- Machine Learning specialty
+- Comprehensive AWS guides (531⭐)
+
+### Azure Certifications - 8 repos
+- AZ-104 (Administrator), AZ-204 (Developer)
+- AZ-305 (Solutions Architect), AZ-500 (Security)
+- AZ-700 (Networking)
+- AI-900 (AI Fundamentals)
+- DP-900 (Data), SC-900 (Security/Compliance)
+- (2 repos not found: AZ-900, AZ-400)
+
+### Google Cloud Certifications - 9 repos
+- GCP certification resources
+- Generative AI samples
+- Terraform, Kubernetes samples
+- Cloud Foundation Fabric
+- Professional services tools
+- (1 repo not found)
+
+### HashiCorp Terraform - 10 repos
+- Terraform (44K⭐) main repo
+- Certification practice questions
+- AWS, Azure, GCP providers
+- Kubernetes provider (1.6K⭐)
+- Learn modules for EKS, AKS, K8s
+
+### General Cloud & DevOps - 9 repos
+- Free certifications collection
+- DevOps exercises (70K⭐)
+- Developer roadmap (316K⭐)
+- Open Source CS degree (176K⭐)
+- Awesome CS courses (59K⭐)
+- (1 repo not found)
+
+### Linux & System Administration - 10 repos
+- Linux security guide (17K⭐)
+- Awesome sysadmin (25K⭐)
+- The Book of Secret Knowledge (155K⭐)
+- Command-line mastery (156K⭐)
+- Shell resources, ZSH plugins
+- Terminal UIs
+
+### CompTIA & Security Certifications - 10 repos
+- Awesome Hacking (92K⭐)
+- Penetration testing (22K⭐)
+- Web security (12K⭐)
+- Application security (6.4K⭐)
+- Threat intelligence (8.0K⭐)
+- Incident response, InfoSec resources
+
+</details>
+
+### 🎯 Top Certification Paths
+
+**☸️ Kubernetes:**
+- CKA (Certified Kubernetes Administrator)
+- CKAD (Certified Kubernetes Application Developer)
+- CKS (Certified Kubernetes Security Specialist)
+
+**☁️ AWS:**
+- Cloud Practitioner → Solutions Architect → Professional
+- Developer Associate, SysOps Administrator
+- Security, ML, Database, Networking specialties
+
+**🔵 Azure:**
+- Fundamentals (AZ-900, AI-900, DP-900, SC-900)
+- Administrator (AZ-104), Developer (AZ-204)
+- Solutions Architect (AZ-305), Security (AZ-500)
+
+**🔴 Google Cloud:**
+- Associate Cloud Engineer
+- Professional Cloud Architect
+- Professional DevOps Engineer, Security Engineer
+
+**🟣 HashiCorp:**
+- Terraform Associate
+- Vault Associate, Consul Associate
+
+**🔧 DevOps & Security:**
+- CompTIA (A+, Network+, Security+)
+- CISSP, CEH, OSCP
+- Linux Foundation certifications
 
 ---
 

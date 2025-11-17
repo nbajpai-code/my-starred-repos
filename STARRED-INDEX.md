@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 3,200+ Starred Repositories**
+> **Quick Navigation for 3,400+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -31,6 +31,8 @@
 | 🗄️ **Database Technologies** | 120+ | [Jump →](#️-database-technologies) |
 | 🔬 **Quantum & Emerging Technologies** | 100+ | [Jump →](#-quantum--emerging-technologies) |
 | 🔵 **OpenAI Resources (Hiring & Tech)** | 100+ | [Jump →](#-openai-resources-hiring--tech) |
+| 💼 **Product Management & University** | 38+ | [Jump →](#-product-management--university-conferences) |
+| 🎓 **IT/Tech Certifications** | 96+ | [Jump →](#-ittech-certifications) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -1491,6 +1493,196 @@
 
 ---
 
+## 💼 Product Management & University Conferences
+
+### Product Management Resources - 10 repos
+
+- [dend/awesome-product-management](https://github.com/dend/awesome-product-management) - Curated list of awesome product management resources
+- [ProductHired/open-product-management](https://github.com/ProductHired/open-product-management) - Open product management resources
+- [Pediomo/product-management-resources](https://github.com/Pediomo/product-management-resources) - PM learning materials
+- [prakashsellathurai/Awesome-Product-Management](https://github.com/prakashsellathurai/Awesome-Product-Management) - Comprehensive PM guide
+- [bjpcjp/awesome-product-management](https://github.com/bjpcjp/awesome-product-management) - PM tools and frameworks
+- [rajavijayach/awesome-product-management](https://github.com/rajavijayach/awesome-product-management) - PM best practices
+- [soumendra/awesome-product-management](https://github.com/soumendra/awesome-product-management) - PM resources collection
+- [pcefulwarrior/awesome-product-management](https://github.com/pcefulwarrior/awesome-product-management) - PM knowledge base
+- [Zuojiangtao/awesome-product-management-zh](https://github.com/Zuojiangtao/awesome-product-management-zh) - PM resources (Chinese)
+- [taurusismysign/awesome-product-management](https://github.com/taurusismysign/awesome-product-management) - PM learning path
+
+### CMU ML/AI Conferences & Courses - 10 repos
+
+- [ckaestne/seai](https://github.com/ckaestne/seai) - CMU Software Engineering for AI-Enabled Systems
+- [mlip-cmu/awesome-ml-products](https://github.com/mlip-cmu/awesome-ml-products) - Awesome ML products
+- [cmu-mlsp/mlspcourse](https://github.com/cmu-mlsp/mlspcourse) - CMU Machine Learning & Signal Processing course
+- [cmu-mlsp/cmu-mlsp.github.io](https://github.com/cmu-mlsp/cmu-mlsp.github.io) - MLSP group website
+- [cmu-mlsp/mlspcourse-2024](https://github.com/cmu-mlsp/mlspcourse-2024) - MLSP 2024 course materials
+- [cmu-mlsp/learning_from_weak_labels](https://github.com/cmu-mlsp/learning_from_weak_labels) - Weak supervision research
+- [cmu-mlsp/11-775](https://github.com/cmu-mlsp/11-775) - Large Scale Multimedia Analysis course
+- [cmu-mlsp/interview_humanssum](https://github.com/cmu-mlsp/interview_humanssum) - Interview summarization
+- [cmu-mlsp/mlsp-course-2023](https://github.com/cmu-mlsp/mlsp-course-2023) - MLSP 2023 materials
+- [zhiranchen/CMU11785-Deep-Learning](https://github.com/zhiranchen/CMU11785-Deep-Learning) - CMU Deep Learning course
+
+### Top ML/AI Conference Papers - 10 repos
+
+- [MLNLP-World/Top-AI-Conferences-Paper-with-Code](https://github.com/MLNLP-World/Top-AI-Conferences-Paper-with-Code) - Top AI conference papers with code
+- [Allenpandas/Reinforcement-Learning-Papers](https://github.com/Allenpandas/Reinforcement-Learning-Papers) - RL paper collection
+- [martenlienen/icml-neurips-iclr-dataset](https://github.com/martenlienen/icml-neurips-iclr-dataset) - ICML/NeurIPS/ICLR dataset
+- [khairulislam/ML-conferences](https://github.com/khairulislam/ML-conferences) - ML conference tracker
+- [jiahaoli57/Call-for-Reviewers](https://github.com/jiahaoli57/Call-for-Reviewers) - Conference reviewer calls
+- [MedicalVisionGroup/ReadingGroup](https://github.com/MedicalVisionGroup/ReadingGroup) - Medical vision reading group
+- [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) - Annotated DL papers
+- [hindupuravinash/the-gan-zoo](https://github.com/hindupuravinash/the-gan-zoo) - Comprehensive GAN list
+- [terryum/awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers) - Most cited DL papers
+- [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) - DL papers roadmap
+
+### Stanford AI/ML Systems - 5 repos
+
+- [stanford-futuredata/FrugalGPT](https://github.com/stanford-futuredata/FrugalGPT) - FrugalGPT: Cost-efficient LLM usage
+- [stanford-crfm/helm](https://github.com/stanford-crfm/helm) - Holistic Evaluation of Language Models
+- [stanford-oval/WikiChat](https://github.com/stanford-oval/WikiChat) - Wikipedia-based chatbot
+- [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) - DSPy: Programming with foundation models
+- (1 repo not found)
+
+### MIT CSAIL & Research - 5 repos
+
+- [mit-han-lab/streaming-llm](https://github.com/mit-han-lab/streaming-llm) - Streaming LLM inference
+- [mit-han-lab/efficientvit](https://github.com/mit-han-lab/efficientvit) - Efficient vision transformers
+- [mit-han-lab/torchsparse](https://github.com/mit-han-lab/torchsparse) - Sparse tensor library
+- [mitmedialab/gobo](https://github.com/mitmedialab/gobo) - Social media aggregator
+- (1 repo not found)
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
+## 🎓 IT/Tech Certifications
+
+### Kubernetes Certifications (CKA/CKAD/CKS) - 20 repos
+
+- [dgkanatsios/CKAD-exercises](https://github.com/dgkanatsios/CKAD-exercises) (9.7K⭐) - CKAD exam practice exercises
+- [walidshaari/Kubernetes-Certified-Administrator](https://github.com/walidshaari/Kubernetes-Certified-Administrator) (4.4K⭐) - CKA exam resources
+- [alexellis/arkade](https://github.com/alexellis/arkade) (4.5K⭐) - Kubernetes app installer
+- [ViktorUJ/cks](https://github.com/ViktorUJ/cks) (1.3K⭐) - CKS certification guide
+- [techiescamp/linux-foundation-coupon](https://github.com/techiescamp/linux-foundation-coupon) (1.0K⭐) - Linux Foundation discount coupons
+- [arush-sal/cka-practice-environment](https://github.com/arush-sal/cka-practice-environment) (865⭐) - CKA practice env
+- [piyushsachdeva/CKA-2024](https://github.com/piyushsachdeva/CKA-2024) (860⭐) - CKA 2024 guide
+- [techiescamp/vagrant-kubeadm-kubernetes](https://github.com/techiescamp/vagrant-kubeadm-kubernetes) (829⭐) - Kubernetes lab setup
+- [leandrocostam/cka-preparation-guide](https://github.com/leandrocostam/cka-preparation-guide) (715⭐) - CKA prep guide
+- [sailor-sh/CK-X](https://github.com/sailor-sh/CK-X) (646⭐) - Cloud native certification tracker
+- [bmuschko/ckad-prep](https://github.com/bmuschko/ckad-prep) (597⭐) - CKAD preparation
+- [bmuschko/cka-crash-course](https://github.com/bmuschko/cka-crash-course) - CKA crash course
+- [bmuschko/ckad-crash-course](https://github.com/bmuschko/ckad-crash-course) - CKAD crash course
+- [bmuschko/cka-study-guide](https://github.com/bmuschko/cka-study-guide) - CKA O'Reilly study guide
+- [bmuschko/ckad-study-guide](https://github.com/bmuschko/ckad-study-guide) - CKAD O'Reilly study guide
+- [ismet55555/Certified-Kubernetes-Administrator-Notes](https://github.com/ismet55555/Certified-Kubernetes-Administrator-Notes) (445⭐) - CKA notes
+- [krzko/awesome-cka](https://github.com/krzko/awesome-cka) (337⭐) - Awesome CKA resources
+- [reetasingh/CKAD-Bookmarks](https://github.com/reetasingh/CKAD-Bookmarks) (291⭐) - CKAD bookmarks
+- [jayendrapatil/kubernetes-exercises](https://github.com/jayendrapatil/kubernetes-exercises) (266⭐) - K8s exercises
+- [jamesbuckett/ckad-questions](https://github.com/jamesbuckett/ckad-questions) (199⭐) - CKAD practice questions
+
+### AWS Certifications - 20 repos
+
+- [ptcodes/awesome-aws-certifications](https://github.com/ptcodes/awesome-aws-certifications) (672⭐) - Awesome AWS certifications
+- [Furkan-Gulsen/AWS-Certified-Cloud-Practitioner-Certification-My-Notes](https://github.com/Furkan-Gulsen/AWS-Certified-Cloud-Practitioner-Certification-My-Notes) (616⭐) - CCP notes
+- [mikeroyal/AWS-Guide](https://github.com/mikeroyal/AWS-Guide) (531⭐) - Comprehensive AWS guide
+- [notcuder/aws-mindmap](https://github.com/notcuder/aws-mindmap) (525⭐) - AWS services mindmap
+- [Ditectrev/Amazon-Web-Services-AWS-Developer-Associate-DVA-C02-Practice-Tests-Exams-Questions-Answers](https://github.com/Ditectrev/Amazon-Web-Services-AWS-Developer-Associate-DVA-C02-Practice-Tests-Exams-Questions-Answers) (289⭐) - DVA-C02 practice
+- [agasthik/aws-csa-2017](https://github.com/agasthik/aws-csa-2017) (265⭐) - Solutions Architect notes
+- [ExamProCo/AWS-Examples](https://github.com/ExamProCo/AWS-Examples) (262⭐) - AWS examples
+- [AlessioCasco/AWS-CSA-2019-study-notes](https://github.com/AlessioCasco/AWS-CSA-2019-study-notes) (214⭐) - CSA study notes
+- [kasukur/AWS_CCP_Notes](https://github.com/kasukur/AWS_CCP_Notes) (194⭐) - Cloud Practitioner notes
+- [gustavofreze/aws-certified-cloud-practitioner](https://github.com/gustavofreze/aws-certified-cloud-practitioner) (141⭐) - CCP certification
+- [pietheinstrengholt/aws-certified-solutions-architect-associate-exam-tips](https://github.com/pietheinstrengholt/aws-certified-solutions-architect-associate-exam-tips) (100⭐) - SAA exam tips
+- [jangroth/aws-certification-notes](https://github.com/jangroth/aws-certification-notes) (71⭐) - AWS cert notes
+- [JeffreyMFarley/aws-flash](https://github.com/JeffreyMFarley/aws-flash) (55⭐) - AWS flashcards
+- [bishopsmove/Certification-Study-Guides](https://github.com/bishopsmove/Certification-Study-Guides) (55⭐) - Multi-cert study guides
+- [jlimadev/aws-certification-cloud-practitioner-notes](https://github.com/jlimadev/aws-certification-cloud-practitioner-notes) (45⭐) - CCP notes
+- [theNicelander/AWS-Certified-Machine-Learning-Study-Notes](https://github.com/theNicelander/AWS-Certified-Machine-Learning-Study-Notes) (43⭐) - ML specialty
+- [asifvora/aws-solutions-architect-associate-notes](https://github.com/asifvora/aws-solutions-architect-associate-notes) (36⭐) - SAA notes
+- [NebulaTris/aws-saa-c03-crash-course](https://github.com/NebulaTris/aws-saa-c03-crash-course) (31⭐) - SAA-C03 crash course
+- [AUSG/aws-certification-study](https://github.com/AUSG/aws-certification-study) (29⭐) - AWS study group
+- [Reybolt/aws-certified-developer-associate-udemy-notes](https://github.com/Reybolt/aws-certified-developer-associate-udemy-notes) (26⭐) - Developer notes
+
+### Azure Certifications - 8 repos
+
+- [MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator) - AZ-104 Administrator
+- [MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure](https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure) - AZ-204 Developer
+- [MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions) - AZ-305 Architect
+- [MicrosoftLearning/AI-900-AIFundamentals](https://github.com/MicrosoftLearning/AI-900-AIFundamentals) - AI-900 AI Fundamentals
+- [MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals](https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals) - DP-900 Data Fundamentals
+- [MicrosoftLearning/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals](https://github.com/MicrosoftLearning/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals) - SC-900 Security
+- [MicrosoftLearning/AZ-700-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions](https://github.com/MicrosoftLearning/AZ-700-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions) - AZ-700 Networking
+- [MicrosoftLearning/AZ-500-AzureSecurityTechnologies](https://github.com/MicrosoftLearning/AZ-500-AzureSecurityTechnologies) - AZ-500 Security
+- (2 repos not found: AZ-900, AZ-400)
+
+### Google Cloud Certifications - 9 repos
+
+- [sathishvj/awesome-gcp-certifications](https://github.com/sathishvj/awesome-gcp-certifications) - GCP certification resources
+- [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) - Generative AI samples
+- [GoogleCloudPlatform/python-docs-samples](https://github.com/GoogleCloudPlatform/python-docs-samples) - Python samples
+- [GoogleCloudPlatform/terraform-google-examples](https://github.com/GoogleCloudPlatform/terraform-google-examples) - Terraform examples
+- [GoogleCloudPlatform/cloud-foundation-fabric](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) - Cloud Foundation Fabric
+- [GoogleCloudPlatform/professional-services](https://github.com/GoogleCloudPlatform/professional-services) - Professional services tools
+- [GoogleCloudPlatform/kubernetes-engine-samples](https://github.com/GoogleCloudPlatform/kubernetes-engine-samples) - GKE samples
+- [GoogleCloudPlatform/ai-platform-samples](https://github.com/GoogleCloudPlatform/ai-platform-samples) - AI Platform samples
+- [GoogleCloudPlatform/DataflowTemplates](https://github.com/GoogleCloudPlatform/DataflowTemplates) - Dataflow templates
+- (1 repo not found)
+
+### HashiCorp Terraform Certification - 10 repos
+
+- [bradmccoydev/terraform-cert-practice-questions](https://github.com/bradmccoydev/terraform-cert-practice-questions) (92⭐) - Terraform cert practice
+- [hashicorp/terraform](https://github.com/hashicorp/terraform) (44K⭐) - Terraform main repo
+- [hashicorp/terraform-provider-aws](https://github.com/hashicorp/terraform-provider-aws) (10K⭐) - AWS provider
+- [hashicorp/terraform-provider-azurerm](https://github.com/hashicorp/terraform-provider-azurerm) (4.8K⭐) - Azure provider
+- [hashicorp/terraform-provider-google](https://github.com/hashicorp/terraform-provider-google) (2.5K⭐) - GCP provider
+- [hashicorp/learn-terraform-provision-eks-cluster](https://github.com/hashicorp/learn-terraform-provision-eks-cluster) - EKS provisioning
+- [hashicorp/learn-terraform-provision-aks-cluster](https://github.com/hashicorp/learn-terraform-provision-aks-cluster) - AKS provisioning
+- [hashicorp/learn-terraform-deploy-nginx-kubernetes-provider](https://github.com/hashicorp/learn-terraform-deploy-nginx-kubernetes-provider) - K8s deployment
+- [hashicorp/learn-terraform-modules](https://github.com/hashicorp/learn-terraform-modules) - Terraform modules
+- [hashicorp/terraform-provider-kubernetes](https://github.com/hashicorp/terraform-provider-kubernetes) (1.6K⭐) - Kubernetes provider
+
+### General Cloud & DevOps Certifications - 9 repos
+
+- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) - Free certification courses
+- [CloudNativeStudyGroup/Linux-Foundation-Coupons](https://github.com/CloudNativeStudyGroup/Linux-Foundation-Coupons) (167⭐) - Linux Foundation coupons
+- [mikeroyal/Cloud-Native-Guide](https://github.com/mikeroyal/Cloud-Native-Guide) - Cloud Native guide
+- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) (70K⭐) - DevOps exercises
+- [bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources) (8.7K⭐) - DevOps resources
+- [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) (316K⭐) - Developer roadmaps
+- [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) (59K⭐) - Awesome CS courses
+- [ossu/computer-science](https://github.com/ossu/computer-science) (176K⭐) - Open Source CS degree
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) (85K⭐) - Technical knowledge
+- (1 repo not found)
+
+### Linux & System Administration - 10 repos
+
+- [LukeSmithxyz/based.cooking](https://github.com/LukeSmithxyz/based.cooking) (2.3K⭐) - Cooking recipes (bonus repo!)
+- [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) (17K⭐) - Linux security guide
+- [kahun/awesome-sysadmin](https://github.com/kahun/awesome-sysadmin) (25K⭐) - Awesome sysadmin resources
+- [n1trux/awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin) (16K⭐) - Sysadmin tools
+- [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) (11K⭐) - FOSS sysadmin tools
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) (155K⭐) - Collection of inspiring lists
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) (156K⭐) - Command-line mastery
+- [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) (34K⭐) - Shell resources
+- [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) (15K⭐) - ZSH plugins
+- [rothgar/awesome-tuis](https://github.com/rothgar/awesome-tuis) (8.5K⭐) - Terminal UIs
+
+### CompTIA & Security Certifications - 10 repos
+
+- [fkie-cad/awesome-embedded-and-iot-security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) (2.0K⭐) - Embedded/IoT security
+- [sbilly/awesome-security](https://github.com/sbilly/awesome-security) (13K⭐) - Security resources
+- [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) (92K⭐) - Hacking resources
+- [paragonie/awesome-appsec](https://github.com/paragonie/awesome-appsec) (6.4K⭐) - Application security
+- [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) (22K⭐) - Penetration testing
+- [qazbnm456/awesome-web-security](https://github.com/qazbnm456/awesome-web-security) (12K⭐) - Web security
+- [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) (8.0K⭐) - Threat intelligence
+- [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) (13K⭐) - Static analysis tools
+- [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) (7.6K⭐) - Incident response
+- [onlurking/awesome-infosec](https://github.com/onlurking/awesome-infosec) (5.3K⭐) - InfoSec resources
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### CA Technologies (~361 repos)
@@ -1530,7 +1722,7 @@ On GitHub stars page, you can sort by:
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 3,200+ |
+| **Total Repositories** | 3,400+ |
 | **AI & ML** | 360+ |
 | **MLOps** | 115+ |
 | **Cybersecurity** | 132+ |
@@ -1546,6 +1738,8 @@ On GitHub stars page, you can sort by:
 | **Database Technologies** | 120+ |
 | **Quantum & Emerging Technologies** | 100+ |
 | **OpenAI Resources (Hiring & Tech)** | 100+ |
+| **Product Management & University** | 38+ |
+| **IT/Tech Certifications** | 96+ |
 | **Enterprise** | 361+ |
 
 ---
