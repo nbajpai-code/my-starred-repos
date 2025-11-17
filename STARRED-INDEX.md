@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 3,400+ Starred Repositories**
+> **Quick Navigation for 3,500+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -33,6 +33,7 @@
 | 🔵 **OpenAI Resources (Hiring & Tech)** | 100+ | [Jump →](#-openai-resources-hiring--tech) |
 | 💼 **Product Management & University** | 38+ | [Jump →](#-product-management--university-conferences) |
 | 🎓 **IT/Tech Certifications** | 96+ | [Jump →](#-ittech-certifications) |
+| 🎯 **Prompt Engineering & Linting** | 90+ | [Jump →](#-prompt-engineering--linting) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -1683,6 +1684,122 @@
 
 ---
 
+## 🎯 Prompt Engineering & Linting
+
+**🔍 Custom Tool:** [**Prompt Linter**](prompt_linter.py) - Python tool for validating prompts
+
+**📚 Complete Guide:** [**Prompt Linting Guide**](PROMPT_LINTING_GUIDE.md) - Comprehensive best practices
+
+### Prompt Linting & Validation - 10 repos
+- [alexmavr/promptsage](https://github.com/alexmavr/promptsage) - LLM prompt builder, linter and sanitizer
+- [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) - Test prompts, agents, RAGs. Vulnerability scanning (35K⭐)
+- [gptlint/gptlint](https://github.com/gptlint/gptlint) - Linter with superpowers using LLMs
+- [eth-sri/lmql](https://github.com/eth-sri/lmql) - Constraint-guided LLM programming (4K⭐)
+- [guidance-ai/guidance](https://github.com/guidance-ai/guidance) - Control LLM generation (18K⭐)
+- [BerriAI/litellm](https://github.com/BerriAI/litellm) - Call all LLM APIs using OpenAI format
+- [hegelai/prompttools](https://github.com/hegelai/prompttools) - Test and experiment with prompts
+- [openai/evals](https://github.com/openai/evals) - Framework for evaluating LLMs
+- [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) - Anthropic SDK
+- [microsoft/prompt-engine](https://github.com/microsoft/prompt-engine) - Library for crafting prompts
+
+### Prompt Injection Detection & Security - 15 repos
+- [protectai/rebuff](https://github.com/protectai/rebuff) - LLM Prompt Injection Detector (ProtectAI)
+- [utkusen/promptmap](https://github.com/utkusen/promptmap) - Security scanner for custom LLMs
+- [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Every defense against injection
+- [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) - Add guardrails to LLMs (4K⭐)
+- [nvidia/NeMo-Guardrails](https://github.com/nvidia/NeMo-Guardrails) - NVIDIA toolkit for safe LLMs
+- [laiyer-ai/llm-guard](https://github.com/laiyer-ai/llm-guard) - Security toolkit for LLMs
+- [LostRuins/koboldcpp](https://github.com/LostRuins/koboldcpp) - Self-contained LLM distribution
+- [microsoft/promptbench](https://github.com/microsoft/promptbench) - Unified evaluation framework
+- [FonduAI/awesome-prompt-injection](https://github.com/FonduAI/awesome-prompt-injection) - Prompt injection resources
+- [corca-ai/awesome-llm-security](https://github.com/corca-ai/awesome-llm-security) - LLM security resources
+
+### Prompt Engineering Frameworks - 20 repos
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - Build LLM applications (102K⭐)
+- [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) - Multi-actor LLM applications
+- [run-llama/llama_index](https://github.com/run-llama/llama_index) - Data framework for LLMs (38K⭐)
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous GPT-4 (171K⭐)
+- [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) - Integrate LLMs (22K⭐)
+- [microsoft/autogen](https://github.com/microsoft/autogen) - Multi-agent framework (35K⭐)
+- [Mirascope/mirascope](https://github.com/Mirascope/mirascope) - Structured outputs
+- [PrefectHQ/marvin](https://github.com/PrefectHQ/marvin) - AI-powered software
+- [jxnl/instructor](https://github.com/jxnl/instructor) - Structured LLM outputs
+- [outlines-dev/outlines](https://github.com/outlines-dev/outlines) - Structured text generation
+- [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) - Agent framework with type safety
+- [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) - Programming foundation models
+- [microsoft/TypeChat](https://github.com/microsoft/TypeChat) - Typed JSON from LLMs
+- [deepset-ai/haystack](https://github.com/deepset-ai/haystack) - LLM orchestration
+- [hwchase17/langchainjs](https://github.com/hwchase17/langchainjs) - LangChain for JS/TS
+- [neuml/txtai](https://github.com/neuml/txtai) - AI-powered search
+- [embedchain/embedchain](https://github.com/embedchain/embedchain) - LLM-powered bots
+- [MineDojo/Voyager](https://github.com/MineDojo/Voyager) - LLM-powered agent
+- [TransformerOptimus/SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - Autonomous AI framework
+- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Private document chat
+
+### Prompt Testing & Evaluation - 15 repos
+- [confident-ai/deepeval](https://github.com/confident-ai/deepeval) - LLM evaluation framework
+- [uptrain-ai/uptrain](https://github.com/uptrain-ai/uptrain) - Open-source LLM evaluation
+- [mlflow/mlflow](https://github.com/mlflow/mlflow) - ML lifecycle platform
+- [wandb/wandb](https://github.com/wandb/wandb) - Weights & Biases experiment tracking
+- [explodinggradients/ragas](https://github.com/explodinggradients/ragas) - RAG evaluation
+- [truera/trulens](https://github.com/truera/trulens) - LLM app tracking
+- [lastmile-ai/aiconfig](https://github.com/lastmile-ai/aiconfig) - Config-driven AI development
+- [langfuse/langfuse](https://github.com/langfuse/langfuse) - LLM engineering platform
+- [whylabs/langkit](https://github.com/whylabs/langkit) - LLM monitoring toolkit
+- [openai/simple-evals](https://github.com/openai/simple-evals) - Lightweight evaluation
+- [anthropics/evals](https://github.com/anthropics/evals) - Anthropic evaluation suite
+- [context-labs/autodoc](https://github.com/context-labs/autodoc) - Code documentation tool
+
+### Prompt Optimization & Research - 10 repos
+- [microsoft/promptflow](https://github.com/microsoft/promptflow) - Build high-quality LLM apps
+- [microsoft/LMOps](https://github.com/microsoft/LMOps) - General tech for LLMs
+- [promptslab/Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering) - Curated resources (8K⭐)
+- [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Comprehensive guide (52K⭐)
+- [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - ChatGPT prompts (114K⭐)
+- [openai/openai-cookbook](https://github.com/openai/openai-cookbook) - OpenAI examples (61K⭐)
+- [anthropics/anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook) - Claude notebooks
+- [brexhq/prompt-engineering](https://github.com/brexhq/prompt-engineering) - Tips and tricks
+- [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - AI curriculum
+- [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) - GenAI learning
+
+### LLM Observability & Debugging - 10 repos
+- [phospho-app/phospho](https://github.com/phospho-app/phospho) - Text analytics for LLMs
+- [lunary-ai/lunary](https://github.com/lunary-ai/lunary) - Production toolkit
+- [traceloop/openllmetry](https://github.com/traceloop/openllmetry) - OpenTelemetry for LLMs
+- [Scale3-Labs/langtrace](https://github.com/Scale3-Labs/langtrace) - LLM observability
+- [AgentOps-AI/agentops](https://github.com/AgentOps-AI/agentops) - Observability for agents
+- [portkey-ai/gateway](https://github.com/portkey-ai/gateway) - AI gateway for 100+ LLMs
+- [BerriAI/litellm-proxy](https://github.com/BerriAI/litellm-proxy) - Proxy for 100+ LLMs
+- [langwatch/langwatch](https://github.com/langwatch/langwatch) - LLM quality monitoring
+- [agenta-ai/agenta](https://github.com/agenta-ai/agenta) - LLMOps platform
+- [parea-ai/parea-sdk-py](https://github.com/parea-ai/parea-sdk-py) - LLM observability SDK
+
+### Prompt Libraries & Templates - 10 repos
+- [linexjlin/GPTs](https://github.com/linexjlin/GPTs) - Leaked GPT prompts (30K⭐)
+- [friuns2/BlackFriday-GPTs-Prompts](https://github.com/friuns2/BlackFriday-GPTs-Prompts) - Free GPT prompts
+- [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) - Curated ChatGPT prompts
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - Chinese prompts
+- [rockbenben/ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) - Shortcuts (64K⭐)
+- [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt) - System prompts
+- [0xeb/TheBigPromptLibrary](https://github.com/0xeb/TheBigPromptLibrary) - Big prompt library
+- [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering) - GPT prompts
+- [mattnigh/ChatGPT3-Free-Prompt-List](https://github.com/mattnigh/ChatGPT3-Free-Prompt-List) - Free prompts
+
+### Advanced Prompting Techniques - 10 repos
+- [anthropics/courses](https://github.com/anthropics/courses) - Anthropic prompt engineering courses
+- [openai/prm800k](https://github.com/openai/prm800k) - Process reward model dataset
+- [openai/human-eval](https://github.com/openai/human-eval) - Evaluating LLMs (3K⭐)
+- [reasoning-machines/pal](https://github.com/reasoning-machines/pal) - Program-aided language models
+- [microsoft/guidance](https://github.com/microsoft/guidance) - Guiding LLM generation
+- [openai/tiktoken](https://github.com/openai/tiktoken) - Fast tokenizer for OpenAI
+- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) - LLaMA in C/C++ (71K⭐)
+- [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile) - Single-file LLMs (21K⭐)
+- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Curated LLM resources
+
+[↑ Back to top](#-quick-jump-menu)
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### CA Technologies (~361 repos)
@@ -1722,7 +1839,7 @@ On GitHub stars page, you can sort by:
 
 | Metric | Count |
 |--------|-------|
-| **Total Repositories** | 3,400+ |
+| **Total Repositories** | 3,500+ |
 | **AI & ML** | 360+ |
 | **MLOps** | 115+ |
 | **Cybersecurity** | 132+ |
@@ -1740,6 +1857,7 @@ On GitHub stars page, you can sort by:
 | **OpenAI Resources (Hiring & Tech)** | 100+ |
 | **Product Management & University** | 38+ |
 | **IT/Tech Certifications** | 96+ |
+| **Prompt Engineering & Linting** | 90+ |
 | **Enterprise** | 361+ |
 
 ---

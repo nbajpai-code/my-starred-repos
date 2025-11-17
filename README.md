@@ -1,12 +1,13 @@
 # 🌟 Niraj Bajpai's Curated Tech Repository Collection
 
-> A comprehensive, categorized collection of **3,400+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, Quantum & Emerging Technologies, OpenAI (Hiring & Tech), Product Management & University Conferences, IT/Tech Certifications, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
+> A comprehensive, categorized collection of **3,500+ starred repositories** spanning AI, MLOps, AIOps, Cybersecurity, Cloud, Networking, Systems Programming (C++/Go/LLVM), Python Development, Quality Engineering, Database Technologies, Quantum & Emerging Technologies, OpenAI (Hiring & Tech), Product Management & University Conferences, IT/Tech Certifications, Prompt Engineering & Linting, and Conferences (Python, Tech, Data Center, Security & Enterprise) — tailored to professional expertise and continuous learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nirajbajpai-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nirajbajpai)
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
-[![Stars](https://img.shields.io/badge/Starred%20Repos-3,400+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
+[![Stars](https://img.shields.io/badge/Starred%20Repos-3,500+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
-**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,400+ starred repos with direct links!
+**📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,500+ starred repos with direct links!
+**🔍 NEW:** [**Prompt Linting Guide →**](PROMPT_LINTING_GUIDE.md) - Comprehensive guide to prompt engineering, validation & best practices!
 
 ---
 
@@ -34,6 +35,7 @@
 - [🔵 OpenAI Resources (Hiring & Tech)](#-openai-resources-hiring--tech)
 - [💼 Product Management & University Conferences](#-product-management--university-conferences)
 - [🎓 IT/Tech Certifications](#-ittech-certifications)
+- [🎯 Prompt Engineering & Linting](#-prompt-engineering--linting)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
@@ -1638,6 +1640,118 @@ See [STARRED-INDEX.md - IT/Tech Certifications](STARRED-INDEX.md#-ittech-certifi
 - CompTIA (A+, Network+, Security+)
 - CISSP, CEH, OSCP
 - Linux Foundation certifications
+
+---
+
+## 🎯 Prompt Engineering & Linting
+
+### Prompt Engineering Tools & Best Practices (~90 repos)
+
+See [STARRED-INDEX.md - Prompt Engineering](STARRED-INDEX.md#-prompt-engineering--linting) for the full list.
+
+**🔍 NEW Tool:** [**Prompt Linter**](prompt_linter.py) - Custom Python tool for validating prompts (security, clarity, performance)
+
+**📚 Comprehensive Guide:** [**Prompt Linting Guide**](PROMPT_LINTING_GUIDE.md) - Complete guide to prompt engineering, validation, and best practices
+
+<details>
+<summary>🎯 View Prompt Engineering Categories</summary>
+
+### Prompt Linting & Validation - 10 repos
+- **Promptsage**: LLM prompt builder, linter and sanitizer with guardrails
+- **Promptfoo** (35K⭐): Test prompts, agents, RAGs with vulnerability scanning
+- **LMQL** (4K⭐): Constraint-guided LLM programming language
+- **Guidance** (18K⭐): Control LLM generation with structure
+- **GPTLint**: Linter with superpowers using LLMs
+- LiteLLM, PromptTools, OpenAI Evals
+
+### Prompt Injection Detection & Security - 15 repos
+- **Rebuff** (ProtectAI): LLM prompt injection detector
+- **Promptmap**: Security scanner for custom LLM applications
+- **Guardrails AI** (4K⭐): Add guardrails to LLM applications
+- **NeMo-Guardrails** (NVIDIA): Toolkit for safe LLMs
+- **LLM Guard**: Security toolkit for LLM interactions
+- Prompt injection defenses, awesome LLM security
+
+### Prompt Engineering Frameworks - 20 repos
+- **LangChain** (102K⭐): Build LLM applications with composability
+- **LlamaIndex** (38K⭐): Data framework for LLM applications
+- **AutoGPT** (171K⭐): Autonomous GPT-4 experiment
+- **Semantic Kernel** (22K⭐): Integrate LLMs into apps
+- **AutoGen** (35K⭐): Multi-agent conversation framework
+- Mirascope, Instructor, Outlines, Pydantic-AI, DSPy
+- TypeChat, Haystack, EmbedChain
+
+### Prompt Testing & Evaluation - 15 repos
+- **DeepEval**: LLM evaluation framework
+- **UpTrain**: Open-source LLM evaluation
+- **RAGAS**: RAG evaluation framework
+- **TruLens**: LLM app evaluation and tracking
+- **Langfuse**: Open-source LLM engineering platform
+- MLflow, W&B, Helicone, LangKit
+
+### Prompt Optimization & Research - 10 repos
+- **Prompt Engineering Guide** (DAIR.AI, 52K⭐)
+- **Awesome Prompt Engineering** (PromptsLab, 8K⭐)
+- **OpenAI Cookbook** (61K⭐)
+- **Anthropic Courses & Cookbook**
+- **Awesome ChatGPT Prompts** (114K⭐)
+- Microsoft PromptFlow, LMOps
+
+### LLM Observability & Debugging - 10 repos
+- **Langfuse**: Production toolkit for LLMs
+- **Lunary**: LLM monitoring and debugging
+- **OpenLLMetry**: OpenTelemetry for LLMs
+- **AgentOps**: Observability for AI agents
+- **Portkey Gateway**: AI gateway for 100+ LLMs
+- LangWatch, Agenta, Parea
+
+### Prompt Libraries & Templates - 10 repos
+- **Leaked GPTs** (30K⭐): GPT system prompts
+- **ChatGPT Shortcuts** (64K⭐): Prompt shortcuts
+- **Awesome Prompts** (114K⭐): Curated prompt library
+- Big Prompt Library, LLM Prompt Library
+
+### Advanced Prompting Techniques - 10 repos
+- **Anthropic Courses**: Prompt engineering training
+- **OpenAI Human-Eval** (3K⭐): LLM code evaluation
+- **Tiktoken**: Fast tokenizer for OpenAI
+- **Llama.cpp** (71K⭐): LLaMA in C/C++
+- **Llamafile** (21K⭐): Single-file LLM distribution
+- Awesome LLM, PAL, Guidance
+
+</details>
+
+### 🎯 Key Use Cases
+
+**🔒 Security & Safety:**
+- Detect prompt injection attacks
+- PII/sensitive data detection
+- Content moderation & guardrails
+- Jailbreak prevention
+
+**🧪 Testing & Validation:**
+- Automated prompt testing
+- Regression testing for prompts
+- Multi-model comparison
+- A/B testing & optimization
+
+**🔍 Quality & Performance:**
+- Static analysis & linting
+- Token counting & cost estimation
+- Output format validation
+- Best practice enforcement
+
+**📊 Observability & Debugging:**
+- Production monitoring
+- Trace prompt execution
+- Analytics & insights
+- User feedback collection
+
+**🎓 Learning & Resources:**
+- Comprehensive guides
+- Prompt templates & libraries
+- Research papers & courses
+- Community best practices
 
 ---
 
