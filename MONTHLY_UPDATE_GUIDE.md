@@ -22,6 +22,7 @@ This system automatically runs all your star scripts on a monthly or quarterly s
 - Database Technologies
 - Quantum & Emerging Technologies
 - IT/Tech Certifications
+- DP-600 Microsoft Fabric Analytics Engineer Exam Prep
 - Prompt Engineering & Linting
 - arXiv Research Papers
 - Testing & Observability
