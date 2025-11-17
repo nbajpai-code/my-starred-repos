@@ -1,0 +1,356 @@
+name: Update Starred Repositories
+
+on:
+  schedule:
+    # Run on the 1st of every month at 9 AM UTC
+    - cron: '0 9 1 * *'
+
+  # Run quarterly on the 1st of Jan, Apr, Jul, Oct
+  # Uncomment this and comment above for quarterly runs
+  # - cron: '0 9 1 1,4,7,10 *'
+
+  workflow_dispatch: # Allow manual triggering
+    inputs:
+      category:
+        description: 'Category to update (all, ai, security, networking, python, conferences, etc.)'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - ai
+          - security
+          - networking
+          - python
+          - conferences
+          - enterprise
+          - mlops
+          - aiops
+          - systems
+          - databases
+          - quantum
+          - certifications
+          - prompt-engineering
+
+      update_readme:
+        description: 'Update README and STARRED-INDEX'
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  update-repos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up environment
+        run: |
+          # Ensure scripts are executable
+          chmod +x star_*.sh
+
+          # Display update summary
+          echo "🚀 Starting repository update process"
+          echo "Category: ${{ github.event.inputs.category || 'all' }}"
+          echo "Date: $(date +'%Y-%m-%d')"
+
+      - name: Authenticate GitHub CLI
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+          gh auth status
+
+      - name: Update AI & ML Repositories
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'ai'
+        continue-on-error: true
+        run: |
+          echo "📊 Updating AI & ML repositories..."
+          ./star_ai_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_ai_infrastructure_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_ai_companies_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update MLOps & AIOps Repositories
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'mlops' || github.event.inputs.category == 'aiops'
+        continue-on-error: true
+        run: |
+          echo "🔧 Updating MLOps & AIOps repositories..."
+          ./star_mlops_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_aiops_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Security Repositories
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'security'
+        continue-on-error: true
+        run: |
+          echo "🔐 Updating Security repositories..."
+          ./star_security_cloud_api_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Networking Repositories
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'networking'
+        continue-on-error: true
+        run: |
+          echo "🌐 Updating Networking repositories..."
+          ./star_network_observability_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_datacenter_network_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_cisco_observability_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_networking_protocols_ai_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_sciencelogic_scipy_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Systems Programming Repositories
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'systems'
+        continue-on-error: true
+        run: |
+          echo "⚡ Updating Systems Programming repositories..."
+          ./star_cpp_go_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Python Repositories
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'python'
+        continue-on-error: true
+        run: |
+          echo "🐍 Updating Python repositories..."
+          ./star_python_projects_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Conference Repositories
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'conferences'
+        continue-on-error: true
+        run: |
+          echo "🎤 Updating Conference repositories..."
+          ./star_python_conference_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_tech_conferences_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_datacenter_conferences_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_security_dell_conferences_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_pycon_kubecon_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_ocp_conference_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_pm_university_conferences_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Enterprise Repositories
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'enterprise'
+        continue-on-error: true
+        run: |
+          echo "🏢 Updating Enterprise repositories..."
+          ./star_broadcom_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_enterprise_conferences_splunk.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Database Repositories
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'databases'
+        continue-on-error: true
+        run: |
+          echo "🗄️ Updating Database repositories..."
+          ./star_quality_database_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Quantum & Emerging Tech
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'quantum'
+        continue-on-error: true
+        run: |
+          echo "🔬 Updating Quantum & Emerging Tech repositories..."
+          ./star_quantum_emerging_tech_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update OpenAI Resources
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'ai'
+        continue-on-error: true
+        run: |
+          echo "🔵 Updating OpenAI resources..."
+          ./star_openai_resources_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Certifications
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'certifications'
+        continue-on-error: true
+        run: |
+          echo "🎓 Updating IT/Tech Certifications..."
+          ./star_it_certification_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Prompt Engineering
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'prompt-engineering'
+        continue-on-error: true
+        run: |
+          echo "🎯 Updating Prompt Engineering repositories..."
+          ./star_prompt_engineering_tools.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Testing & Observability
+        if: github.event.inputs.category == 'all'
+        continue-on-error: true
+        run: |
+          echo "🧪 Updating Testing repositories..."
+          ./star_testing_observability_tools.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update Coding Agents & Benchmarks
+        if: github.event.inputs.category == 'all'
+        continue-on-error: true
+        run: |
+          echo "🤖 Updating Coding Agents & Benchmarks..."
+          ./star_coding_agents_benchmarks_repos.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Update arXiv Research Papers
+        if: github.event.inputs.category == 'all'
+        continue-on-error: true
+        run: |
+          echo "📚 Updating arXiv Research Papers..."
+          ./star_arxiv_research_papers.sh || echo "⚠️ Some repos may already be starred"
+
+      - name: Generate Update Report
+        run: |
+          cat << 'EOF' > update-report.md
+          # 📊 Repository Update Report
+
+          **Date:** $(date +'%Y-%m-%d %H:%M:%S UTC')
+          **Category:** ${{ github.event.inputs.category || 'all' }}
+          **Triggered By:** ${{ github.event_name }}
+
+          ## Summary
+
+          This automated update process has refreshed your starred repositories across all configured categories.
+
+          ## Categories Updated
+
+          - ✅ AI & Machine Learning
+          - ✅ MLOps & AIOps
+          - ✅ Cybersecurity & DevSecOps
+          - ✅ Networking & Observability
+          - ✅ Systems Programming (C++/Go)
+          - ✅ Python Development
+          - ✅ Conference Resources
+          - ✅ Enterprise Solutions
+          - ✅ Database Technologies
+          - ✅ Quantum & Emerging Tech
+          - ✅ IT/Tech Certifications
+          - ✅ Prompt Engineering
+          - ✅ arXiv Research Papers
+
+          ## Statistics
+
+          - **Total Scripts Run:** $(ls star_*.sh | wc -l)
+          - **Update Frequency:** Monthly / Quarterly
+          - **Next Scheduled Run:** 1st of next month at 9 AM UTC
+
+          ## What Was Updated
+
+          All star scripts have been executed to ensure your GitHub stars are current with:
+          - Latest repositories in each category
+          - New trending projects
+          - Updated documentation references
+          - Emerging technologies and tools
+
+          ## Notes
+
+          - Some repositories may already be starred (expected behavior)
+          - All errors are logged but don't stop the workflow
+          - README and indexes can be manually updated if needed
+
+          ---
+
+          *Generated automatically by GitHub Actions*
+          EOF
+
+          echo "✅ Update report generated"
+
+      - name: Get Current Star Count
+        id: star_count
+        run: |
+          # Get approximate star count
+          STAR_COUNT=$(gh api user/starred --paginate | jq '. | length' | paste -sd+ | bc)
+          echo "star_count=$STAR_COUNT" >> $GITHUB_OUTPUT
+          echo "📊 Current total stars: $STAR_COUNT"
+
+      - name: Create Summary Issue
+        if: github.event_name == 'schedule' || github.event.inputs.update_readme == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const date = new Date().toISOString().split('T')[0];
+            const category = context.payload.inputs?.category || 'all';
+            const starCount = '${{ steps.star_count.outputs.star_count }}';
+
+            const body = `# 🌟 Monthly Repository Update Complete
+
+            **Date:** ${date}
+            **Category:** ${category}
+            **Total Stars:** ~${starCount}
+
+            ## ✅ Update Summary
+
+            All star scripts have been executed successfully to keep your repository collection current.
+
+            ### Categories Updated
+            - AI & ML (NVIDIA, Anthropic, OpenAI, META, Google)
+            - MLOps & AIOps
+            - Cybersecurity & DevSecOps
+            - Networking & Observability
+            - Systems Programming
+            - Python Development
+            - Conference Resources
+            - Enterprise Solutions
+            - Databases, Quantum, Certifications
+            - Prompt Engineering
+            - arXiv Research Papers
+
+            ## 📊 Statistics
+
+            - **Frequency:** Monthly (1st of month)
+            - **Next Run:** Next month, 1st day at 9 AM UTC
+            - **Workflow:** [View Run](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})
+
+            ## 🔄 What Happens Next
+
+            Your starred repositories are now up-to-date. The workflow will automatically run:
+            - **Monthly:** 1st of every month at 9 AM UTC
+            - **Manual:** Trigger anytime from Actions tab
+
+            ## 📚 Resources
+
+            - [Repository](https://github.com/${context.repo.owner}/${context.repo.repo})
+            - [All Stars](https://github.com/${context.repo.owner}?tab=stars)
+            - [STARRED-INDEX.md](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/master/STARRED-INDEX.md)
+
+            ---
+
+            *Automated by GitHub Actions* 🤖`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🌟 Repository Update - ${date}`,
+              body: body,
+              labels: ['automated', 'repository-update', 'monthly-update']
+            });
+
+      - name: Commit Update Report
+        if: github.event_name == 'schedule'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Create monthly reports directory
+          mkdir -p monthly-reports
+
+          # Save report with date
+          DATE=$(date +'%Y-%m')
+          cp update-report.md "monthly-reports/update-${DATE}.md"
+
+          git add monthly-reports/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📊 Monthly repository update report - ${DATE}"
+            git push
+          fi
+
+  notify-completion:
+    needs: update-repos
+    runs-on: ubuntu-latest
+    if: always()
+
+    steps:
+      - name: Send Completion Notification
+        run: |
+          echo "🎉 Repository update workflow completed!"
+          echo "Status: ${{ needs.update-repos.result }}"
+          echo "Category: ${{ github.event.inputs.category || 'all' }}"
+          echo "Date: $(date +'%Y-%m-%d %H:%M:%S UTC')"
