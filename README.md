@@ -8,6 +8,7 @@
 
 **📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,500+ starred repos with direct links!
 **🔍 NEW:** [**Prompt Linting Guide →**](PROMPT_LINTING_GUIDE.md) - Comprehensive guide to prompt engineering, validation & best practices!
+**📚 NEW:** [**arXiv Research Guide →**](ARXIV_RESEARCH_GUIDE.md) - Track top research papers in AI/ML/RL/MLOps/AIOps from arXiv (93 repos)!
 
 ---
 
@@ -36,6 +37,7 @@
 - [💼 Product Management & University Conferences](#-product-management--university-conferences)
 - [🎓 IT/Tech Certifications](#-ittech-certifications)
 - [🎯 Prompt Engineering & Linting](#-prompt-engineering--linting)
+- [📚 arXiv Research Papers & Tracking](#-arxiv-research-papers--tracking)
 - [🏢 Enterprise Solutions (Broadcom/CA)](#-enterprise-solutions-broadcomca)
 - [🌐 API Security & Management](#-api-security--management)
 - [📚 Learning Resources](#-learning-resources)
@@ -1755,6 +1757,142 @@ See [STARRED-INDEX.md - Prompt Engineering](STARRED-INDEX.md#-prompt-engineering
 
 ---
 
+## 📚 arXiv Research Papers & Tracking
+
+### Automated Research Paper Tracking & Collections (~93 repos)
+
+See [ARXIV_RESEARCH_GUIDE.md](ARXIV_RESEARCH_GUIDE.md) for the complete guide and setup instructions.
+
+<details>
+<summary>📚 View arXiv Research Categories</summary>
+
+### arXiv Daily Automated Tracking - 12 repos
+**Automated daily tracking with AI summarization:**
+- **daily-arXiv-ai-enhanced** - Auto-crawl arXiv papers (cs.CV, cs.GR, cs.CL, cs.AI) with AI summaries
+- **ArxivDigest** - Personalized recommendations using LLMs, email digests
+- **DailyArXiv** - Keyword-based tracking, max 100 papers per keyword
+- **awesome-daily-AI-arxiv** - Daily digest for AI/NLP/CV/Robotics breakthroughs
+- **arxiv-paper-curator** - Research assistant with production-grade RAG system
+
+**Use Cases:**
+- Stay current with latest research
+- Automated email notifications
+- GitHub Pages visualization
+- Personalized paper feeds
+
+### LLM & Reinforcement Learning Papers - 8 repos
+**Specialized tracking:**
+- **WindyLab/LLM-RL-Papers** - Cross-research on LLM & RL for control
+- **awesome-LLM-AIOps** - LLM and AIOps academic & industrial materials
+- **awesome-RLHF** - Reinforcement Learning from Human Feedback
+- **awesome-deep-rl** - Deep reinforcement learning resources
+- **awesome-rl-envs** - Curated RL environments
+
+**Recent Trends (2025):**
+- Multi-agent reinforcement learning
+- LLM-based agents with RL optimization
+- RLHF for alignment
+- AIOps with LLM integration
+
+### MLOps & AIOps Research Papers - 10 repos
+**Production ML research:**
+- **awesome-mlops** (visenger, kelvins) - Comprehensive MLOps tools
+- **sig-mlops** - MLOps principles (CDF Foundation)
+- **best-of-ml-python** - Ranked Python ML libraries
+- **Made-With-ML** - Production-grade ML projects
+- **microsoft/MLOps** - Example implementations
+- **Azure/mlops-v2** - Solution accelerators
+
+**Recent Research:**
+- "Navigating MLOps" (March 2025) - Maturity, lifecycle, tools
+- "A Multivocal Review of MLOps" (April 2025) - 33 reviews, 1,397 studies
+- "A Survey of AIOps in the Era of LLMs" (June 2025)
+- 43% projected MLOps market growth (2025-2030)
+
+### Curated ML/DL Paper Collections - 15 repos
+**Must-read papers:**
+- **awesome-deep-learning-papers** - Most cited DL papers (2012-2016)
+- **Deep-Learning-Papers-Reading-Roadmap** - Structured learning path
+- **awesome-ai-research-papers** - Seminal AI papers (ML/DL/NLP/CV/RL/Ethics)
+- **awesome-scientific-machine-learning** - SciML papers & resources
+- **ml-systems-papers** - Production ML architectures
+- **annotated_deep_learning_paper_implementations** - Code implementations
+- **ml-engineering** - ML Engineering guides
+
+### Papers with Code & Benchmarks - 10 repos
+**Research with executable code:**
+- **paperswithcode/paperswithcode-data** - Complete dataset
+- **google-research/google-research** - Google Research code
+- **facebookresearch/fairseq** - Facebook AI sequence modeling
+- **huggingface/transformers** - State-of-the-art ML models
+- **openai/openai-cookbook** - OpenAI API examples
+
+**2025 Developments:**
+- **PaperCoder**: Multi-agent LLM framework (papers → code)
+- **ResearchCodeBench**: 212 challenges from 2024-2025 papers
+- Gemini-2.5-Pro: 37.3% success rate implementing research code
+
+### Top ML Conferences Papers - 12 repos
+**Latest accepted papers:**
+- NeurIPS 2024, ICLR 2025, ICML 2024, CVPR 2024
+- **yzhao062/anomaly-detection-resources** - Anomaly detection
+- **thuml/Time-Series-Library** - Time series benchmarks
+- **benedekrozemberczki/awesome-graph-classification** - Graph ML
+- **thunlp/GNNPapers** - Must-read GNN papers
+
+### Domain-Specific Research Trackers - 8 repos
+**Focused tracking:**
+- **CVPR2024-Paper-Code-Interpretation** - CVPR 2024 with code
+- **CVPR2025-Papers-with-Code** - CVPR 2025 tracking
+- **cv-arxiv-daily** - Daily CV arXiv tracker
+- **NLP-Paper** - NLP papers collection
+- **graph-based-deep-learning-literature** - Daily GNN papers
+
+### Research Code Implementation - 8 repos
+**Practical implementations:**
+- **lucidrains/vit-pytorch** - Vision Transformer implementations
+- **karpathy/nanoGPT** - Simplest GPT training
+- **rasbt/LLMs-from-scratch** - Building LLMs from scratch
+- **dair-ai/Prompt-Engineering-Guide** - Prompt engineering papers
+- **microsoft/generative-ai-for-beginners** - GenAI learning path
+
+### Academic Institutions & Research Labs - 10 repos
+**Leading research:**
+- **Stanford**: HELM (LLM evaluation), FrugalGPT (cost-efficient usage)
+- **MIT**: streaming-llm (efficient inference)
+- **CMU**: openpose (keypoint detection)
+- **UC Berkeley**: clipper (model serving), abc (logic synthesis)
+- **ML Foundations**: open_clip, open_flamingo
+- **EleutherAI**: gpt-neox implementation
+
+</details>
+
+### 🚀 Quick Start
+
+Run the automated script:
+```bash
+./star_arxiv_research_papers.sh
+```
+
+**Key Features:**
+- 🔄 Daily automated tracking with GitHub Actions
+- 🤖 AI-powered paper summarization
+- 📧 Email notifications for new papers
+- 💻 Code implementations via Papers with Code
+- 🎓 Conference paper tracking (NeurIPS, ICLR, ICML, CVPR)
+- 🏛️ Research from top universities (Stanford, MIT, CMU, Berkeley)
+
+**Research Trends (2024-2025):**
+1. **LLMs**: Multi-agent systems, reasoning, efficient inference
+2. **Multimodal AI**: Vision-language, video understanding
+3. **Reinforcement Learning**: RLHF, multi-agent RL, world models
+4. **MLOps**: Automated pipelines, monitoring, observability
+5. **AIOps**: LLM-powered operations, anomaly detection
+
+For complete guide, workflows, and best practices, see **[ARXIV_RESEARCH_GUIDE.md](ARXIV_RESEARCH_GUIDE.md)**
+
+---
+
 ## 🏢 Enterprise Solutions (Broadcom/CA)
 
 ### DX NetOps & Performance Management (~361 repos)
@@ -1880,7 +2018,8 @@ graph LR
 | 🔒 **Security & Enterprise Conferences** | ~55 | CrowdStrike Fal.Con, Palo Alto Ignite, Dell Technologies World |
 | 🏢 **Broadcom/CA** | ~361 | DxNetOps, APM, API Management |
 | 🌐 **API** | ~13 | Gateways, Security |
-| **TOTAL** | **~2,735** | **Complete Enterprise Tech Stack** ⭐ |
+| 📚 **arXiv Research Papers** | ~93 | Daily Tracking, LLM/RL, MLOps, AIOps, Papers with Code, Conferences |
+| **TOTAL** | **~2,828** | **Complete Enterprise Tech Stack** ⭐ |
 
 ### AI & ML Breakdown:
 - Original AI companies (NVIDIA, Anthropic, OpenAI, Perplexity): 94 repos
@@ -1991,8 +2130,12 @@ graph LR
 
 ## 📝 Notes
 
-- **Last Updated:** November 16, 2025
-- **Latest Additions:** Security & Enterprise Conferences (55 repos: CrowdStrike, Palo Alto, Dell), Data Center Conferences (53 repos), Python & Tech Conferences (127 repos)
+- **Last Updated:** November 17, 2025
+- **Latest Additions:**
+  - **arXiv Research Papers & Tracking (93 repos):** Daily automated tracking, LLM/RL papers, MLOps/AIOps research, Papers with Code, conference tracking, research implementations
+  - Security & Enterprise Conferences (55 repos: CrowdStrike, Palo Alto, Dell)
+  - Data Center Conferences (53 repos)
+  - Python & Tech Conferences (127 repos)
 - **Maintenance:** Regularly updated with new discoveries and industry trends
 - **Purpose:** Professional development, continuous learning, and community engagement
 
@@ -2033,6 +2176,9 @@ All repositories can be starred using the automated scripts in `~/`:
 ~/star_tech_conferences_repos.sh
 ~/star_datacenter_conferences_repos.sh
 ~/star_security_dell_conferences_repos.sh
+
+# Research Papers
+~/star_arxiv_research_papers.sh
 
 # Broadcom/CA
 ~/star_broadcom_repos.sh
