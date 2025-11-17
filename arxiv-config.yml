@@ -1,0 +1,137 @@
+# arXiv Daily Paper Crawler Configuration
+# Configure your research interests and tracking preferences
+
+# Research Areas - Add your keywords for each category
+research_interests:
+  ai_ml:
+    - "large language model"
+    - "LLM"
+    - "GPT"
+    - "transformer"
+    - "attention mechanism"
+    - "neural architecture"
+    - "deep learning"
+    - "machine learning"
+
+  reinforcement_learning:
+    - "reinforcement learning"
+    - "RLHF"
+    - "reward model"
+    - "policy gradient"
+    - "Q-learning"
+    - "multi-agent"
+    - "model-based RL"
+
+  multimodal:
+    - "vision language"
+    - "multimodal"
+    - "CLIP"
+    - "image captioning"
+    - "visual question answering"
+    - "video understanding"
+
+  mlops:
+    - "MLOps"
+    - "model serving"
+    - "model deployment"
+    - "feature store"
+    - "model monitoring"
+    - "AutoML"
+
+  aiops:
+    - "AIOps"
+    - "anomaly detection"
+    - "root cause analysis"
+    - "log analysis"
+    - "observability"
+    - "incident management"
+
+  computer_vision:
+    - "object detection"
+    - "image segmentation"
+    - "diffusion model"
+    - "generative adversarial network"
+    - "3D reconstruction"
+
+  nlp:
+    - "natural language processing"
+    - "text generation"
+    - "summarization"
+    - "question answering"
+    - "named entity recognition"
+    - "sentiment analysis"
+
+# arXiv categories to monitor
+# Full list: https://arxiv.org/category_taxonomy
+arxiv_categories:
+  - "cs.AI"   # Artificial Intelligence
+  - "cs.CL"   # Computation and Language
+  - "cs.CV"   # Computer Vision
+  - "cs.LG"   # Machine Learning
+  - "cs.NE"   # Neural and Evolutionary Computing
+  - "cs.RO"   # Robotics
+  - "stat.ML" # Machine Learning (Statistics)
+
+# Filtering preferences
+filters:
+  max_papers_per_category: 100
+  min_relevance_score: 0.5  # 0.0 to 1.0
+  days_to_look_back: 1      # Number of days to look back
+  exclude_keywords:
+    - "adversarial attack"   # Optional: keywords to exclude
+    - "medical imaging"      # Add topics you want to avoid
+
+# AI Summarization settings
+summarization:
+  enabled: true
+  provider: "openai"  # Options: "openai", "anthropic", "none"
+  model: "gpt-4o-mini"  # or "claude-3-haiku-20240307"
+  max_summary_length: 200  # words
+  include_key_insights: true
+  extract_code_availability: true
+
+# Output formats
+output:
+  generate_markdown: true
+  generate_json: true
+  generate_rss: true
+  generate_html: false
+
+  # Organize papers by
+  group_by: "category"  # Options: "category", "date", "relevance", "topic"
+
+# Notification settings
+notifications:
+  email:
+    enabled: false
+    recipients:
+      - "your-email@example.com"
+
+  github_issue:
+    enabled: true
+    create_daily_issue: true
+    labels: ["arxiv-daily", "automated"]
+
+  slack:
+    enabled: false
+    webhook_url_secret: "SLACK_WEBHOOK_URL"
+
+  discord:
+    enabled: false
+    webhook_url_secret: "DISCORD_WEBHOOK_URL"
+
+# GitHub Pages settings (for web interface)
+github_pages:
+  enabled: true
+  template: "default"  # Options: "default", "minimal", "academic"
+  show_stats: true
+  show_trending: true
+  papers_per_page: 50
+
+# Advanced settings
+advanced:
+  cache_papers: true
+  cache_duration_days: 7
+  parallel_requests: 5
+  retry_attempts: 3
+  rate_limit_delay: 1  # seconds between requests

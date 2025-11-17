@@ -1,0 +1,93 @@
+name: arXiv Daily Paper Crawler
+
+on:
+  schedule:
+    # Run at 9 AM UTC (4 AM EST) every day
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Allow manual triggering
+  push:
+    branches:
+      - master
+    paths:
+      - 'arxiv-config.yml'
+      - '.github/workflows/arxiv-daily-crawler.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  fetch-arxiv-papers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install arxiv feedparser requests PyYAML Jinja2 openai anthropic
+
+      - name: Fetch arXiv papers
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/fetch_arxiv_papers.py
+
+      - name: Generate summary report
+        run: |
+          python scripts/generate_summary.py
+
+      - name: Commit and push updates
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add arxiv-papers/
+          git add daily-summaries/
+          git add README_ARXIV_DAILY.md
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📚 Daily arXiv update: $(date +'%Y-%m-%d')"
+            git push
+          fi
+
+      - name: Create GitHub Issue (Optional)
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const summary = fs.readFileSync('daily-summaries/summary-latest.md', 'utf8');
+
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📚 arXiv Daily Digest - ${new Date().toISOString().split('T')[0]}`,
+              body: summary,
+              labels: ['arxiv-daily', 'automated']
+            });
+
+  notify:
+    needs: fetch-arxiv-papers
+    runs-on: ubuntu-latest
+    if: always()
+
+    steps:
+      - name: Send notification (if configured)
+        run: |
+          echo "arXiv papers updated successfully!"
+          # Add email notification, Slack webhook, or Discord webhook here if needed
