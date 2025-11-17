@@ -1,6 +1,6 @@
 # 🌟 Clickable Starred Repositories Index
 
-> **Quick Navigation for 3,500+ Starred Repositories**
+> **Quick Navigation for 3,600+ Starred Repositories**
 > Organized by category with direct GitHub links for easy access.
 
 [![View on GitHub](https://img.shields.io/badge/View-Your%20Stars-yellow?style=for-the-badge&logo=github)](https://github.com/nbajpai-code?tab=stars)
@@ -34,6 +34,7 @@
 | 💼 **Product Management & University** | 38+ | [Jump →](#-product-management--university-conferences) |
 | 🎓 **IT/Tech Certifications** | 96+ | [Jump →](#-ittech-certifications) |
 | 🎯 **Prompt Engineering & Linting** | 90+ | [Jump →](#-prompt-engineering--linting) |
+| 📚 **arXiv Research Papers** | 84+ | [Jump →](#-arxiv-research-papers--tracking) |
 | 🏢 **Enterprise (Broadcom/CA)** | 361+ | [Jump →](#-enterprise-solutions-broadcomca) |
 
 ---
@@ -1797,6 +1798,137 @@
 - [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Curated LLM resources
 
 [↑ Back to top](#-quick-jump-menu)
+
+---
+
+## 📚 arXiv Research Papers & Tracking
+
+> **84 repositories for tracking and following top research papers from arXiv**
+> See [ARXIV_RESEARCH_GUIDE.md](ARXIV_RESEARCH_GUIDE.md) for complete guide and workflows.
+
+### arXiv Daily Automated Tracking - 9 repos
+
+**Daily tracking with AI summarization:**
+- [dw-dengwei/daily-arXiv-ai-enhanced](https://github.com/dw-dengwei/daily-arXiv-ai-enhanced) - Auto-crawl arXiv papers (cs.CV, cs.GR, cs.CL, cs.AI) with AI summaries
+- [AutoLLM/ArxivDigest](https://github.com/AutoLLM/ArxivDigest) - Personalized recommendations using LLMs, email digests
+- [zezhishao/DailyArXiv](https://github.com/zezhishao/DailyArXiv) - Keyword-based tracking, max 100 papers per keyword
+- [Tavish9/awesome-daily-AI-arxiv](https://github.com/Tavish9/awesome-daily-AI-arxiv) - Daily AI/NLP/CV/Robotics breakthroughs
+- [jamwithai/arxiv-paper-curator](https://github.com/jamwithai/arxiv-paper-curator) - Research assistant with RAG system
+- [Blake-Jiang/ad-arxiv-daily](https://github.com/Blake-Jiang/ad-arxiv-daily) - Daily arXiv papers in autonomous driving
+- [yyyanbj/arxiv-daily](https://github.com/yyyanbj/arxiv-daily) - Auto-update using GitHub Actions (every 12 hours)
+- [dair-ai/ML-Papers-of-the-Week](https://github.com/dair-ai/ML-Papers-of-the-Week) - Highlighting top ML papers weekly (DAIR.AI)
+- [naganandy/graph-based-deep-learning-literature](https://github.com/naganandy/graph-based-deep-learning-literature) - Daily GNN papers tracking
+
+### LLM & Reinforcement Learning Papers - 8 repos
+
+**Specialized LLM & RL tracking:**
+- [WindyLab/LLM-RL-Papers](https://github.com/WindyLab/LLM-RL-Papers) - Cross-research on LLM & RL for control
+- [Jun-jie-Huang/awesome-LLM-AIOps](https://github.com/Jun-jie-Huang/awesome-LLM-AIOps) - LLM and AIOps academic & industrial materials
+- [opendilab/awesome-RLHF](https://github.com/opendilab/awesome-RLHF) - Reinforcement Learning from Human Feedback
+- [tigerneil/awesome-deep-rl](https://github.com/tigerneil/awesome-deep-rl) - Deep reinforcement learning resources
+- [aikorea/awesome-rl](https://github.com/aikorea/awesome-rl) - Reinforcement learning resources
+- [kengz/awesome-deep-rl](https://github.com/kengz/awesome-deep-rl) - Deep RL papers
+- [clvrai/awesome-rl-envs](https://github.com/clvrai/awesome-rl-envs) - Curated RL environments
+- [jiachenli94/Awesome-Interaction-Aware-Trajectory-Prediction](https://github.com/jiachenli94/Awesome-Interaction-Aware-Trajectory-Prediction) - Multi-agent RL and prediction
+
+### MLOps & AIOps Research Papers - 10 repos
+
+**Production ML research:**
+- [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) - Comprehensive MLOps tools and resources
+- [kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops) - References for MLOps (Machine Learning Operations)
+- [cdfoundation/sig-mlops](https://github.com/cdfoundation/sig-mlops) - MLOps SIG - defining MLOps principles
+- [ml-tooling/best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python) - Ranked list of Python ML libraries
+- [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) - Curated ML frameworks, libraries
+- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - ML courses from YouTube
+- [GokuMohandas/Made-With-ML](https://github.com/GokuMohandas/Made-With-ML) - Production-grade ML projects
+- [microsoft/MLOps](https://github.com/microsoft/MLOps) - MLOps empowering example implementations
+- [Azure/mlops-v2](https://github.com/Azure/mlops-v2) - Azure MLOps (v2) solution accelerators
+- [fmind/mlops-python-package](https://github.com/fmind/mlops-python-package) - MLOps Python package template
+
+### Curated ML/DL Paper Collections - 15 repos
+
+**Must-read papers:**
+- [terryum/awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers) - Most cited deep learning papers
+- [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) - Structured learning path
+- [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) - DL tutorials, projects, communities
+- [awesomelistsio/awesome-ai-research-papers](https://github.com/awesomelistsio/awesome-ai-research-papers) - Seminal AI papers (ML/DL/NLP/CV/RL/Ethics)
+- [anubhavshrimal/Machine-Learning-Research-Papers](https://github.com/anubhavshrimal/Machine-Learning-Research-Papers) - ML/DL research papers (updated weekly)
+- [endymecy/awesome-deeplearning-resources](https://github.com/endymecy/awesome-deeplearning-resources) - DL and deep RL research papers with code
+- [MartinuzziFrancesco/awesome-scientific-machine-learning](https://github.com/MartinuzziFrancesco/awesome-scientific-machine-learning) - SciML papers & resources
+- [byungsoo-oh/ml-systems-papers](https://github.com/byungsoo-oh/ml-systems-papers) - Machine learning systems papers
+- [solaris33/awesome-machine-learning-papers](https://github.com/solaris33/awesome-machine-learning-papers) - ML Papers and Repositories
+- [eugeneyan/ml-surveys](https://github.com/eugeneyan/ml-surveys) - Survey papers on ML topics
+- [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) - Annotated implementations
+- [stas00/ml-engineering](https://github.com/stas00/ml-engineering) - Machine Learning Engineering guides
+- [chiphuyen/machine-learning-systems-design](https://github.com/chiphuyen/machine-learning-systems-design) - ML systems design
+- [eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml) - Applied ML papers and tech blogs
+- [mli/paper-reading](https://github.com/mli/paper-reading) - Deep learning paper reading notes
+
+### Papers with Code & Benchmarks - 10 repos
+
+**Research with executable code:**
+- [paperswithcode/paperswithcode-data](https://github.com/paperswithcode/paperswithcode-data) - Papers with Code dataset
+- [paperswithcode/galai](https://github.com/paperswithcode/galai) - GALACTICA model for science
+- [zziz/pwc](https://github.com/zziz/pwc) - Papers with code sorted by stars
+- [RedditSota/state-of-the-art-result-for-machine-learning-problems](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems) - SOTA results
+- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Curated list of LLM papers
+- [microsoft/LMOps](https://github.com/microsoft/LMOps) - General tech for enabling AI capabilities with LLMs
+- [google-research/google-research](https://github.com/google-research/google-research) - Google Research code and papers
+- [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) - Facebook AI Research sequence modeling toolkit
+- [huggingface/transformers](https://github.com/huggingface/transformers) - State-of-the-art ML for PyTorch, TF, JAX
+- [openai/openai-cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for OpenAI API
+
+### Top ML Conferences Papers - 8 repos
+
+**Latest conference accepted papers:**
+- [vlgiitr/papers_we_read](https://github.com/vlgiitr/papers_we_read) - Papers read at Vision and Language Group IIT Roorkee
+- [yzhao062/anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources) - Anomaly detection papers and resources
+- [academic/awesome-datascience](https://github.com/academic/awesome-datascience) - Data science resources
+- [thuml/Time-Series-Library](https://github.com/thuml/Time-Series-Library) - Time series papers and benchmarks
+- [benedekrozemberczki/awesome-graph-classification](https://github.com/benedekrozemberczki/awesome-graph-classification) - Graph classification papers
+- [benedekrozemberczki/awesome-community-detection](https://github.com/benedekrozemberczki/awesome-community-detection) - Community detection papers
+- [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers) - Must-read GNN papers
+
+### Domain-Specific Research Trackers - 6 repos
+
+**Focused tracking:**
+- [extreme-assistant/CVPR2024-Paper-Code-Interpretation](https://github.com/extreme-assistant/CVPR2024-Paper-Code-Interpretation) - CVPR 2024 papers with code
+- [amusi/CVPR2025-Papers-with-Code](https://github.com/amusi/CVPR2025-Papers-with-Code) - CVPR 2025 papers tracking
+- [52CV/ICCV-2023-Papers](https://github.com/52CV/ICCV-2023-Papers) - ICCV 2023 papers
+- [Vincentqyw/cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) - CV arXiv daily
+- [naganandy/graph-based-deep-learning-literature](https://github.com/naganandy/graph-based-deep-learning-literature) - Graph DL papers daily
+- [iwangjian/Paper-Reading](https://github.com/iwangjian/Paper-Reading) - AI paper reading notes (NLP, RecSys, KG)
+
+### Research Code Implementation - 8 repos
+
+**Practical implementations:**
+- [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) - Vision Transformer implementations
+- [lucidrains/DALLE2-pytorch](https://github.com/lucidrains/DALLE2-pytorch) - DALL-E 2 implementation
+- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) - Simplest, fastest GPT training
+- [karpathy/minGPT](https://github.com/karpathy/minGPT) - Minimal PyTorch re-implementation of GPT
+- [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) - Implementing LLMs from scratch
+- [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models) - Deep learning architectures and models
+- [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Prompt engineering guide and papers
+- [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) - Generative AI learning path
+
+### Academic Institutions & Research Labs - 10 repos
+
+**Leading research from top universities:**
+- [stanford-crfm/helm](https://github.com/stanford-crfm/helm) - Holistic Evaluation of Language Models (Stanford)
+- [stanford-futuredata/FrugalGPT](https://github.com/stanford-futuredata/FrugalGPT) - Cost-efficient LLM usage (Stanford)
+- [mit-han-lab/streaming-llm](https://github.com/mit-han-lab/streaming-llm) - Efficient streaming LLM inference (MIT)
+- [cmu-delphi/covidcast](https://github.com/cmu-delphi/covidcast) - CMU COVID-19 indicators
+- [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) - Real-time multi-person keypoint detection
+- [berkeley-abc/abc](https://github.com/berkeley-abc/abc) - UC Berkeley logic synthesis
+- [ucbrise/clipper](https://github.com/ucbrise/clipper) - UC Berkeley model serving system
+- [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) - OpenCLIP implementation
+- [mlfoundations/open_flamingo](https://github.com/mlfoundations/open_flamingo) - Open source FLAMINGO
+- [EleutherAI/gpt-neox](https://github.com/EleutherAI/gpt-neox) - EleutherAI GPT-NeoX implementation
+
+**Key Resources:**
+- 📖 [ARXIV_RESEARCH_GUIDE.md](ARXIV_RESEARCH_GUIDE.md) - Complete guide & workflows
+- 🚀 [ARXIV_QUICK_START.md](ARXIV_QUICK_START.md) - Immediate action steps
+- 🔧 Run `./star_arxiv_research_papers.sh` to star all repos
 
 ---
 
