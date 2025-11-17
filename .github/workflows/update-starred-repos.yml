@@ -194,6 +194,13 @@ jobs:
           echo "📚 Updating arXiv Research Papers..."
           ./star_arxiv_research_papers.sh || echo "⚠️ Some repos may already be starred"
 
+      - name: Update DP-600 Exam Prep
+        if: github.event.inputs.category == 'all' || github.event.inputs.category == 'certifications'
+        continue-on-error: true
+        run: |
+          echo "🎓 Updating DP-600 Microsoft Fabric Analytics Engineer exam prep..."
+          ./star_dp600_exam_prep_repos.sh || echo "⚠️ Some repos may already be starred"
+
       - name: Generate Update Report
         run: |
           cat << 'EOF' > update-report.md
@@ -220,6 +227,7 @@ jobs:
           - ✅ Database Technologies
           - ✅ Quantum & Emerging Tech
           - ✅ IT/Tech Certifications
+          - ✅ DP-600 Microsoft Fabric Exam Prep
           - ✅ Prompt Engineering
           - ✅ arXiv Research Papers
 
@@ -287,6 +295,7 @@ jobs:
             - Conference Resources
             - Enterprise Solutions
             - Databases, Quantum, Certifications
+            - DP-600 Microsoft Fabric Exam Prep
             - Prompt Engineering
             - arXiv Research Papers
 
