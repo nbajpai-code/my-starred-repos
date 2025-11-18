@@ -59,19 +59,132 @@ python prompt_linter.py --file prompt.txt
 # The tool exits with code 1 if errors are found
 ```
 
-### Updating Documentation
+### Adding a New Automation Script (Complete Workflow)
 
-When adding new repositories or categories:
+When creating a new `star_*.sh` script, follow this **complete checklist**:
 
-1. Update the appropriate `star_*.sh` script with new repos
-2. Update README.md with new category/statistics
-3. Update STARRED-INDEX.md with direct links
-4. Commit all changes together
+#### 1. Create the Script
+```bash
+# Create new script
+vim star_new_category_repos.sh
+
+# Make it executable
+chmod +x star_new_category_repos.sh
+
+# Test run the script
+./star_new_category_repos.sh
+```
+
+#### 2. Update Documentation Files
+
+**Required Updates:**
+- [ ] `CLAUDE.md` - Add script to "Automation Scripts" list and update count
+- [ ] `README.md` - Add new category section with repo count and description
+- [ ] `STARRED-INDEX.md` - Add direct links to all new repositories (if applicable)
+
+#### 3. Update GitHub Actions Workflow
+
+**CRITICAL:** Add script to `.github/workflows/update-starred-repos.yml`
 
 ```bash
-git add README.md STARRED-INDEX.md star_*.sh
-git commit -m "Add [category] repositories ([count] repos)"
-git push
+# Edit the workflow file
+vim .github/workflows/update-starred-repos.yml
+```
+
+**Changes needed:**
+1. Add script to appropriate category step (e.g., AI, Security, Networking)
+2. Update "Categories Updated" in update report (line ~220)
+3. Update GitHub issue template with new category (line ~290)
+
+**Example:**
+```yaml
+- name: Update AI & ML Repositories
+  if: github.event.inputs.category == 'all' || github.event.inputs.category == 'ai'
+  run: |
+    ./star_ai_repos.sh || echo "⚠️ Some repos may already be starred"
+    ./star_new_category_repos.sh || echo "⚠️ Some repos may already be starred"  # ADD THIS
+```
+
+#### 4. Commit Changes
+
+```bash
+# Stage all modified files
+git add star_new_category_repos.sh CLAUDE.md README.md STARRED-INDEX.md .github/workflows/update-starred-repos.yml
+
+# Check what's staged
+git status
+
+# Commit with descriptive message
+git commit -m "🤖 Add [Category Name] automation script ([count] repos)
+
+- New script: star_new_category_repos.sh with [count] repositories
+- Updated CLAUDE.md with script count and categories
+- Updated README.md with new category section
+- Updated STARRED-INDEX.md with direct links
+- Added to GitHub Actions monthly workflow
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+```
+
+#### 5. Push to GitHub
+
+**CRITICAL:** Don't forget to push!
+
+```bash
+# Push to remote
+git push origin master
+
+# Verify push was successful
+git status
+git log --oneline --decorate -3
+```
+
+#### 6. Verify on GitHub
+
+- [ ] Visit https://github.com/nbajpai-code/my-starred-repos
+- [ ] Verify new script is visible
+- [ ] Check `.github/workflows/update-starred-repos.yml` includes new script
+- [ ] Optionally: Manually trigger workflow to test
+
+### Complete Checklist for New Scripts
+
+Use this as a reference when adding any new automation:
+
+- [ ] **Create Script**
+  - [ ] Write `star_*.sh` with proper structure
+  - [ ] Make executable (`chmod +x`)
+  - [ ] Test run locally
+
+- [ ] **Update Documentation**
+  - [ ] Update `CLAUDE.md` (script count + categories)
+  - [ ] Update `README.md` (new category section)
+  - [ ] Update `STARRED-INDEX.md` (direct links)
+
+- [ ] **Update GitHub Actions**
+  - [ ] Add script to `.github/workflows/update-starred-repos.yml`
+  - [ ] Add to appropriate category step
+  - [ ] Update report templates (2 locations)
+
+- [ ] **Git Operations**
+  - [ ] Stage all files (`git add`)
+  - [ ] Commit with descriptive message
+  - [ ] **PUSH to GitHub** (`git push origin master`)
+  - [ ] Verify on GitHub web interface
+
+### Updating Documentation (Without New Scripts)
+
+When updating existing scripts or documentation only:
+
+1. Update the appropriate files (README.md, STARRED-INDEX.md, etc.)
+2. Update statistics/counts if repos were added
+3. Commit all changes together
+
+```bash
+git add README.md STARRED-INDEX.md
+git commit -m "📝 Update [category] repositories ([count] repos)"
+git push origin master
 ```
 
 ### Running Star Scripts
@@ -253,7 +366,26 @@ When asked to make changes:
 2. **Check consistency:** Verify changes across README.md, STARRED-INDEX.md, and relevant scripts
 3. **Preserve formatting:** Markdown tables, shields.io badges, and emoji indicators are intentional
 4. **Test locally:** For script changes, verify bash syntax and GitHub CLI commands
-5. **Atomic commits:** Group related changes (e.g., all files for a new category together)
+5. **Update GitHub Actions:** ALWAYS check if `.github/workflows/update-starred-repos.yml` needs updating
+6. **Atomic commits:** Group related changes (e.g., all files for a new category together)
+7. **PUSH to GitHub:** Never forget to `git push origin master` after committing
+
+### Common Mistakes to Avoid
+
+❌ **Don't forget these critical steps:**
+- Forgetting to add new scripts to GitHub Actions workflow
+- Not pushing commits to GitHub (`git push origin master`)
+- Missing documentation updates (CLAUDE.md, README.md)
+- Not testing scripts before committing
+- Forgetting to update script counts in CLAUDE.md
+- Not making scripts executable (`chmod +x`)
+
+✅ **Always do:**
+- Test scripts locally first
+- Update all 3 documentation files (CLAUDE.md, README.md, STARRED-INDEX.md)
+- Add to GitHub Actions workflow if creating new automation
+- Commit AND push to GitHub
+- Verify on GitHub web interface after pushing
 
 ## Reference Links
 
