@@ -17,18 +17,18 @@ This is a curated collection of **3,500+ starred GitHub repositories** organized
 - **PROMPT_LINTING_GUIDE.md** - Best practices guide for prompt engineering and validation
 - **SETUP.md** - GitHub publishing and maintenance instructions
 
-### Automation Scripts (29 Shell Scripts)
+### Automation Scripts (32 Shell Scripts)
 
 All scripts follow the pattern: `star_<category>_repos.sh`
 
 **Script Categories:**
-1. **AI & ML:** `star_ai_repos.sh`, `star_ai_infrastructure_repos.sh`, `star_ai_companies_repos.sh`, `star_mlops_repos.sh`, `star_aiops_repos.sh`
+1. **AI & ML:** `star_ai_repos.sh`, `star_ai_infrastructure_repos.sh`, `star_ai_companies_repos.sh`, `star_mlops_repos.sh`, `star_aiops_repos.sh`, `star_llm_frameworks_repos.sh`
 2. **Security & Cloud:** `star_security_cloud_api_repos.sh`
 3. **Networking:** `star_network_observability_repos.sh`, `star_datacenter_network_repos.sh`, `star_cisco_observability_repos.sh`, `star_networking_protocols_ai_repos.sh`, `star_sciencelogic_scipy_repos.sh`
 4. **Systems Programming:** `star_cpp_go_repos.sh`
 5. **Python:** `star_python_projects_repos.sh`, `star_python_conference_repos.sh`
 6. **Conferences:** `star_pycon_kubecon_repos.sh`, `star_tech_conferences_repos.sh`, `star_datacenter_conferences_repos.sh`, `star_security_dell_conferences_repos.sh`, `star_ocp_conference_repos.sh`, `star_pm_university_conferences_repos.sh`
-7. **Specialized:** `star_coding_agents_benchmarks_repos.sh`, `star_quality_database_repos.sh`, `star_quantum_emerging_tech_repos.sh`, `star_openai_resources_repos.sh`, `star_it_certification_repos.sh`, `star_prompt_engineering_tools.sh`
+7. **Specialized:** `star_coding_agents_benchmarks_repos.sh`, `star_quality_database_repos.sh`, `star_quantum_emerging_tech_repos.sh`, `star_openai_resources_repos.sh`, `star_it_certification_repos.sh`, `star_prompt_engineering_tools.sh`, `star_arxiv_research_papers.sh`, `star_dp600_exam_prep_repos.sh`
 8. **Enterprise:** `star_broadcom_repos.sh`, `star_enterprise_conferences_splunk.sh`, `star_testing_observability_tools.sh`
 
 **Script Structure:**
@@ -86,12 +86,33 @@ git push
 # All scripts are idempotent - safe to re-run
 ```
 
+### GitHub Actions Automation
+
+The repository includes automated workflows in `.github/workflows/`:
+
+**update-starred-repos.yml** - Monthly automation to keep stars current:
+- Runs on the 1st of every month at 9 AM UTC
+- Can be manually triggered for specific categories via workflow_dispatch
+- Supports category-specific updates (ai, security, networking, python, etc.)
+- Creates monthly update reports in `monthly-reports/` directory
+- Automatically creates GitHub issues with update summaries
+
+**Manual trigger from GitHub UI:**
+```
+Actions → Update Starred Repositories → Run workflow
+Select category: all/ai/security/networking/python/conferences/etc.
+```
+
+**arxiv-daily-crawler.yml** - Automated arXiv research paper tracking
+**blank.yml** - Template for additional custom workflows
+
 ## Repository Statistics & Categories
 
 **Total Repositories Tracked:** ~3,500
 
 **Major Categories (from README.md):**
-- AI & ML: ~523 repos (NVIDIA, Anthropic, OpenAI, META, Google, Capital One)
+- AI & ML: ~676 repos (NVIDIA, Anthropic, OpenAI, META, Google, Capital One)
+- LLM Frameworks & Orchestration: ~153 repos (LangChain, LlamaIndex, Haystack, AutoGen, CrewAI)
 - AIOps: ~10 repos (Keep, AIOpsLab, awesome-AIOps)
 - Cybersecurity & DevSecOps: ~132 repos (OWASP, SAST/DAST, Container Security)
 - Cloud Infrastructure: ~200 repos (AWS, Azure, GCP, OCI, IaC)
@@ -108,18 +129,25 @@ git push
 - OpenAI Resources: ~100 repos (APIs, Models, Research, RL)
 - Product Management & University: ~38 repos (CMU, Stanford, MIT, Top ML Papers)
 - IT/Tech Certifications: ~96 repos (Kubernetes, AWS, Azure, GCP, HashiCorp)
+- DP-600 Exam Prep: ~35 repos (Microsoft Fabric Analytics Engineer certification)
 - Prompt Engineering: ~90 repos (Linting, Security, Frameworks, Evaluation)
+- arXiv Research Papers: Automated daily tracking of ML/AI research
 - Enterprise Solutions (Broadcom/CA): ~361 repos (DX NetOps, APM, API Management)
 - API Security & Management: ~13 repos (Kong, Tyk, APISIX)
 
 ## Key Technology Domains
 
 ### AI/ML Focus Areas
+- **LLM Frameworks:** LangChain (langchain, langgraph, langsmith, langserve), LlamaIndex (llama_index, llama-hub, llama_deploy), Haystack, Semantic Kernel, DSPy, Pydantic-AI
+- **Agent Systems:** AutoGen, CrewAI, MetaGPT, SuperAGI, BabyAGI, AgentGPT, TaskWeaver, Voyager
+- **RAG Frameworks:** RAGFlow, Embedchain, PrivateGPT, LocalGPT, Quivr, RAGatouille, RAGAS (evaluation)
+- **Type-Safe LLM Tools:** Instructor, Outlines, Guidance, TypeChat, Mirascope, Marvin
+- **LLM Observability:** LangFuse, Phoenix, WhyLogs, DeepEval, UpTrain, TruLens, Helicone, OpenLIT
+- **Workflow Builders:** LangFlow, Flowise, Dify, AnythingLLM, n8n
 - **LLM Infrastructure:** Model serving (vLLM, BentoML), optimization (ONNX, TensorRT)
 - **MLOps Platforms:** MLflow, Kubeflow, DVC, Metaflow, ZenML
 - **Distributed Training:** Ray, DeepSpeed, Horovod, ColossalAI
-- **RAG & Vector DBs:** Milvus, Chroma, Qdrant, Weaviate, pgvector
-- **Frameworks:** LangChain, LlamaIndex, AutoGen, CrewAI, Anthropic SDK
+- **Vector DBs:** Milvus, Chroma, Qdrant, Weaviate, pgvector, FAISS
 
 ### Networking Specializations
 - **Observability:** Prometheus, Grafana, OpenTelemetry, eBPF (Cilium, Hubble)
@@ -212,8 +240,9 @@ This repository reflects expertise in:
 
 ## Maintenance Notes
 
-- **Last Updated:** November 16, 2025
-- **Update Frequency:** Regularly updated with new discoveries and industry trends
+- **Last Updated:** November 18, 2025
+- **Update Frequency:** Automated monthly via GitHub Actions (1st of month)
+- **Manual Updates:** Via workflow_dispatch or running star scripts directly
 - **Purpose:** Professional development, continuous learning, community engagement
 - **Visibility:** Public repository for portfolio showcase
 
