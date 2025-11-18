@@ -76,6 +76,7 @@ jobs:
           ./star_ai_repos.sh || echo "⚠️ Some repos may already be starred"
           ./star_ai_infrastructure_repos.sh || echo "⚠️ Some repos may already be starred"
           ./star_ai_companies_repos.sh || echo "⚠️ Some repos may already be starred"
+          ./star_llm_frameworks_repos.sh || echo "⚠️ Some repos may already be starred"
 
       - name: Update MLOps & AIOps Repositories
         if: github.event.inputs.category == 'all' || github.event.inputs.category == 'mlops' || github.event.inputs.category == 'aiops'
@@ -217,6 +218,7 @@ jobs:
           ## Categories Updated
 
           - ✅ AI & Machine Learning
+          - ✅ LLM Frameworks & Orchestration (LangChain, LlamaIndex, Haystack)
           - ✅ MLOps & AIOps
           - ✅ Cybersecurity & DevSecOps
           - ✅ Networking & Observability
@@ -287,6 +289,7 @@ jobs:
 
             ### Categories Updated
             - AI & ML (NVIDIA, Anthropic, OpenAI, META, Google)
+            - LLM Frameworks (LangChain, LlamaIndex, Haystack, AutoGen, CrewAI)
             - MLOps & AIOps
             - Cybersecurity & DevSecOps
             - Networking & Observability
