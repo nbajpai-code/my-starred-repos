@@ -7,8 +7,8 @@
 [![Stars](https://img.shields.io/badge/Starred%20Repos-3,635+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
 **📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,635+ starred repos with direct links!
-**🔥 HOT:** [**IT Cert Deals (Auto-Updated Weekly!) →**](LATEST-IT-CERTS-DEALS.md) - Free exams, beta programs & vouchers worth $794+! 💰
-**🎓 NEW:** [**NVIDIA DLI Free Courses →**](NVIDIA-DLI-FREE-COURSES.md) - 35+ free courses with certificates in AI, CUDA, Data Science & more!
+**🔥 HOT:** [**IT Cert Deals (Auto-Updated Weekly!) →**](https://github.com/nbajpai-code/LATEST-IT-CERT-DEALS) - Free exams, beta programs & vouchers worth $794+! 💰
+**🎓 NEW:** [**NVIDIA DLI Free Courses →**](https://github.com/nbajpai-code/NVIDIA-DLI) - 35+ free courses with certificates in AI, CUDA, Data Science & more!
 **🎓 NEW:** [**DP-600 Exam Prep →**](star_dp600_exam_prep_repos.sh) - Microsoft Fabric Analytics Engineer certification resources (35 repos)!
 **🔍 NEW:** [**Prompt Linting Guide →**](PROMPT_LINTING_GUIDE.md) - Comprehensive guide to prompt engineering, validation & best practices!
 **📚 NEW:** [**arXiv Research Guide →**](ARXIV_RESEARCH_GUIDE.md) - Track top research papers in AI/ML/RL/MLOps/AIOps from arXiv (93 repos)!
