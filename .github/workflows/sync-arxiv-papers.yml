@@ -7,10 +7,10 @@ on:
 
   workflow_dispatch:
     inputs:
-      force_sync:
-        description: 'Force sync all trackers'
+      create_summary:
+        description: 'Create summary issue'
         required: false
-        default: false
+        default: true
         type: boolean
 
 permissions:
@@ -27,206 +27,280 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up GitHub CLI
+      - name: Check for tracker registry
+        id: check
         run: |
-          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+          if [ -d "arxiv-tracker-configs" ] && [ "$(ls -A arxiv-tracker-configs/*.yaml 2>/dev/null)" ]; then
+            echo "has_trackers=true" >> $GITHUB_OUTPUT
+            echo "✓ Found tracker configurations"
+            ls -la arxiv-tracker-configs/
+          else
+            echo "has_trackers=false" >> $GITHUB_OUTPUT
+            echo "⚠️  No tracker configurations found yet"
+            echo "Run the 'Setup arXiv Paper Trackers' workflow first to configure trackers"
+          fi
 
-      - name: Discover active trackers
-        id: discover
+      - name: Create sync summary
+        if: steps.check.outputs.has_trackers == 'true'
         run: |
-          USER=$(gh api user -q .login)
-          echo "USER=$USER" >> $GITHUB_OUTPUT
-
-          # List of tracker repos to check
-          TRACKERS=(
-            "daily-arXiv-ai-enhanced"
-            "ArxivDigest"
-            "DailyArXiv"
-            "awesome-daily-AI-arxiv"
-            "cv-arxiv-daily"
-          )
-
-          ACTIVE_TRACKERS=""
-
-          for tracker in "${TRACKERS[@]}"; do
-            if gh repo view "$USER/$tracker" &>/dev/null; then
-              echo "✓ Found active tracker: $tracker"
-              ACTIVE_TRACKERS="$ACTIVE_TRACKERS $tracker"
-            fi
-          done
-
-          echo "ACTIVE_TRACKERS=$ACTIVE_TRACKERS" >> $GITHUB_OUTPUT
-          echo "Active trackers: $ACTIVE_TRACKERS"
-
-      - name: Sync papers from trackers
-        if: steps.discover.outputs.ACTIVE_TRACKERS != ''
-        run: |
-          USER="${{ steps.discover.outputs.USER }}"
           DATE=$(date +'%Y-%m-%d')
-
           mkdir -p synced-arxiv-papers/$DATE
 
-          # Create daily summary file
+          # Create summary of configured trackers
           cat > "synced-arxiv-papers/$DATE/README.md" << EOF
-          # arXiv Papers - $DATE
+          # arXiv Papers Sync - $DATE
 
-          Papers synced from active trackers.
-
-          ## Sources
+          ## Configured Trackers
 
           EOF
 
-          for tracker in ${{ steps.discover.outputs.ACTIVE_TRACKERS }}; do
-            echo "Syncing from $tracker..."
+          # List configured trackers
+          for config_file in arxiv-tracker-configs/*.yaml; do
+            if [ -f "$config_file" ]; then
+              tracker_name=$(basename "$config_file" -config.yaml)
+              echo "- **$tracker_name**" >> "synced-arxiv-papers/$DATE/README.md"
 
-            # Clone the tracker repo
-            if ! gh repo clone "$USER/$tracker" "temp-$tracker" &>/dev/null; then
-              echo "⚠️  Could not clone $tracker, skipping..."
-              continue
+              # Extract keywords from config
+              if grep -q "keywords:" "$config_file"; then
+                echo "  - Keywords:" >> "synced-arxiv-papers/$DATE/README.md"
+                grep -A 10 "keywords:" "$config_file" | grep "  - " | head -5 >> "synced-arxiv-papers/$DATE/README.md"
+              fi
+              echo "" >> "synced-arxiv-papers/$DATE/README.md"
             fi
-
-            cd "temp-$tracker"
-
-            # Find today's papers (different trackers use different structures)
-            PAPER_FILES=$(find . -name "*$DATE*" -o -name "*$(date +'%Y%m%d')*" -o -name "papers-latest*" 2>/dev/null | head -10)
-
-            if [ -n "$PAPER_FILES" ]; then
-              echo "### $tracker" >> "../synced-arxiv-papers/$DATE/README.md"
-              echo "" >> "../synced-arxiv-papers/$DATE/README.md"
-
-              # Copy paper files
-              mkdir -p "../synced-arxiv-papers/$DATE/$tracker"
-
-              for file in $PAPER_FILES; do
-                if [ -f "$file" ]; then
-                  cp "$file" "../synced-arxiv-papers/$DATE/$tracker/" 2>/dev/null || true
-                  echo "- [$(basename $file)]($tracker/$(basename $file))" >> "../synced-arxiv-papers/$DATE/README.md"
-                fi
-              done
-
-              echo "" >> "../synced-arxiv-papers/$DATE/README.md"
-              echo "✓ Synced papers from $tracker"
-            else
-              echo "⚠️  No papers found for today in $tracker"
-            fi
-
-            cd ..
-            rm -rf "temp-$tracker"
           done
 
-          # Create overall index if it doesn't exist
+          cat >> "synced-arxiv-papers/$DATE/README.md" << EOF
+
+          ## 📝 Next Steps
+
+          Once you've forked and set up your trackers (following the setup guide issues):
+          1. Papers will be tracked in your forked repositories
+          2. You can manually sync them here if needed
+          3. Or use the CLI script: \`scripts/arxiv-automation/setup-arxiv-tracker.sh\`
+
+          ## 🔗 Your Tracker Configurations
+
+          EOF
+
+          for config_file in arxiv-tracker-configs/*.yaml; do
+            if [ -f "$config_file" ]; then
+              tracker_name=$(basename "$config_file" -config.yaml)
+              echo "- [$tracker_name](./$tracker_name-config.yaml)" >> "synced-arxiv-papers/$DATE/README.md"
+            fi
+          done
+
+          # Create overall index
           if [ ! -f "synced-arxiv-papers/README.md" ]; then
             cat > "synced-arxiv-papers/README.md" << EOF
           # Synced arXiv Papers
 
-          This directory contains papers synced from all active arXiv trackers.
+          This directory tracks your arXiv paper tracker configurations and sync history.
 
-          ## Latest Papers
+          ## Latest Syncs
 
           EOF
           fi
 
           # Add today's entry to index
-          if ! grep -q "$DATE" "synced-arxiv-papers/README.md"; then
-            sed -i "s/## Latest Papers/## Latest Papers\n\n- [$DATE]($DATE\/README.md) - Papers from $(echo '${{ steps.discover.outputs.ACTIVE_TRACKERS }}' | wc -w) trackers/" "synced-arxiv-papers/README.md"
+          if ! grep -q "$DATE" "synced-arxiv-papers/README.md" 2>/dev/null; then
+            sed -i "s/## Latest Syncs/## Latest Syncs\n\n- [$DATE]($DATE\/README.md) - Tracker configuration summary/" "synced-arxiv-papers/README.md" || \
+            echo "- [$DATE]($DATE/README.md) - Tracker configuration summary" >> "synced-arxiv-papers/README.md"
           fi
 
-          echo "✓ Sync complete!"
-
-      - name: Extract top papers
+      - name: Update tracker status
+        if: steps.check.outputs.has_trackers == 'true'
         run: |
-          # Create a curated list of highly relevant papers
+          mkdir -p arxiv-trackers
           DATE=$(date +'%Y-%m-%d')
 
-          mkdir -p curated-papers
+          # Create tracker status index
+          cat > "arxiv-trackers/README.md" << EOF
+          # Active arXiv Paper Trackers
 
-          cat > "curated-papers/$DATE-highlights.md" << EOF
-          # Top Papers - $DATE
+          Status of your configured arXiv paper trackers.
 
-          Automatically curated from all active trackers.
+          **Last Updated:** $DATE
 
-          ## Highlights
+          ## Configured Trackers
 
-          <!-- Papers with high relevance scores will be listed here -->
-          <!-- This is generated by analyzing paper metadata -->
-
-          Check the [full sync]($DATE/README.md) for all papers.
-
-          ---
-
-          *🤖 Auto-generated from active arXiv trackers*
           EOF
 
-      - name: Commit synced papers
+          # List all configured trackers
+          for config_file in arxiv-tracker-configs/*.yaml; do
+            if [ -f "$config_file" ]; then
+              tracker_name=$(basename "$config_file" -config.yaml)
+
+              echo "### $tracker_name" >> "arxiv-trackers/README.md"
+              echo "" >> "arxiv-trackers/README.md"
+              echo "**Status:** ⚙️ Configured (awaiting fork setup)" >> "arxiv-trackers/README.md"
+              echo "**Config:** [View Configuration](../arxiv-tracker-configs/$tracker_name-config.yaml)" >> "arxiv-trackers/README.md"
+              echo "" >> "arxiv-trackers/README.md"
+
+              # Show keywords
+              echo "**Keywords:**" >> "arxiv-trackers/README.md"
+              grep -A 10 "keywords:" "$config_file" | grep "  - " | head -5 | sed 's/^/- /' >> "arxiv-trackers/README.md"
+              echo "" >> "arxiv-trackers/README.md"
+
+              # Show categories
+              echo "**Categories:**" >> "arxiv-trackers/README.md"
+              grep -A 5 "categories:" "$config_file" | grep "  - " | sed 's/^/- /' >> "arxiv-trackers/README.md"
+              echo "" >> "arxiv-trackers/README.md"
+
+              echo "**Next Steps:**" >> "arxiv-trackers/README.md"
+              echo "1. Check Issues tab for setup guide" >> "arxiv-trackers/README.md"
+              echo "2. Fork the tracker repository" >> "arxiv-trackers/README.md"
+              echo "3. Add configuration and enable Actions" >> "arxiv-trackers/README.md"
+              echo "4. Papers will be tracked daily automatically" >> "arxiv-trackers/README.md"
+              echo "" >> "arxiv-trackers/README.md"
+              echo "---" >> "arxiv-trackers/README.md"
+              echo "" >> "arxiv-trackers/README.md"
+            fi
+          done
+
+          cat >> "arxiv-trackers/README.md" << EOF
+
+          ## 🚀 Quick Setup
+
+          Run the setup workflow to configure a new tracker:
+          1. Go to [Actions](../../actions)
+          2. Select "Setup arXiv Paper Trackers"
+          3. Fill in your research interests
+          4. Follow the generated setup guide
+
+          Or use the CLI:
+          \`\`\`bash
+          cd scripts/arxiv-automation
+          ./setup-arxiv-tracker.sh
+          \`\`\`
+
+          EOF
+
+      - name: Commit updates
+        if: steps.check.outputs.has_trackers == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          git add synced-arxiv-papers/ curated-papers/ 2>/dev/null || true
+          git add synced-arxiv-papers/ arxiv-trackers/ 2>/dev/null || true
 
           if git diff --staged --quiet; then
-            echo "No new papers to sync"
+            echo "No changes to commit"
           else
-            git commit -m "📚 Daily arXiv sync: $(date +'%Y-%m-%d')
+            git commit -m "📊 Daily sync: $(date +'%Y-%m-%d')
 
-            Synced papers from active trackers:
-            ${{ steps.discover.outputs.ACTIVE_TRACKERS }}
+            Updated tracker status and sync information.
 
             🤖 Generated with GitHub Actions"
 
             git push
           fi
 
-      - name: Create daily digest issue
-        if: steps.discover.outputs.ACTIVE_TRACKERS != ''
+      - name: Create status issue
+        if: steps.check.outputs.has_trackers == 'true' && github.event.inputs.create_summary == 'true'
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
             const date = new Date().toISOString().split('T')[0];
-            const summaryPath = `synced-arxiv-papers/${date}/README.md`;
 
-            if (!fs.existsSync(summaryPath)) {
-              console.log('No summary file found - no papers synced today');
-              return;
-            }
+            // Count configured trackers
+            const configs = fs.readdirSync('arxiv-tracker-configs')
+              .filter(f => f.endsWith('.yaml'));
 
-            const summary = fs.readFileSync(summaryPath, 'utf8');
+            const trackerList = configs.map(f => {
+              const name = f.replace('-config.yaml', '');
+              return `- ${name}`;
+            }).join('\n');
+
+            const body = `# 📊 arXiv Tracker Status - ${date}
+
+            ## Summary
+
+            **Configured Trackers:** ${configs.length}
+            **Status:** Configuration files created
+
+            ## Your Trackers
+
+            ${trackerList}
+
+            ## 📋 Status
+
+            Your tracker configurations are saved in this repository. To start tracking papers:
+
+            ### ✅ Completed
+            - Configuration files generated
+            - Setup guides created (check Issues with \`setup-guide\` label)
+
+            ### 📝 Next Steps
+
+            For each tracker, you need to:
+            1. **Fork the repository** (click link in setup guide issue)
+            2. **Add your configuration** (download from this repo)
+            3. **Enable GitHub Actions** in your fork
+            4. **Papers tracked automatically** daily
+
+            ## 🔗 Quick Links
+
+            - [Tracker Configurations](https://github.com/${context.repo.owner}/${context.repo.repo}/tree/master/arxiv-tracker-configs)
+            - [Tracker Status](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/master/arxiv-trackers/README.md)
+            - [Setup Guides](https://github.com/${context.repo.owner}/${context.repo.repo}/issues?q=is%3Aissue+label%3Asetup-guide)
+            - [Run Setup Workflow](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/workflows/setup-arxiv-trackers.yml)
+
+            ## 💡 Tips
+
+            - **Multiple Trackers:** You can set up multiple trackers for different research areas
+            - **CLI Option:** Use \`scripts/arxiv-automation/setup-arxiv-tracker.sh\` for automated setup
+            - **Help:** Comment on setup guide issues if you need assistance
+
+            ---
+
+            *🤖 Auto-generated sync status*
+            *Next check: ${new Date(Date.now() + 24*60*60*1000).toISOString().split('T')[0]}*
+            `;
 
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `📚 Daily arXiv Digest - ${date}`,
-              body: `${summary}
-
-            ---
-
-            ## 📊 Tracker Status
-
-            Active trackers synced today:
-            \`\`\`
-            ${{ steps.discover.outputs.ACTIVE_TRACKERS }}
-            \`\`\`
-
-            ## 🔗 Quick Links
-
-            - [Full Papers](https://github.com/${context.repo.owner}/${context.repo.repo}/tree/master/synced-arxiv-papers/${date})
-            - [Curated Highlights](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/master/curated-papers/${date}-highlights.md)
-            - [All Synced Papers](https://github.com/${context.repo.owner}/${context.repo.repo}/tree/master/synced-arxiv-papers)
-
-            ## 💡 Actions
-
-            - [ ] Review highlighted papers
-            - [ ] Star interesting repositories
-            - [ ] Add to reading list
-            - [ ] Share with team
-
-            ---
-
-            *🤖 Auto-synced from arXiv trackers via GitHub Actions*
-            `,
-              labels: ['arxiv-daily', 'automated', 'paper-digest']
+              title: `📊 Tracker Status Update - ${date}`,
+              body: body,
+              labels: ['arxiv-tracker', 'status-update', 'automated']
             });
+
+      - name: No trackers message
+        if: steps.check.outputs.has_trackers == 'false'
+        run: |
+          echo "⚠️  No tracker configurations found yet"
+          echo ""
+          echo "To get started:"
+          echo "1. Go to Actions tab"
+          echo "2. Run 'Setup arXiv Paper Trackers' workflow"
+          echo "3. Configure your research interests"
+          echo "4. Follow the generated setup guide"
+          echo ""
+          echo "Or use the CLI script:"
+          echo "  cd scripts/arxiv-automation"
+          echo "  ./setup-arxiv-tracker.sh"
+
+      - name: Summary
+        run: |
+          echo "# 📊 Sync Status" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.check.outputs.has_trackers }}" == "true" ]; then
+            echo "✅ **Tracker configurations found**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Configured trackers:" >> $GITHUB_STEP_SUMMARY
+            for config in arxiv-tracker-configs/*.yaml; do
+              if [ -f "$config" ]; then
+                tracker=$(basename "$config" -config.yaml)
+                echo "- $tracker" >> $GITHUB_STEP_SUMMARY
+              fi
+            done
+          else
+            echo "⚠️ **No trackers configured yet**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Run the [Setup arXiv Paper Trackers](../../actions/workflows/setup-arxiv-trackers.yml) workflow to get started" >> $GITHUB_STEP_SUMMARY
+          fi
 
   notify-completion:
     needs: sync-papers
@@ -234,8 +308,8 @@ jobs:
     if: always()
 
     steps:
-      - name: Send completion notification
+      - name: Send notification
         run: |
-          echo "🎉 arXiv paper sync workflow completed!"
+          echo "🎉 arXiv sync workflow completed!"
           echo "Status: ${{ needs.sync-papers.result }}"
           echo "Date: $(date +'%Y-%m-%d %H:%M:%S UTC')"
