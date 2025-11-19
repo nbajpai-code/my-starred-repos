@@ -6,6 +6,12 @@
 [![GitHub](https://img.shields.io/badge/GitHub-nbajpai--code-181717?style=flat&logo=github)](https://github.com/nbajpai-code)
 [![Stars](https://img.shields.io/badge/Starred%20Repos-3,635+-yellow?style=flat&logo=github)](https://github.com/nbajpai-code?tab=stars)
 
+**🤖 Automation Status:**
+[![arXiv Papers](https://github.com/nbajpai-code/my-starred-repos/actions/workflows/arxiv-daily-crawler.yml/badge.svg)](https://github.com/nbajpai-code/my-starred-repos/actions/workflows/arxiv-daily-crawler.yml)
+[![IT Cert Deals](https://github.com/nbajpai-code/my-starred-repos/actions/workflows/update-cert-deals.yml/badge.svg)](https://github.com/nbajpai-code/my-starred-repos/actions/workflows/update-cert-deals.yml)
+[![Starred Repos](https://github.com/nbajpai-code/my-starred-repos/actions/workflows/update-starred-repos.yml/badge.svg)](https://github.com/nbajpai-code/my-starred-repos/actions/workflows/update-starred-repos.yml)
+[![Setup Trackers](https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml/badge.svg)](https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml)
+
 **📌 NEW:** [**Clickable Starred Index →**](STARRED-INDEX.md) - Easy navigation through all 3,635+ starred repos with direct links!
 **🔥 HOT:** [**IT Cert Deals (Auto-Updated Weekly!) →**](https://github.com/nbajpai-code/LATEST-IT-CERT-DEALS) - Free exams, beta programs & vouchers worth $794+! 💰
 **🎓 NEW:** [**NVIDIA DLI Free Courses →**](https://github.com/nbajpai-code/NVIDIA-DLI) - 35+ free courses with certificates in AI, CUDA, Data Science & more!
@@ -13,6 +19,7 @@
 **🔍 NEW:** [**Prompt Linting Guide →**](PROMPT_LINTING_GUIDE.md) - Comprehensive guide to prompt engineering, validation & best practices!
 **📚 NEW:** [**arXiv Research Guide →**](ARXIV_RESEARCH_GUIDE.md) - Track top research papers in AI/ML/RL/MLOps/AIOps from arXiv (93 repos)!
 **🤖 NEW:** [**LLM Frameworks Guide →**](LLM_FRAMEWORKS_GUIDE.md) - Complete guide to 153 LLM frameworks (LangChain, LlamaIndex, Haystack & more)!
+**⚙️ NEW:** [**Automation Guide →**](AUTOMATION.md) - Complete documentation of all automated workflows, scripts & setup instructions!
 
 ---
 
