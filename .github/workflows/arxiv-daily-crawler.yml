@@ -55,9 +55,10 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          git add arxiv-papers/
-          git add daily-summaries/
-          git add README_ARXIV_DAILY.md
+          # Add files that exist
+          git add arxiv-papers/ 2>/dev/null || true
+          git add daily-summaries/ 2>/dev/null || true
+          git add README_ARXIV_DAILY.md 2>/dev/null || true
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
