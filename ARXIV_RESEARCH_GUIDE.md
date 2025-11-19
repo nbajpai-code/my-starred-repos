@@ -4,7 +4,18 @@
 
 ## 🚀 Quick Start
 
-Run the automated script to star all repositories:
+### Option 1: Automated arXiv Paper Tracking (Recommended)
+Set up your own automated arXiv paper tracker in under 2 minutes:
+```bash
+cd scripts/arxiv-automation
+./setup-arxiv-tracker.sh
+```
+This will fork a tracker, configure your keywords, and enable daily updates automatically!
+
+**[📖 See Full Automation Guide →](scripts/arxiv-automation/README.md)**
+
+### Option 2: Star All Research Repositories
+Star all 93 curated research repositories:
 ```bash
 ./star_arxiv_research_papers.sh
 ```
@@ -26,6 +37,24 @@ Run the automated script to star all repositories:
 | **[arxiv-paper-curator](https://github.com/Geniussh/arxiv-paper-curator)** | Research assistant system | Production-grade RAG system |
 
 **How to Use:**
+
+### 🤖 **Automated Setup (Recommended)**
+Run our one-command setup script:
+```bash
+cd scripts/arxiv-automation
+./setup-arxiv-tracker.sh
+```
+
+The script will automatically:
+- ✅ Fork your chosen repository
+- ✅ Configure keywords/topics interactively
+- ✅ Enable GitHub Actions
+- ✅ Set up notifications
+- ✅ Add API keys (optional)
+
+**[📖 Full Automation Guide](scripts/arxiv-automation/README.md)**
+
+### 📝 **Manual Setup**
 1. Fork the repository you prefer
 2. Configure keywords/topics in the config file
 3. Enable GitHub Actions for automated updates
