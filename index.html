@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arXiv Research Hub - Automated Paper Tracking</title>
+    <meta name="description" content="Production-grade arXiv research paper tracking with one-click automation">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #8b5cf6;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --border: #e2e8f0;
+            --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: white;
+            border-radius: 24px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #64748b;
+            margin-bottom: 2rem;
+        }
+
+        /* Quick Action Cards */
+        .quick-actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .action-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: var(--shadow-lg);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+
+        .action-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            border-color: var(--primary);
+        }
+
+        .action-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .action-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--dark);
+        }
+
+        .action-card p {
+            color: #64748b;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            border-radius: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Tracker Grid */
+        .tracker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .tracker-card {
+            background: white;
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: all 0.2s;
+        }
+
+        .tracker-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-2px);
+        }
+
+        .tracker-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .tracker-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .badge-success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .badge-warning {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .feature-list {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-list li {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: start;
+        }
+
+        .feature-list li::before {
+            content: "✓";
+            color: var(--success);
+            font-weight: bold;
+            margin-right: 0.75rem;
+            font-size: 1.25rem;
+        }
+
+        /* Stats Section */
+        .stats {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: var(--shadow-lg);
+            margin-bottom: 2rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-label {
+            color: #64748b;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.875rem;
+            letter-spacing: 0.05em;
+        }
+
+        /* Setup Flow */
+        .setup-flow {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .flow-steps {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 2rem;
+            position: relative;
+        }
+
+        .flow-steps::before {
+            content: '';
+            position: absolute;
+            top: 30px;
+            left: 60px;
+            right: 60px;
+            height: 2px;
+            background: var(--border);
+            z-index: 0;
+        }
+
+        .step {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 1rem;
+        }
+
+        .step-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .step-desc {
+            font-size: 0.875rem;
+            color: #64748b;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 2rem 0;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .flow-steps {
+                flex-direction: column;
+            }
+
+            .flow-steps::before {
+                display: none;
+            }
+
+            .step {
+                margin-bottom: 2rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        /* Loading State */
+        .btn-loading {
+            position: relative;
+            pointer-events: none;
+            opacity: 0.7;
+        }
+
+        .btn-loading::after {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            top: 50%;
+            right: 1rem;
+            margin-top: -8px;
+            border: 2px solid transparent;
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero fade-in">
+            <h1>🚀 arXiv Research Hub</h1>
+            <p>Automated research paper tracking with AI-powered insights. Set up in 60 seconds.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <a href="https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml" class="btn btn-primary" target="_blank">
+                    🎯 Start Tracking Now
+                </a>
+                <a href="https://github.com/nbajpai-code/my-starred-repos/issues?q=label%3Asetup-guide" class="btn btn-secondary" target="_blank">
+                    📖 View Setup Guides
+                </a>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="quick-actions">
+            <div class="action-card" onclick="window.open('https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml', '_blank')">
+                <div class="icon">⚡</div>
+                <h3>Quick Setup</h3>
+                <p>Click, configure, done. Start tracking papers in under 60 seconds.</p>
+                <a href="https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml" class="btn btn-primary" target="_blank">Setup Now →</a>
+            </div>
+
+            <div class="action-card" onclick="window.open('https://github.com/nbajpai-code/my-starred-repos/tree/master/arxiv-tracker-configs', '_blank')">
+                <div class="icon">⚙️</div>
+                <h3>My Trackers</h3>
+                <p>View and manage your configured research trackers.</p>
+                <a href="https://github.com/nbajpai-code/my-starred-repos/tree/master/arxiv-tracker-configs" class="btn btn-secondary" target="_blank">View Configs →</a>
+            </div>
+
+            <div class="action-card" onclick="window.open('https://github.com/nbajpai-code/my-starred-repos/tree/master/synced-arxiv-papers', '_blank')">
+                <div class="icon">📊</div>
+                <h3>Latest Papers</h3>
+                <p>Browse today's research papers matching your interests.</p>
+                <a href="https://github.com/nbajpai-code/my-starred-repos/tree/master/synced-arxiv-papers" class="btn btn-secondary" target="_blank">View Papers →</a>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats fade-in">
+            <h2 style="margin-bottom: 2rem; text-align: center;">By The Numbers</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value">93+</div>
+                    <div class="stat-label">Curated Repos</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">5</div>
+                    <div class="stat-label">AI Trackers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Automated</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">24/7</div>
+                    <div class="stat-label">Monitoring</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Available Trackers -->
+        <h2 style="color: white; margin-bottom: 1.5rem; font-size: 2rem; text-align: center;">Available Trackers</h2>
+        <div class="tracker-grid">
+            <!-- Tracker 1 -->
+            <div class="tracker-card">
+                <div class="tracker-header">
+                    <div class="tracker-title">daily-arXiv-ai-enhanced</div>
+                    <span class="badge badge-success">Recommended</span>
+                </div>
+                <ul class="feature-list">
+                    <li>AI-powered summaries</li>
+                    <li>Covers CV, GR, CL, AI</li>
+                    <li>Daily automated updates</li>
+                    <li>GitHub Pages output</li>
+                </ul>
+                <a href="https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml" class="btn btn-primary" style="width: 100%;" target="_blank">Setup This Tracker</a>
+            </div>
+
+            <!-- Tracker 2 -->
+            <div class="tracker-card">
+                <div class="tracker-header">
+                    <div class="tracker-title">ArxivDigest</div>
+                    <span class="badge badge-warning">GPT-Powered</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Personalized recommendations</li>
+                    <li>Relevancy ratings</li>
+                    <li>Email digests</li>
+                    <li>Smart filtering</li>
+                </ul>
+                <a href="https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml" class="btn btn-primary" style="width: 100%;" target="_blank">Setup This Tracker</a>
+            </div>
+
+            <!-- Tracker 3 -->
+            <div class="tracker-card">
+                <div class="tracker-header">
+                    <div class="tracker-title">DailyArXiv</div>
+                    <span class="badge badge-success">Simple</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Keyword-based tracking</li>
+                    <li>100 papers per keyword</li>
+                    <li>Email notifications</li>
+                    <li>Easy configuration</li>
+                </ul>
+                <a href="https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml" class="btn btn-primary" style="width: 100%;" target="_blank">Setup This Tracker</a>
+            </div>
+
+            <!-- Tracker 4 -->
+            <div class="tracker-card">
+                <div class="tracker-header">
+                    <div class="tracker-title">awesome-daily-AI-arxiv</div>
+                    <span class="badge badge-warning">AI Focus</span>
+                </div>
+                <ul class="feature-list">
+                    <li>AI/NLP/CV/Robotics</li>
+                    <li>Dynamic updates</li>
+                    <li>Paper navigation</li>
+                    <li>Comprehensive coverage</li>
+                </ul>
+                <a href="https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml" class="btn btn-primary" style="width: 100%;" target="_blank">Setup This Tracker</a>
+            </div>
+
+            <!-- Tracker 5 -->
+            <div class="tracker-card">
+                <div class="tracker-header">
+                    <div class="tracker-title">cv-arxiv-daily</div>
+                    <span class="badge badge-warning">CV Specialist</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Computer vision focus</li>
+                    <li>Daily CV papers</li>
+                    <li>Conference tracking</li>
+                    <li>Research trends</li>
+                </ul>
+                <a href="https://github.com/nbajpai-code/my-starred-repos/actions/workflows/setup-arxiv-trackers.yml" class="btn btn-primary" style="width: 100%;" target="_blank">Setup This Tracker</a>
+            </div>
+        </div>
+
+        <!-- Setup Flow -->
+        <div class="setup-flow fade-in">
+            <h2 style="margin-bottom: 1rem; text-align: center;">How It Works</h2>
+            <p style="text-align: center; color: #64748b; margin-bottom: 2rem;">Simple, automated, and production-ready</p>
+
+            <div class="flow-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-title">Click Setup</div>
+                    <div class="step-desc">Choose your tracker and enter keywords</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-title">Get Guide</div>
+                    <div class="step-desc">Receive personalized setup instructions</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-title">Fork & Configure</div>
+                    <div class="step-desc">One-click fork with auto-generated config</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-title">Done!</div>
+                    <div class="step-desc">Papers tracked daily automatically</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Resources -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+            <div style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-lg);">
+                <h3 style="margin-bottom: 1rem;">📚 Resources</h3>
+                <ul style="list-style: none;">
+                    <li style="margin-bottom: 0.75rem;">
+                        <a href="https://github.com/nbajpai-code/my-starred-repos/blob/master/.github/workflows/ARXIV_WORKFLOWS.md" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600;">→ Workflow Documentation</a>
+                    </li>
+                    <li style="margin-bottom: 0.75rem;">
+                        <a href="https://github.com/nbajpai-code/my-starred-repos/blob/master/scripts/arxiv-automation/README.md" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600;">→ CLI Setup Guide</a>
+                    </li>
+                    <li style="margin-bottom: 0.75rem;">
+                        <a href="https://github.com/nbajpai-code/my-starred-repos/tree/master/arxiv-trackers" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600;">→ Tracker Status</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-lg);">
+                <h3 style="margin-bottom: 1rem;">🎯 Research Areas</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                    <span class="badge badge-success">AI/ML</span>
+                    <span class="badge badge-success">LLMs</span>
+                    <span class="badge badge-warning">CV</span>
+                    <span class="badge badge-warning">NLP</span>
+                    <span class="badge badge-success">RL</span>
+                    <span class="badge badge-warning">MLOps</span>
+                    <span class="badge badge-success">AIOps</span>
+                    <span class="badge badge-warning">Robotics</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Built with ❤️ using <a href="https://claude.com/claude-code" target="_blank">Claude Code</a></p>
+        <p><a href="https://github.com/nbajpai-code/my-starred-repos" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <script>
+        // Add smooth scroll and animation on load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animate cards on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.tracker-card, .action-card').forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+                observer.observe(card);
+            });
+
+            // Add click tracking
+            document.querySelectorAll('.btn-primary').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    this.classList.add('btn-loading');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
