@@ -73,9 +73,17 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const summary = fs.readFileSync('daily-summaries/summary-latest.md', 'utf8');
+            const summaryPath = 'daily-summaries/summary-latest.md';
 
-            github.rest.issues.create({
+            // Check if summary file exists
+            if (!fs.existsSync(summaryPath)) {
+              console.log('No summary file found - skipping issue creation (no papers found today)');
+              return;
+            }
+
+            const summary = fs.readFileSync(summaryPath, 'utf8');
+
+            await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: `📚 arXiv Daily Digest - ${new Date().toISOString().split('T')[0]}`,
