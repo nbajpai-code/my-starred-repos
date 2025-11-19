@@ -4,7 +4,21 @@
 
 ## 🚀 Quick Start
 
-### Option 1: Automated arXiv Paper Tracking (Recommended)
+### Option 1: GitHub Workflow Automation (Easiest!)
+Set up arXiv tracking directly from GitHub's web interface:
+
+1. **Go to [Actions Tab](../../actions)**
+2. **Click "Setup arXiv Paper Trackers"**
+3. **Click "Run workflow"** and fill in:
+   - Tracker type (dropdown selection)
+   - Your research keywords
+   - arXiv categories
+   - Enable notifications
+4. **Done!** Papers tracked automatically daily
+
+**[📖 See Workflow Guide →](.github/workflows/ARXIV_WORKFLOWS.md)**
+
+### Option 2: Command-Line Setup
 Set up your own automated arXiv paper tracker in under 2 minutes:
 ```bash
 cd scripts/arxiv-automation
@@ -12,9 +26,9 @@ cd scripts/arxiv-automation
 ```
 This will fork a tracker, configure your keywords, and enable daily updates automatically!
 
-**[📖 See Full Automation Guide →](scripts/arxiv-automation/README.md)**
+**[📖 See CLI Automation Guide →](scripts/arxiv-automation/README.md)**
 
-### Option 2: Star All Research Repositories
+### Option 3: Star All Research Repositories
 Star all 93 curated research repositories:
 ```bash
 ./star_arxiv_research_papers.sh
@@ -38,8 +52,25 @@ Star all 93 curated research repositories:
 
 **How to Use:**
 
-### 🤖 **Automated Setup (Recommended)**
-Run our one-command setup script:
+### 🌐 **GitHub Workflow (Easiest!)**
+No installation required - use GitHub's web interface:
+
+1. Go to **[Actions Tab](../../actions)** in this repository
+2. Select **"Setup arXiv Paper Trackers"** workflow
+3. Click **"Run workflow"**
+4. Fill in form (tracker, keywords, categories)
+5. Wait 1-2 minutes - setup complete!
+
+Papers will be automatically:
+- ✅ Tracked daily via GitHub Actions
+- ✅ Synced to `synced-arxiv-papers/` directory
+- ✅ Summarized in GitHub Issues
+- ✅ Organized by date and source
+
+**[📖 Full Workflow Guide](.github/workflows/ARXIV_WORKFLOWS.md)**
+
+### 🤖 **Command-Line Setup**
+For local setup, run our one-command script:
 ```bash
 cd scripts/arxiv-automation
 ./setup-arxiv-tracker.sh
@@ -52,7 +83,7 @@ The script will automatically:
 - ✅ Set up notifications
 - ✅ Add API keys (optional)
 
-**[📖 Full Automation Guide](scripts/arxiv-automation/README.md)**
+**[📖 CLI Automation Guide](scripts/arxiv-automation/README.md)**
 
 ### 📝 **Manual Setup**
 1. Fork the repository you prefer
