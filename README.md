@@ -1989,6 +1989,20 @@ VulnAPI | Katana | VAPI
 
 ## 🔧 Quick Links
 
+### 🔗 Short URLs & QR Codes
+
+Share this repository easily with these short links:
+
+| Resource | Short URL | QR Code |
+|----------|-----------|---------|
+| **This Repository** | [tinyurl.com/2dqnu7pr](https://tinyurl.com/2dqnu7pr) | ![QR](https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://tinyurl.com/2dqnu7pr) |
+| **GitHub Profile** | [tinyurl.com/25329c8g](https://tinyurl.com/25329c8g) | ![QR](https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://tinyurl.com/25329c8g) |
+| **Snake Game** | [tinyurl.com/27wzhchg](https://tinyurl.com/27wzhchg) | ![QR](https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://tinyurl.com/27wzhchg) |
+
+Perfect for: Business cards, email signatures, presentations, and social media sharing!
+
+---
+
 ### By Use Case
 
 | Use Case | Recommended Repos |
