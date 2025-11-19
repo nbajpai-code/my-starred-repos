@@ -1,0 +1,21 @@
+# arXiv Tracker Configuration
+# Generated for: daily-arXiv-ai-enhanced
+# Date: $(date +'%Y-%m-%d')
+
+keywords:
+  - "large language model"
+  - "reinforcement learning"
+  - "transformers"
+
+categories:
+  - "cs.AI"
+  - "cs.LG"
+  - "cs.CL"
+
+# Notification settings
+notifications:
+  github_issues: true
+  email: false
+
+# Update schedule
+update_schedule: "daily"
