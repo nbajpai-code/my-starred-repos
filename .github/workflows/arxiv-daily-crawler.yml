@@ -1,5 +1,4 @@
 name: arXiv Daily Paper Crawler
-# Test run after adding secrets
 
 on:
   schedule:
@@ -40,11 +39,6 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements-arxiv.txt
-
-      - name: Debug: Verify File Content
-        run: |
-          echo "Verifying content of scripts/fetch_arxiv_papers.py"
-          cat scripts/fetch_arxiv_papers.py
 
       - name: Fetch arXiv papers
         env:
