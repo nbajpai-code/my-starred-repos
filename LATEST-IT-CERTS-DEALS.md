@@ -472,6 +472,8 @@ This repository is **automatically updated weekly** via GitHub Actions!
 
 | Date | Update |
 
+| 2025-11-24 | Automated weekly check via GitHub Actions |
+
 | 2025-11-19 | Automated weekly check via GitHub Actions |
 |------|--------|
 | 2025-11-18 | Initial creation - Added Microsoft AI Skills Fest, AWS ETC, Oracle OCI, (ISC)², Cisco Free Retake |
@@ -515,8 +517,8 @@ Found a new deal? Please contribute!
 
 **⭐ Star this repo** to bookmark and get notified of updates!
 
-**Last Manual Update:** November 19, 2025
-**Next Automated Check:** November 26, 2025 (Every Monday 9 AM UTC)
+**Last Manual Update:** November 24, 2025
+**Next Automated Check:** December 01, 2025 (Every Monday 9 AM UTC)
 
 ---
 
