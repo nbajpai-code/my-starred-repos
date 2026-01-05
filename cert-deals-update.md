@@ -1,7 +1,7 @@
 
 # 📊 Weekly IT Certification Deals Check
 
-**Date:** 2025-12-29
+**Date:** 2026-01-05
 **Status:** Automated check completed
 
 ## Sources Monitored:
@@ -26,4 +26,4 @@
 - Follow LinkedIn profiles for real-time announcements
 - Join certification communities on Reddit/Discord
 
-**Next Check:** 2026-01-05
+**Next Check:** 2026-01-12
