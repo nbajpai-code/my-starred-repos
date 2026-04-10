@@ -2,7 +2,7 @@
 
 Status of your configured arXiv paper trackers.
 
-**Last Updated:** 2026-04-09
+**Last Updated:** 2026-04-10
 
 ## Configured Trackers
 
