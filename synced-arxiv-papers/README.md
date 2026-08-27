@@ -4,6 +4,8 @@ This directory tracks your arXiv paper tracker configurations and sync history.
 
 ## Latest Syncs
 
+- [2026-08-27](2026-08-27/README.md) - Tracker configuration summary
+
 - [2026-08-26](2026-08-26/README.md) - Tracker configuration summary
 
 - [2026-08-25](2026-08-25/README.md) - Tracker configuration summary
