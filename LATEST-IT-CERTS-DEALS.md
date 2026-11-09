@@ -472,6 +472,8 @@ This repository is **automatically updated weekly** via GitHub Actions!
 
 | Date | Update |
 
+| 2026-11-09 | Automated weekly check via GitHub Actions |
+
 | 2026-11-02 | Automated weekly check via GitHub Actions |
 
 | 2026-10-26 | Automated weekly check via GitHub Actions |
@@ -615,8 +617,8 @@ Found a new deal? Please contribute!
 
 **⭐ Star this repo** to bookmark and get notified of updates!
 
-**Last Manual Update:** November 02, 2026
-**Next Automated Check:** November 09, 2026 (Every Monday 9 AM UTC)
+**Last Manual Update:** November 09, 2026
+**Next Automated Check:** November 16, 2026 (Every Monday 9 AM UTC)
 
 ---
 
